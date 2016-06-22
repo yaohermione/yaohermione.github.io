@@ -69,31 +69,34 @@ main.down{
 	transform: translate(0,58vw);
 }
 .title{
-	font-size: 5vw;
+	font-size: 8vw;
 	padding-top: 5vw;
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	padding-left: 5vw;
 	
 }
 
 .menu{
 	
-	padding-top: 5vw;
-	padding-bottom: 5px;
-	padding-left: 5vw;
+	padding-top: 8vw;
+	padding-bottom: 8px;
+	padding-right: 5vw;
 	
 	
 }
 #menu_icon{
 	float: right;
-	font-size: 4vw;
+	
 	
 }
 #menu_icon:hover{
 	cursor: pointer;
 }
 
-
+#menu_img{
+	width: 5vw;
+	height: 5vw;
+}
 
 
 @media screen and (min-width:600px){
