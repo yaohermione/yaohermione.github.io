@@ -94,19 +94,5 @@ main.down{
 
 
 @media screen and (min-width:600px){
-	nav{
-		position:relative;
-		transform: translate(0,0);
-	}
-	ul{
 
-		list-style-type: none;
-		padding: 0px;
-		margin: 0px;
-	}
-	li{
-		display: inline-block;
-		padding: 8px;
-		margin: 15px;
-	}
 }
