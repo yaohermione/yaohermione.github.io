@@ -69,7 +69,7 @@ main.down{
 	transform: translate(0,58vw);
 }
 .title{
-	font-size: 4vw;
+	font-size: 6vw;
 	padding-top: 5vw;
 	padding-bottom: 3vw;
 	padding-left: 5vw;
@@ -78,7 +78,7 @@ main.down{
 
 .menu{
 	
-	padding-top: 25vw;
+	padding-top: 18vw;
 	padding-bottom: 8vw;
 	padding-right: 5vw;
 	
@@ -94,8 +94,8 @@ main.down{
 }
 
 #menu_img{
-	width: 15vw;
-	height: 15vw;
+	width: 6vw;
+	height: 6vw;
 }
 
 
