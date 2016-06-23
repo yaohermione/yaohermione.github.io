@@ -7,7 +7,7 @@ menu_icon.addEventListener('click',
 function(e){
 	//alert("hover");
 	drawer.classList.toggle('open');
-	main.classList.toggle('down');
+	main.classList.toggle('left');
 	e.stopPropagation();
 })
 
@@ -15,5 +15,5 @@ main.addEventListener('click',
 function(e){
 	//alert("hover");
 	drawer.classList.remove('open');
-	main.classList.remove('down');
+	main.classList.remove('left');
 })
