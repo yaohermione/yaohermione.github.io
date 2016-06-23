@@ -8,6 +8,7 @@ html, body, main{
 	height: 100%;
 	width: 100%;
 	background-color: #f6f6f6;
+
 }
 main{
 	position:absolute;
@@ -59,13 +60,14 @@ nav{
 		transform: translate(100vw,0);
 		transition: transform 0.5s ease;
 		z-index: 100;
-		background-color: #f6f6f6;
+		background-color: #ececec;
+		
 	}
 nav.open{
 
 	transform: translate(33vw,0);
 }
-main.down{
+main.left{
 	transform: translate(-67vw,0);
 }
 .title{
