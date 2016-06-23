@@ -22,9 +22,9 @@ ul{
 }
 li{
 	font-family: Arial;
-	font-size: 6vw;
+	font-size: 5vw;
 	margin:0px;
-	padding: 8vw;
+	padding: 7vw;
 	padding-left: 10vw;
 	border-bottom: 1px solid #fefefe;
 	text-align: left;
@@ -71,7 +71,7 @@ main.left{
 	transform: translate(-67vw,0);
 }
 .title{
-	font-size: 6vw;
+	font-size: 5vw;
 	padding-top: 5vw;
 	padding-bottom: 3vw;
 	padding-left: 5vw;
