@@ -21,10 +21,10 @@ ul{
 	background-color: #ececec;
 }
 li{
-	font-family: sans-serif;
-	font-size: 4vw;
+	font-family: Arial;
+	font-size: 6vw;
 	margin:0px;
-	padding: 5vw;
+	padding: 8vw;
 	padding-left: 10vw;
 	border-bottom: 1px solid #fefefe;
 	text-align: left;
@@ -61,7 +61,7 @@ nav{
 		transition: transform 0.5s ease;
 		z-index: 100;
 		background-color: #ececec;
-		
+
 	}
 nav.open{
 
