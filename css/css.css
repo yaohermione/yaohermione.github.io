@@ -124,7 +124,7 @@ main.left{
   -webkit-transition: .5s ease-in-out;
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
-  transition: 1s ease-in-out;
+  transition: .5s ease-in-out;
   cursor: pointer;
 }
 
@@ -144,7 +144,7 @@ main.left{
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
-  transition: 1s ease-in-out;
+  transition: .25s ease-in-out;
 }
 
 
