@@ -105,6 +105,11 @@ main.left{
   padding: 0; 
 }
 
+* {
+  margin: 0;
+  padding: 0; 
+}
+
 /* Icon 1 */
 
  #menu_icon {
@@ -173,7 +178,7 @@ main.left{
   transform-origin: left center;
 }
 
-#	.open span:nth-child(1) {
+#menu_icon.open span:nth-child(1) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
