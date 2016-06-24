@@ -17,3 +17,9 @@ function(e){
 	drawer.classList.remove('open');
 	main.classList.remove('left');
 })
+
+$(document).ready(function(){
+	$('#menu_icon').click(function(){
+		$(this).toggleClass('open');
+	});
+});
