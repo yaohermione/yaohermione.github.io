@@ -74,12 +74,9 @@ nav.open{
 main.left{
 	transform: translate(-67vw,0);
 }
-.title{
-	font-size: 2vw;
-	padding-top: 2vw;
-	padding-bottom: 2vw;
-	padding-left: 5vw;
-	
+.girl_img{
+	width: 60px;
+	height: auto;
 }
 .btn{
 	
@@ -134,6 +131,7 @@ main.left{
   color: #333333;
   background-color: #ffffff;
   border-color: #cccccc;
+  width: 40px;
 }
 .menu{
 	
