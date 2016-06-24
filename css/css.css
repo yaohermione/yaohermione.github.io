@@ -128,7 +128,7 @@ main.left{
   position: absolute;
   height: 9px;
   width: 100%;
-  background: #d3531a;
+  background: gray;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -173,7 +173,7 @@ main.left{
   transform-origin: left center;
 }
 
-#menu_icon.open span:nth-child(1) {
+#	.open span:nth-child(1) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
