@@ -3,9 +3,10 @@
 	}
 
 	@font-face {
-    font-family: "opensans";
-    src: url(font/opensans-Regular.ttf);
-}
+    font-family: 'opensans';
+    src: url('font/opensans-Regular.ttf') format('ttf');
+
+}	
 
 html, body, main{
 	margin: 0px;
@@ -13,6 +14,8 @@ html, body, main{
 	height: 100%;
 	width: 100%;
 	background-color: #f6f6f6;
+
+  font-family: 'opensans', sans-serif;
 
 }
 
@@ -29,7 +32,7 @@ ul{
 	background-color: #ececec;
 }
 li{
-	font-family: "opensans";
+	font-family: 'opensans';
 	font-size: 5vw;
 	margin:0px;
 	padding: 7vw;
@@ -114,7 +117,7 @@ main.left{
   white-space: nowrap;
   padding: 20px 50px;
   font-size: 35px;
-  font-family: "opensans";
+  font-family: 'opensans';
   line-height: 1.42857143;
   border-radius: 8px;
   -webkit-user-select: none;
