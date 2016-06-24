@@ -10,6 +10,9 @@ html, body, main{
 	background-color: #f6f6f6;
 
 }
+
+
+
 main{
 	position:absolute;
 	transition: transform 0.5s ease;
@@ -41,13 +44,16 @@ li:hover{
 .col-6{
 	width: 50%;
 }
+.col-3{
+	width: 33.33%;
+}
 
 header{
 	background-color: #f6f6f6;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	
+	position: fixed;
 }
 .banner{
 	margin-top:10px;
