@@ -74,14 +74,23 @@ nav.open{
 main.left{
 	transform: translate(-67vw,0);
 }
+.col-girl{
+
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	padding-left: 5vw;
+	
+	
+}
 .girl_img{
 	width: 60px;
 	height: auto;
+	
+}
+.col-btn{
+	
 	padding-top: 2vw;
 	padding-bottom: 2vw;
-	padding-right: 5vw;
-}
-.btn{
 	
 }
  .btn {
@@ -164,7 +173,7 @@ main.left{
   width: 60px;
   height: 45px;
   position: relative;
-  margin: 50px auto;
+ 
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
