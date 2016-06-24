@@ -76,7 +76,7 @@ main.left{
 }
 .col-girl{
 
-	padding-top: 3vw;
+	padding-top: 4vw;
 	padding-bottom: 3vw;
 	padding-left: 5vw;
 	
@@ -89,7 +89,7 @@ main.left{
 }
 .col-btn{
 	
-	padding-top: 3vw;
+	padding-top: 4vw;
 	padding-bottom: 3vw;
 	
 }
@@ -105,8 +105,8 @@ main.left{
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 14px;
+  padding: 12px 12px;
+  font-size: 24px;
   line-height: 1.42857143;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -149,7 +149,7 @@ main.left{
 }
 .menu{
 	
-	padding-top: 3vw;
+	padding-top: 5vw;
 	padding-bottom: 3vw;
 	padding-right: 5vw;
 	
