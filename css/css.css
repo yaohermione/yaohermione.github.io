@@ -118,6 +118,7 @@ main.left{
   color: #333333;
   background-color: #ffffff;
   border-color: #cccccc;
+  display: block;
   margin: auto;	
 }
 .btn:focus,
