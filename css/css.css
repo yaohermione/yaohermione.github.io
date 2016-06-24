@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 	}
 
+	@font-face {
+    font-family: opensans;
+    src: url(font/OpenSans-Regular.ttf);
+}
+
 html, body, main{
 	margin: 0px;
 	padding: 0px;
@@ -24,7 +29,7 @@ ul{
 	background-color: #ececec;
 }
 li{
-	font-family: Arial;
+	font-family: opensans;
 	font-size: 5vw;
 	margin:0px;
 	padding: 7vw;
@@ -109,7 +114,7 @@ main.left{
   white-space: nowrap;
   padding: 20px 50px;
   font-size: 35px;
-  font-family: sans-serif;
+  font-family: opensans;
   line-height: 1.42857143;
   border-radius: 8px;
   -webkit-user-select: none;
