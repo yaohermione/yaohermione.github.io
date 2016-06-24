@@ -94,6 +94,7 @@ main.left{
 	
 }
  .btn {
+
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -105,7 +106,7 @@ main.left{
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 20px 20px;
+  padding: 20px 50px;
   font-size: 35px;
   font-family: sans-serif;
   line-height: 1.42857143;
@@ -114,6 +115,10 @@ main.left{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+  margin: auto;	
 }
 .btn:focus,
 .btn:active:focus,
@@ -141,12 +146,7 @@ main.left{
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 .btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
-  width: 180px auto;
   
-	
 }
 .menu{
 	
