@@ -276,6 +276,8 @@ main.left{
 #intro{
   text-align: center;
   font-size: 6vw;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
 }
 #camera_img{
   display: block;
