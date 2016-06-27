@@ -294,6 +294,10 @@ main.left{
 #banner{
   position: absolute;
 }
+
+.test{
+  position: absolute;
+}
 @media screen and (min-width:600px){
 
 }
