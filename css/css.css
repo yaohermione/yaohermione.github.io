@@ -284,6 +284,9 @@ main.left{
   width: 10%;
   margin: auto;
 }
+#banner{
+  position: absolute;
+}
 @media screen and (min-width:600px){
 
 }
