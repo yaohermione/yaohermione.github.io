@@ -58,6 +58,8 @@ li:hover{
 
 header{
 	background-color: #f6f6f6;
+  background-color: rgba(246,246,246,.5);
+
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
