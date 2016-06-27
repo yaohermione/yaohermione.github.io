@@ -275,6 +275,12 @@ main.left{
 }
 #intro{
   align: center;
+  font-size: 20vw;
+}
+#camera_img{
+  display: block;
+  width: 30%;
+  margin: auto;
 }
 @media screen and (min-width:600px){
 
