@@ -274,12 +274,12 @@ main.left{
   left: 8px;
 }
 #intro{
-  align: center;
-  font-size: 10vw;
+  text-align: center;
+  font-size: 6vw;
 }
 #camera_img{
   display: block;
-  width: 30%;
+  width: 10%;
   margin: auto;
 }
 @media screen and (min-width:600px){
