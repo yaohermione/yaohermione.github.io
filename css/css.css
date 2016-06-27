@@ -52,6 +52,9 @@ li:hover{
 .col-3{
 	width: 33.33%;
 }
+.col-12{
+  width: 100%;
+}
 
 header{
 	background-color: #f6f6f6;
@@ -270,7 +273,9 @@ main.left{
   top: 39px;
   left: 8px;
 }
-
+#intro{
+  align: center;
+}
 @media screen and (min-width:600px){
 
 }

@@ -23,3 +23,11 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
 	});
 });
+
+var header_h = $( "header" ).height();
+$("#intro").css({ top: $( "header" ).height() });
+
+
+
+
+
