@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	}
 
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @font-face {
     font-family: open_sans;
     src: url(font/OpenSans-Regular.ttf);
