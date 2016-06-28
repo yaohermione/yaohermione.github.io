@@ -2,15 +2,6 @@
 	box-sizing: border-box;
 	}
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-@font-face {
-    font-family: 'open_sans';
-    src: url('font/OpenSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 
 html, body, main{
@@ -19,7 +10,7 @@ html, body, main{
 	height: 100%;
 	width: 100%;
 	background-color: #f6f6f6;
-  font-family: open_sans;
+  font-family: 'Open Sans';
 
 
 
