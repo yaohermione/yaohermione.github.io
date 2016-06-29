@@ -296,7 +296,6 @@ main.left{
 }
 #banner_text1{
   position: absolute;
-  
   z-index: 100;
   font-size: 50px;
   display: block;
