@@ -287,6 +287,31 @@ main.left{
   width: 10%;
   margin: auto;
 }
+#banner_img{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#banner_text1{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  font-size: 20px;
+}
+#banner_text2{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  font-size: 20px;
+}
+
+#banner{
+  text-align: center;
+  margin: auto;
+}
+
 
 @media screen and (min-width:600px){
 
