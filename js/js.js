@@ -27,7 +27,7 @@ $(document).ready(function(){
 var header_h = $( "header" ).height();
 //console.log("header_h is "+header_h);
 //$("#intro").css({ top: $( "header" ).height() });
-$("#banner").css('top', $( "header" ).height() + "px");
+$("#banner").css('margin-top', $( "header" ).height() + "px");
 
 
 
