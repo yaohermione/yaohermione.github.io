@@ -81,6 +81,10 @@ nav.open{
 
 	transform: translate(33vw,0);
 }
+main.left{
+
+  transform: translate(-67vw,0);
+}
 
 .col-girl{
 
