@@ -300,6 +300,8 @@ main.left{
   top: 0;
   z-index: 100;
   font-size: 50px;
+  display: block;
+  margin: auto;
 }
 #banner_text2{
   position: absolute;
@@ -307,12 +309,14 @@ main.left{
   top: 0;
   z-index: 100;
   font-size: 50px;
+  display: block;
+  margin: auto;
 }
 
 #banner{
   text-align: center;
   margin: auto;
-  position: absolute;
+  position: relative;
   border: 2px solid red;
 }
 
