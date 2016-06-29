@@ -317,7 +317,7 @@ main.left{
 
 #banner{
   width: 100%;
-  background-image: url("img/banner.jpg");
+  background-image: url("../img/banner.jpg");
   background-size: cover;
   text-align: center;
   border: 5px solid red;
