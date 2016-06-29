@@ -301,6 +301,8 @@ main.left{
   display: block;
   width: 10%;
   margin: auto;
+  border: 2px solid red;
+  background-color: rgba(255,0,0,.6);
 }
 #banner_text2{
   position: absolute;
@@ -309,11 +311,14 @@ main.left{
   display: block;
   width: 10%;
   margin: auto;
+  border: 2px solid blue;
+   background-color: rgba(0,0,255,.6);
 }
 
 #banner{
+  background-image: url("img/banner.jpg");
+  background-size: 100% auto;
   text-align: center;
-  position: relative;
   border: 2px solid red;
   display: flex;
 }
