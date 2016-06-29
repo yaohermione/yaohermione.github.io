@@ -288,6 +288,8 @@ main.left{
   margin: auto;
 }
 #banner_img{
+  width: 100%;
+  height: auto;
   position: absolute;
   left: 0;
   top: 0;
@@ -297,19 +299,21 @@ main.left{
   left: 0;
   top: 0;
   z-index: 100;
-  font-size: 20px;
+  font-size: 50px;
 }
 #banner_text2{
   position: absolute;
   left: 0;
   top: 0;
   z-index: 100;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 #banner{
   text-align: center;
   margin: auto;
+  position: absolute;
+  border: 2px solid red;
 }
 
 
