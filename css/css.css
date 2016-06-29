@@ -296,8 +296,7 @@ main.left{
 }
 #banner_text1{
   position: absolute;
-  left: 0;
-  top: 0;
+  
   z-index: 100;
   font-size: 50px;
   display: block;
@@ -305,8 +304,6 @@ main.left{
 }
 #banner_text2{
   position: absolute;
-  left: 0;
-  top: 0;
   z-index: 100;
   font-size: 50px;
   display: block;
@@ -315,9 +312,9 @@ main.left{
 
 #banner{
   text-align: center;
-  margin: auto;
   position: relative;
   border: 2px solid red;
+  display: flex;
 }
 
 
