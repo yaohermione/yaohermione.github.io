@@ -37,6 +37,9 @@ li{
 	border-bottom: 1px solid #fefefe;
 	text-align: left;
   height: 10vh;
+
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 li:hover{
