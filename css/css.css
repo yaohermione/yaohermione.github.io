@@ -290,39 +290,10 @@ main.left{
 #banner_img{
   width: 100%;
   height: auto;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-#banner_text1{
-  position: absolute;
-  z-index: 100;
-  font-size: 50px;
-  display: block;
-  width: 10%;
-  margin: auto;
-  border: 2px solid green;
-  background-color: rgba(0,255,0,.6);
-}
-#banner_text2{
-  position: absolute;
-  z-index: 100;
-  font-size: 50px;
-  display: block;
-  width: 10%;
-  margin: auto;
-  border: 2px solid blue;
-   background-color: rgba(0,0,255,.6);
 }
 
-#banner{
-  width: 100%;
-  background-image: url("../img/banner.jpg");
-  background-size: 100% 100%;
-  text-align: center;
-  border: 5px solid red;
-  display: flex;
-}
+
+
 
 
 @media screen and (min-width:600px){
