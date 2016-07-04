@@ -31,13 +31,13 @@ ul{
 }
 li{
 	color: #333333;
-	font-size: 5vw;
+	font-size: 17px;
 	margin:0px;
-	padding: 7vw;
 	padding-left: 10vw;
 	border-bottom: 1px solid #fefefe;
 	text-align: left;
-
+  height: 10%;
+  align-items: center;
 }
 li:hover{
 	cursor: pointer;
