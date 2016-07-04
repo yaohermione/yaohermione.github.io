@@ -62,8 +62,10 @@ header{
 	position: fixed;
 	border: 1px solid #cccccc;
   z-index: 100;
-  justify-content: center;
+  
   align-items: center;
+  justify-content: center;
+
   height: 20%;
 }
 
