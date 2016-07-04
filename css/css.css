@@ -282,6 +282,13 @@ main.left{
   top: 39px;
   left: 8px;
 }
+
+
+#banner_img{
+  max-width: 100%;
+}
+
+
 #intro{
   /*text-align: center;
   font-size: 6vw;
