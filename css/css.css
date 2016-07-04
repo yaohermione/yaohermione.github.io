@@ -249,7 +249,7 @@ main.left{
 }
 
 #menu_icon span:nth-child(2) {
-  top: 10px;
+  top: 8px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -283,7 +283,7 @@ main.left{
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 16px;
+  top: 18px;
   left: 2px;
 }
 
