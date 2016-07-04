@@ -6,7 +6,7 @@ var drawer = document.getElementById("drawer");
 menu_icon.addEventListener('click',
 function(e){
 	//alert("hover");
-	drawer.classList.toggle('open');
+	//drawer.classList.toggle('open');
 	main.classList.toggle('left');
 	e.stopPropagation();
 })
@@ -14,7 +14,7 @@ function(e){
 main.addEventListener('click',
 function(e){
 	//alert("hover");
-	drawer.classList.remove('open');
+	//drawer.classList.remove('open');
 	main.classList.remove('left');
 })
 
