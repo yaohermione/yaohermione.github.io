@@ -223,7 +223,7 @@ main.left{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #333333;
+  background: gray;
   border-radius: 3px;
   opacity: 1;
   left: 0;
