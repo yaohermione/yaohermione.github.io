@@ -283,21 +283,11 @@ main.left{
   left: 8px;
 }
 #intro{
-  text-align: center;
+  /*text-align: center;
   font-size: 6vw;
   padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-bottom: 20vh;*/
 }
-#camera_img{
-  display: block;
-  width: 10%;
-  margin: auto;
-}
-#banner_img{
-  width: 100%;
-  height: auto;
-}
-
 
 
 
