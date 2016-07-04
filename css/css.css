@@ -100,7 +100,7 @@ main.left{
 	
 }
 .girl_img{
-	width: 60px;
+	width: 30px;
 	height: auto;
 	
 }
@@ -125,8 +125,8 @@ main.left{
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 20px 70px;
-  font-size: 35px;
+  padding: 10px 35px;
+  font-size: 20px;
   
   line-height: 1.42857143;
   border-radius: 8px;
@@ -195,8 +195,8 @@ main.left{
 /* Icon 1 */
 
  #menu_icon {
-  width: 60px;
-  height: 45px;
+  width: 30px;
+  height: 20px;
   position: relative;
  
   -webkit-transform: rotate(0deg);
