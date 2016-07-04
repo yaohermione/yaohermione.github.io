@@ -76,7 +76,7 @@ nav{
 
 		width: 67vw;
 		height: 100%;
-		position:absolute;
+		position:fixed;
 		left: 33vw;
     right: 0;
 		transition: transform 0.5s ease;
