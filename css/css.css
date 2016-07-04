@@ -223,7 +223,7 @@ main.left{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: gray;
+  background: red;
   border-radius: 3px;
   opacity: 1;
   left: 0;
@@ -275,6 +275,7 @@ main.left{
   transform: rotate(45deg);
   top: 0px;
   left: 2px;
+
 }
 
 #menu_icon.open span:nth-child(2) {
