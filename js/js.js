@@ -15,7 +15,9 @@ main.addEventListener('click',
 function(e){
 	//alert("hover");
 	//drawer.classList.remove('open');
-	//main.classList.remove('left');
+	main.classList.remove('left');
+	menu_icon.classList.remove('open');
+	e.stopPropagation();
 })
 
 $(document).ready(function(){
