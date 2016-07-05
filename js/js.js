@@ -8,6 +8,8 @@ function(e){
 	//alert("hover");
 	//drawer.classList.toggle('open');
 	main.classList.toggle('left');
+	menu_icon.toggleClass('open');
+
 	e.stopPropagation();
 })
 
@@ -20,11 +22,17 @@ function(e){
 	e.stopPropagation();
 })
 
+
+
+
 $(document).ready(function(){
 	$('#menu_icon').click(function(){
-		$(this).toggleClass('open');
+		//
 	});
 });
+
+
+
 
 var header_h = $( "header" ).height();
 //console.log("header_h is "+header_h);
