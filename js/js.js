@@ -13,11 +13,11 @@ function(e){
 	e.stopPropagation();
 })
 
-main.addEventListener('click',
+content.addEventListener('click',
 function(e){
 	//alert("hover");
 	//drawer.classList.remove('open');
-	//main.classList.remove('aaa');
+	main.classList.remove('left');
 	menu_icon.classList.remove('open');
 	e.stopPropagation();
 })
