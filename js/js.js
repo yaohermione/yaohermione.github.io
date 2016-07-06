@@ -1,16 +1,16 @@
 var main = document.querySelector("main");
 var menu_icon = document.getElementById("menu_icon");
-var drawer = document.getElementById("drawer");
 var content = document.getElementById("content");
 
 
 menu_icon.addEventListener('click',
 function(e){
-	//alert("pressed");
+		
+	//alert("pressed hamburger");
 	//drawer.classList.toggle('open');
-	main.classList.toggle('left');
-	menu_icon.toggleClass('open');
-
+	
+menu_icon.classList.toggle('open');
+main.classList.toggle('left');
 	e.stopPropagation();
 })
 
