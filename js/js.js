@@ -7,7 +7,7 @@ menu_icon.addEventListener('click',
 function(e){
 		
 	//alert("pressed hamburger");
-	//drawer.classList.toggle('open');
+	drawer.classList.toggle('left');
 	
 menu_icon.classList.toggle('open');
 main.classList.toggle('left');
@@ -17,7 +17,7 @@ main.classList.toggle('left');
 content.addEventListener('click',
 function(e){
 	//alert("press cotent!");
-	//drawer.classList.remove('open');
+	drawer.classList.remove('left');
 	main.classList.remove('left');
 	menu_icon.classList.remove('open');
 	e.stopPropagation();
