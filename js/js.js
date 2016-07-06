@@ -38,7 +38,7 @@ var header_h = $( "header" ).height();
 //console.log("header_h is "+header_h);
 //$("#intro").css({ top: $( "header" ).height() });
 $("#banner").css('margin-top', $( "header" ).height() + "px");
-
+$("#banner").css('margin-top', 10%);
 
 var didScroll;
 var lastScrollTop = 0;
