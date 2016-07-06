@@ -295,6 +295,9 @@ transform: translate(-67vw,0);
   background: #cccccc;
 }
 
+#banner{
+  margin-top: 10%;
+}
 
 #banner_img{
   max-width: 100%;
