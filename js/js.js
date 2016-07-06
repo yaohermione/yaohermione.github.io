@@ -16,7 +16,7 @@ function(e){
 
 content.addEventListener('click',
 function(e){
-	alert("press cotent!");
+	//alert("press cotent!");
 	//drawer.classList.remove('open');
 	main.classList.remove('left');
 	menu_icon.classList.remove('open');
