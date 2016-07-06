@@ -8,7 +8,7 @@
 
 html, body, main{
 	margin: 0px;
-	padding: 0px;
+	padding-top: 10%; 
 	height: 100%;
 	width: 100%;
 	background-color: #f6f6f6;
@@ -73,6 +73,17 @@ header{
   justify-content: space-around;
 
   height: 10%;
+
+  transition: transform 0.2s ease-in-out;
+
+}
+
+
+.header-up {
+  transform: translate(0,-10%);
+}
+.header-down {
+  transform: translate(0,0);
 }
 
 nav{
