@@ -78,14 +78,14 @@ header{
 
 }
 
-
+/*
 .header-up {
   transform: translate(0,-10%);
 }
 .header-down {
   transform: translate(0,0);
 }
-
+*/
 nav{
 
 		width: 67vw;
