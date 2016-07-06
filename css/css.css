@@ -74,18 +74,11 @@ header{
 
   height: 10%;
 
-  /*transition: transform 0.2s ease-in-out;*/
+  
 
 }
 
-/*
-.header-up {
-  transform: translate(0,-10%);
-}
-.header-down {
-  transform: translate(0,0);
-}
-*/
+
 nav{
 
 		width: 67vw;
