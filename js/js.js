@@ -39,7 +39,7 @@ var header_h = $( "header" ).height();
 //$("#intro").css({ top: $( "header" ).height() });
 $("#banner").css('margin-top', $( "header" ).height() + "px");
 $("#banner").css('margin-top', 10%);
-
+/*
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
@@ -87,5 +87,5 @@ function hasScrolled() {
 
 }
 
-
+*/
 
