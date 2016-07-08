@@ -34,17 +34,13 @@ ul{
 	padding: 0px;
 	margin: 0px;
 	background-color: #ececec;
-  background-color: #717f86;
-
 }
 li{
 	color: #333333;
-  color: #ececec;
 	font-size: 17px;
 	margin:0px;
 	padding-left: 10vw;
 	border-bottom: 1px solid #fefefe;
-  border-bottom: 1px solid #ececec;
 	text-align: left;
   height: 10vh;
 
@@ -99,7 +95,7 @@ nav{
 		transition: transform 0.5s ease;
 		
 		background-color: #ececec;
-    background-color: #717f86;
+
 
 	}
 
