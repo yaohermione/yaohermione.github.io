@@ -45,15 +45,20 @@ var header_height = $('header').outerHeight();
 
 console.log("header height is: "+header_height);
 
+
 $(window).scroll(function(event){
     didScroll = true;
-    console.log("didScroll is :  "+didScroll);
+console.log("did scroll is : "+didScroll);
+
+
 });
 
 //console.log("didScroll is: "+didScroll);
 console.log("hihihihi");
 
 setInterval(function() {
+//console.log("250ms past");
+
     if (didScroll) {
     	console.log("didScroll");
         hasScrolled();
@@ -76,7 +81,7 @@ function hasScrolled() {
     } else {
         console.log("up");
         if(st + $(window).height() < $(document).height()) {
-            $("header").removeclass('header-up');
+            $("header").removeClass('header-up');
         }
     }
     
