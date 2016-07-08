@@ -43,24 +43,24 @@ var lastScrollTop = 0;
 var delta = 5;
 var header_height = $('header').outerHeight();
 
-console.log("header height is: "+header_height);
+//console.log("header height is: "+header_height);
 
 
 $(window).scroll(function(event){
     didScroll = true;
-console.log("did scroll is : "+didScroll);
+//console.log("did scroll is : "+didScroll);
 
 
 });
 
 //console.log("didScroll is: "+didScroll);
-console.log("hihihihi");
+//console.log("hihihihi");
 
 setInterval(function() {
 //console.log("250ms past");
 
     if (didScroll) {
-    	console.log("didScroll");
+    	//console.log("didScroll");
         hasScrolled();
         didScroll = false;
     }
@@ -75,11 +75,11 @@ function hasScrolled() {
     
     // If they scrolled down and are past the navbar, add class .nav-up.
     // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > header_height){
-        console.log("down");
+    if (st > lastScrollTop && st > header_h){
+        //console.log("down");
         $("header").addClass('header-up');
     } else {
-        console.log("up");
+       // console.log("up");
         if(st + $(window).height() < $(document).height()) {
             $("header").removeClass('header-up');
         }
