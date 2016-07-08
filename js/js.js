@@ -29,7 +29,7 @@ function(e){
 	e.stopPropagation();
 })
 
-var header_h = $( "header" ).height();
+var header_h = $( "header" ).height()+$( "#banner" ).height();
 //$("#banner").css('margin-top', $( "header" ).height() + "px");
 
 $("#test").click(function() {
