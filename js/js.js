@@ -30,6 +30,7 @@ function(e){
 })
 
 var header_h = $( "header" ).height()+$( "#banner" ).height();
+console.log("header+banner"+header_h);
 //$("#banner").css('margin-top', $( "header" ).height() + "px");
 
 $("#test").click(function() {
@@ -41,7 +42,9 @@ $("#test").click(function() {
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var header_height = $('header').outerHeight();
+var banner_height = $( "#banner" ).height();
+console.log("banner height: "+banner_height);
+//var banner_height = $('banner').outerHeight();
 
 //console.log("header height is: "+header_height);
 
@@ -75,7 +78,7 @@ function hasScrolled() {
     
     // If they scrolled down and are past the navbar, add class .nav-up.
     // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > header_h){
+    if (st > lastScrollTop && st > banner_height){
         //console.log("down");
         $("header").addClass('header-up');
     } else {
