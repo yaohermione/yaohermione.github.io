@@ -1,22 +1,21 @@
 var main = document.querySelector("main");
-var menu_icon = document.getElementsByClassName("menu_icon");
+//var menu_icon = document.getElementsByClassName("menu_icon");
 var content = document.getElementById("content");
 var header = document.querySelector("header");
 var drawer = document.querySelector("nav");
 
-for (var i=0;i<menu_icon.length;i++){
-        menu_icon[i].addEventListener('click',
-        function(e){
+//for (var i=0;i<menu_icon.length;i++){
+        $(".menu_icon").click(function(e){
         		
         	//alert("pressed hamburger");
         drawer.classList.toggle('left');
         	
-        menu_icon[i].classList.toggle('open');
+        $(".menu_icon").toggle('open');
         content.classList.toggle('left');
         header.classList.toggle('left');
         	e.stopPropagation();
         })
-}
+//}
 content.addEventListener('click',
 function(e){
 	//alert("press cotent!");
