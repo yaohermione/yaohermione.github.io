@@ -84,26 +84,14 @@ function hasScrolled() {
         $("header").addClass('header-up');
 
 
-    } else {
-       // console.log("up");
-                if(st + $(window).height() < $(document).height() && st > banner_height) {
+    } else if(st + $(window).height() < $(document).height() && st > banner_height) {
                    $("header").removeClass('header-hidden');
                     $("header").removeClass('header-up');
 
-
-                }
-                else{
-                    if(st < banner_height) {
-                   $("header").addClass('header-hidden');
-                    $("header").removeClass('header-up');
+                    }
 
 
-                }
-
-            }
-
-
-    }
+    
     
     lastScrollTop = st;
 }
