@@ -1,5 +1,5 @@
 var main = document.querySelector("main");
-var menu_icon = document.getElementById("menu_icon");
+var menu_icon = document.getElementByClassName("menu_icon");
 var content = document.getElementById("content");
 var header = document.querySelector("header");
 var drawer = document.querySelector("nav");
