@@ -11,7 +11,7 @@ for (var i=0;i<menu_icon.length;i++){
         	//alert("pressed hamburger");
         drawer.classList.toggle('left');
         	
-        menu_icon.classList.toggle('open');
+        menu_icon[i].classList.toggle('open');
         content.classList.toggle('left');
         header.classList.toggle('left');
         	e.stopPropagation();
@@ -22,7 +22,7 @@ function(e){
 	//alert("press cotent!");
 	//drawer.classList.remove('open');
 	//main.classList.remove('left');
-	menu_icon.classList.remove('open');
+	$(".menu_icon").removeClass('open');
 	content.classList.remove('left');
 	header.classList.remove('left');
 	drawer.classList.remove('left');

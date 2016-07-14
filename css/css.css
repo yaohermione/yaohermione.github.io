@@ -160,14 +160,9 @@ transform: translate(-67vw,0);
 	height: auto;
 	
 }
-.col-btn{
-	/*
-	padding-top: 3vw;
-	padding-bottom: 3vw;
-  
-	*/
-  border: 0px solid red;
-}
+
+
+
  .btn {
 
   display: inline-block;
@@ -195,6 +190,10 @@ transform: translate(-67vw,0);
   border-color: #cccccc;
   display: block;
   margin: auto;	
+}
+.btn-banner{
+  background-color: rgba(0,0,0,0);
+  
 }
 /*
 .btn:focus,
