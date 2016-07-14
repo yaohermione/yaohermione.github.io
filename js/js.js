@@ -84,17 +84,26 @@ function hasScrolled() {
         $("header").addClass('header-up');
 
 
-    }
-     if(st + $(window).height() < $(document).height() && st > banner_height) {
-           $("header").removeClass('header-hidden');
-            $("header").removeClass('header-up');
+    } else {
+       // console.log("up");
+                if(st + $(window).height() < $(document).height() && st > banner_height) {
+                   $("header").removeClass('header-hidden');
+                    $("header").removeClass('header-up');
+
+
+                }
+                else{
+                    if(st < banner_height) {
+                   $("header").addClass('header-hidden');
+                    $("header").removeClass('header-up');
+
+
+                }
+
+            }
+
 
     }
-    if(st < banner_height){
-        //console.log("down");
-        $("header").addClass('header-hidden');
-        $("header").addClass('header-up');
-}
     
     lastScrollTop = st;
 }
