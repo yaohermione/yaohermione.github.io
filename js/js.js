@@ -80,14 +80,14 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
    if (st > lastScrollTop && st > banner_height){
         //console.log("down");
-       // $("header").removeClass('header-hidden');
+        $("header").removeClass('header-hidden');
         $("header").addClass('header-up');
 
 
     } else {
        // console.log("up");
         if(st + $(window).height() < $(document).height() && st > banner_height) {
-          //  $("header").removeClass('header-hidden');
+           $("header").removeClass('header-hidden');
             $("header").removeClass('header-up');
 
 
