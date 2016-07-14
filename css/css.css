@@ -103,7 +103,7 @@ header{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  position: relative;
+  position: absolute;
   top: 0;
   z-index: 100;
   
@@ -339,14 +339,11 @@ transform: translate(-67vw,0);
   background: #cccccc;
 }
 
-#banner-outbox{
-  margin-top: 0%;
-  position: relative;
-}
 #banner{
   margin-top: 0%;
-
+  position: absolute;
 }
+
 
 
 
