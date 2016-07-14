@@ -92,10 +92,10 @@ function hasScrolled() {
 
 
                 }
-                else{
+               
                     if(st < banner_height) {
                    $("header").addClass('header-hidden');
-                    $("header").removeClass('header-up');
+                    $("header").addClass('header-up');
 
 
                 }
