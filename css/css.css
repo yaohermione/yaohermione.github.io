@@ -180,12 +180,12 @@ transform: translate(-67vw,0);
   font-size: 17px;
   
   line-height: 1.42857143;
-  border-radius: 8px;
+  border-radius: 3px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #333333;
+  color: #cccccc;
   background-color: #ffffff;
   border-color: #cccccc;
   display: block;
