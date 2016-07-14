@@ -89,12 +89,8 @@ header{
      -moz-box-shadow: 0 1px 6px  #cccccc;
           box-shadow: 0 1px 6px  #cccccc;
 
-
-
 }
-.header-hidden{
-  display: none;
-}
+
 .header-up{
   transform: translate(0,-11vh);
 }
@@ -116,7 +112,7 @@ nav{
 
 #content{
   position: absolute;
-  
+  top: 10%;
   transition: transform 0.5s ease;
   background-color: #f6f6f6;
 
