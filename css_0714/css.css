@@ -68,13 +68,12 @@ li:hover{
 }
 
 header{
-  
+  background-color: rgba(246,246,246,.98);
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	position: absolute;
-  top:0px;
-	
+	position: fixed;
+	border-bottom: 1px solid #cccccc;
   z-index: 100;
   
   align-items: center;
@@ -86,21 +85,12 @@ header{
 
   
 
-  
-
-}
-.fixed{
-background-color: rgba(246,246,246,.98);
-border-bottom: 1px solid #cccccc;
--webkit-box-shadow: 0 1px 6px  #cccccc;
+  -webkit-box-shadow: 0 1px 6px  #cccccc;
      -moz-box-shadow: 0 1px 6px  #cccccc;
           box-shadow: 0 1px 6px  #cccccc;
 
-
-  position: fixed;
-  top:0px;
- 
 }
+
 .header-up{
   transform: translate(0,-11vh);
 }
@@ -122,10 +112,10 @@ nav{
 
 #content{
   position: absolute;
-  top: 0px;
+  top: 10%;
   transition: transform 0.5s ease;
   background-color: #f6f6f6;
-  z-index: 1;
+
 }
 
 
@@ -149,7 +139,7 @@ transform: translate(-67vw,0);
 .girl_img{
 	width: 30px;
 	height: auto;
-	opacity: .6;
+	
 }
 .col-btn{
 	/*
@@ -176,13 +166,13 @@ transform: translate(-67vw,0);
   font-size: 17px;
   
   line-height: 1.42857143;
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #a7a7a7;
-  background-color: rgba(0,0,0,0);
+  color: #333333;
+  background-color: #ffffff;
   border-color: #cccccc;
   display: block;
   margin: auto;	
@@ -313,7 +303,7 @@ transform: translate(-67vw,0);
   transform: rotate(45deg);
   top: 0px;
   left: 2px;
-  background: gray;
+  background: #cccccc;
 }
 
 #menu_icon.open span:nth-child(2) {
@@ -328,7 +318,7 @@ transform: translate(-67vw,0);
   transform: rotate(-45deg);
   top: 17.5px;
   left: 2px;
-  background: gray;
+  background: #cccccc;
 }
 
 

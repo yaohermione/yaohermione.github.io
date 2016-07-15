@@ -1,28 +1,27 @@
 var main = document.querySelector("main");
-var menu_icon = document.getElementById("menu_icon");
+//var menu_icon = document.getElementsByClassName("menu_icon");
 var content = document.getElementById("content");
 var header = document.querySelector("header");
 var drawer = document.querySelector("nav");
 
-
-menu_icon.addEventListener('click',
-function(e){
-		
-	//alert("pressed hamburger");
-drawer.classList.toggle('left');
-	
-menu_icon.classList.toggle('open');
-content.classList.toggle('left');
-header.classList.toggle('left');
-	e.stopPropagation();
-})
-
+//for (var i=0;i<menu_icon.length;i++){
+        $("#menu_icon_fixed").click(function(e){
+        		
+        	//alert("pressed hamburger");
+        drawer.classList.toggle('left');
+        	
+        $("#menu_icon_fixed").toggle('open');
+        content.classList.toggle('left');
+        header.classList.toggle('left');
+        	e.stopPropagation();
+        })
+//}
 content.addEventListener('click',
 function(e){
 	//alert("press cotent!");
 	//drawer.classList.remove('open');
 	//main.classList.remove('left');
-	menu_icon.classList.remove('open');
+	$("#menu_icon_fixed").removeClass('open');
 	content.classList.remove('left');
 	header.classList.remove('left');
 	drawer.classList.remove('left');
@@ -78,27 +77,23 @@ function hasScrolled() {
     
     // If they scrolled down and are past the navbar, add class .nav-up.
     // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > banner_height){
+   if (st > lastScrollTop){
         //console.log("down");
-         //$("header").css({ position: 'fixed', top: '0px' });
-         
-       $("header").addClass('header-up');
+        $("header").removeClass('header-hidden');
+        $("header").addClass('header-up');
+//st + $(window).height() < $(document).height() && 
 
+    } else if(st < lastScrollTop &&  st > banner_height ) {
+                   $("header").removeClass('header-hidden');
+                    $("header").removeClass('header-up');
 
-        
-//st + $(window).height() < $(document).height()
+                    }
+    else if(st < banner_height ) {
+                   $("header").removeClass('header-hidden');
+                $("header").addClass('header-up');  
+                    }
 
-    } else if(st < lastScrollTop && st > banner_height) {
-            $("header").addClass('fixed').removeClass('header-up');
-           
-        
-    }else if(st < banner_height) {
-           
-$("header").removeClass('fixed').removeClass('header-up');
-
-         //$("header").css({ position: 'static', top: '0px' });
-    }
-
+    
     
     lastScrollTop = st;
 }

@@ -80,25 +80,13 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > banner_height){
         //console.log("down");
-         //$("header").css({ position: 'fixed', top: '0px' });
-         
-       $("header").addClass('header-up');
-
-
-        
-//st + $(window).height() < $(document).height()
-
-    } else if(st < lastScrollTop && st > banner_height) {
-            $("header").addClass('fixed').removeClass('header-up');
-           
-        
-    }else if(st < banner_height) {
-           
-$("header").removeClass('fixed').removeClass('header-up');
-
-         //$("header").css({ position: 'static', top: '0px' });
+        $("header").addClass('header-up');
+    } else {
+       // console.log("up");
+        if(st + $(window).height() < $(document).height()) {
+            $("header").removeClass('header-up');
+        }
     }
-
     
     lastScrollTop = st;
 }
