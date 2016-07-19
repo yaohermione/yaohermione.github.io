@@ -264,7 +264,7 @@ transform: translate(-67vw,0);
   position: absolute;
   height: 3px;
   width: 100%;
-  background: gray;
+  background: #cccccc;
   border-radius: 3px;
   opacity: 1;
   left: 0;
