@@ -181,7 +181,8 @@ transform: translate(-67vw,0);
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #a7a7a7;
+  /*color: #a7a7a7;*/
+  color: #cccccc;
   background-color: rgba(0,0,0,0);
   border-color: #cccccc;
   display: block;
@@ -345,8 +346,8 @@ transform: translate(-67vw,0);
   width: 100%;
    background-image: 
   linear-gradient(
-    rgba(0,0,0,0.4),
-    rgba(0,0,0,0.4)
+    rgba(0,0,0,0.35),
+    rgba(0,0,0,0.35)
     );
   
 
