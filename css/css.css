@@ -337,8 +337,51 @@ transform: translate(-67vw,0);
 }
 
 
+#gray{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  
+  width: 100%;
+   background-image: 
+  linear-gradient(
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)
+    );
+  
+
+
+
+
+}
+
+#banner-textbox{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  
+width: 100%;
+  
+
+  display: flex;
+}
+
+#banner-text{
+  margin: auto;
+
+}
+h3{
+  color: #fefefe;
+  margin: ;
+}
+h6{
+  text-align: center;
+  color: #ececec;
+font-weight: bold;
+}
 
 #banner_img{
+
   max-width: 100%;
  top: 0%;
 }

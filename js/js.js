@@ -3,7 +3,13 @@ var menu_icon = document.getElementById("menu_icon");
 var content = document.getElementById("content");
 var header = document.querySelector("header");
 var drawer = document.querySelector("nav");
+//var gray = document.getElementById("gray");
+//var banner = document.getElementById("banner");
 
+
+var banner_h = $( "#banner" ).height();
+$("#gray").height(banner_h);
+$("#banner-textbox").height(banner_h);
 
 menu_icon.addEventListener('click',
 function(e){
