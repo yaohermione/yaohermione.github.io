@@ -314,7 +314,7 @@ transform: translate(-67vw,0);
   transform: rotate(45deg);
   top: 0px;
   left: 2px;
-  background: gray;
+  background: #ececec;
 }
 
 #menu_icon.open span:nth-child(2) {
@@ -329,7 +329,7 @@ transform: translate(-67vw,0);
   transform: rotate(-45deg);
   top: 17.5px;
   left: 2px;
-  background: gray;
+  background: #ececec;
 }
 
 
