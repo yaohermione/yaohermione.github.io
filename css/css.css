@@ -182,9 +182,9 @@ transform: translate(-67vw,0);
   -ms-user-select: none;
   user-select: none;
   /*color: #a7a7a7;*/
-  color: #cccccc;
+  color: #9a9a9a;
   background-color: rgba(0,0,0,0);
-  border-color: #cccccc;
+  border-color: #9a9a9a;
   display: block;
   margin: auto;	
 }
@@ -264,7 +264,7 @@ transform: translate(-67vw,0);
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #cccccc;
+  background: #9a9a9a;
   border-radius: 3px;
   opacity: 1;
   left: 0;
@@ -350,7 +350,7 @@ transform: translate(-67vw,0);
     rgba(0,0,0,0.35)
     );
   
-
+ opacity: 0;
 
 
 
