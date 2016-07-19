@@ -7,7 +7,7 @@ var drawer = document.querySelector("nav");
 //var banner = document.getElementById("banner");
 
 
-var banner_h = $( "#banner" ).height();
+var banner_h = $( "#banner_img" ).height();
 $("#gray").height(banner_h);
 $("#banner-textbox").height(banner_h);
 
