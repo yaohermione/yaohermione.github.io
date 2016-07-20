@@ -3,25 +3,44 @@ var menu_icon = document.getElementById("menu_icon");
 var content = document.getElementById("content");
 var header = document.querySelector("header");
 var drawer = document.querySelector("nav");
-//var gray = document.getElementById("gray");
+var gray = document.getElementById("main-gray-layer");
+
+
 //var banner = document.getElementById("banner");
 
 
 var banner_h = $( "#banner_img" ).height();
-$("#gray").height(banner_h);
+$("#img-gray-layer").height(banner_h);
 $("#banner-textbox").height(banner_h);
 
-menu_icon.addEventListener('click',
-function(e){
-		
-	//alert("pressed hamburger");
-drawer.classList.toggle('left');
+$("#menu_icon").click(function(e){
 	
-menu_icon.classList.toggle('open');
-content.classList.toggle('left');
-header.classList.toggle('left');
-	e.stopPropagation();
+    menu_icon.classList.toggle('open');
+    content.classList.toggle('left');
+    header.classList.toggle('left');
+    drawer.classList.toggle('left');
+   
+    gray.classList.toggle('left');
+    document.getElementById("main-gray-layer").style.height='100%';
+    	e.stopPropagation();
 })
+
+
+
+$("#main-gray-layer").click(function(e){
+
+   
+    drawer.classList.toggle('left');
+    menu_icon.classList.toggle('open');
+    content.classList.toggle('left');
+    header.classList.toggle('left');
+  
+    gray.classList.toggle('left');
+    document.getElementById("main-gray-layer").style.height='0%';
+        e.stopPropagation();
+})
+
+
 
 content.addEventListener('click',
 function(e){
@@ -35,7 +54,8 @@ function(e){
 	e.stopPropagation();
 })
 
-//var header_h = $( "header" ).height()+$( "#banner" ).height();
+//var header_h = $( "header" ).height();
+
 //console.log("header+banner"+header_h);
 //$("#banner").css('margin-top', $( "header" ).height() + "px");
 
