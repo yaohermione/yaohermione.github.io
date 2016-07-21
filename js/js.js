@@ -16,7 +16,6 @@ $("#banner-textbox").height(banner_h);
 $("#menu_icon").click(function(e){
 	//document.querySelector("html").style.height='70%';
     //document.querySelector("html").style.margin-top='15%';
-
     menu_icon.classList.toggle('open');
     content.classList.toggle('left');
     header.classList.toggle('left');
@@ -24,7 +23,8 @@ $("#menu_icon").click(function(e){
    
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='100%';
-    document.getElementById("main").style.overflow='hidden';
+    //$("main").css({"overflow":"hidden"});
+    $('html, body, main').css('overflowY', 'hidden'); 
     	e.stopPropagation();
 })
 
@@ -40,7 +40,7 @@ $("#main-gray-layer").click(function(e){
   
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='0%';
-    document.getElementById("main").style.overflow='scroll';
+    $('html, body, main').css('overflowY', ''); 
         e.stopPropagation();
 })
 
