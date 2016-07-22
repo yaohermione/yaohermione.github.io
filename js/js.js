@@ -29,7 +29,7 @@ $("#menu_icon").click(function(e){
     //     'margin-top': scrollpos + 'px'
     // });
 
-    $('body').css('overflowY', 'hidden'); 
+    $('body').css('overflow', 'hidden'); 
    //$(window).scrollTop(abc);
    
     e.stopPropagation();
@@ -47,7 +47,7 @@ $("#main-gray-layer").click(function(e){
   
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='0%';
-    $('body').css('overflowY', ''); 
+    $('body').css('overflow', ''); 
    
         e.stopPropagation();
 })
