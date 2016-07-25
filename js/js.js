@@ -15,7 +15,7 @@ $("#img-gray-layer").height(banner_h);
 //$("#banner-textbox").height(banner_h);
 
 $("#menu_icon").click(function(e){
-    //var scrollpos = $(window).scrollTop;
+    var position = $(window).scrollTop(); // 保存滚动条位置 
     menu_icon.classList.toggle('open');
     content.classList.toggle('left');
     header.classList.toggle('left');
@@ -23,18 +23,21 @@ $("#menu_icon").click(function(e){
    
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='100%'; 
-    body.classList.toggle('overflowhidden');
-    //$('body').css('overflow', 'hidden'); 
-   
+   // $('body')[0].classList.toggle('overflowhidden');
+    $('body').css('overflow', 'hidden'); 
+    $('body').css('position', '');
+   //$("body").toggleClass('overflowhidden');
    
     e.stopPropagation();
     // $('#main-gray-layer').css({
     //     'display': 'block',
     //     'margin-top': scrollpos + 'px'
     // });
-//$(window).scrollTop(abc);
+    $(window).scroll(function (e) {
+          $(window).scrollTop(position); // 恢复滚动条位置
+      });
     
-})
+});
 
 
 
@@ -48,10 +51,12 @@ $("#main-gray-layer").click(function(e){
   
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='0%';
-    //$('body').css('overflow', ''); 
-   body.classList.toggle('overflowhidden');
+    $('body').css('overflow', '');
+    $('body').css('position', ''); 
+   //$('body')[0].classList.toggle('overflowhidden');
+   //$("body").toggleClass('overflowhidden');
         e.stopPropagation();
-})
+});
 
 
 
@@ -65,7 +70,7 @@ function(e){
 	header.classList.remove('left');
 	drawer.classList.remove('left');
 	e.stopPropagation();
-})
+});
 
 //var header_h = $( "header" ).height();
 
@@ -147,5 +152,14 @@ var boxheight= $("#banner-textbox").height();
 var allheight=$("#content").height();
 console.log(boxheight);
 console.log(allheight);
+
+var bodytest = $("body");
+console.log(bodytest);
+var body0=$("body")[0];
+console.log("this is body 0: "+body0);
+
+
+
+
 
 
