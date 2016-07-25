@@ -14,7 +14,7 @@ $("#img-gray-layer").height(banner_h);
 //$("#banner-textbox").height(banner_h);
 
 $("#menu_icon").click(function(e){
-    //var abc=$(window).scrollTop;
+    //var scrollpos = $(window).scrollTop;
     menu_icon.classList.toggle('open');
     content.classList.toggle('left');
     header.classList.toggle('left');
