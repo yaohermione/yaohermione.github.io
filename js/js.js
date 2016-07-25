@@ -33,8 +33,12 @@ $("#menu_icon").click(function(e){
     //     'display': 'block',
     //     'margin-top': scrollpos + 'px'
     // });
-    $(window).scroll(fix_window(position));
+   // $(window).scroll(fix_window(position));
     //add event handler to window after click, from now on
+      $(window).scroll(function (e) {
+           $(window).scrollTop(position); // 恢复滚动条位置
+       });
+
 });
 
 
