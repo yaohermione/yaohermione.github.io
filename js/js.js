@@ -33,12 +33,14 @@ $("#menu_icon").click(function(e){
     //     'display': 'block',
     //     'margin-top': scrollpos + 'px'
     // });
-    $(window).scroll(function (e) {
-          $(window).scrollTop(position); 
-      });
-    
+    $(window).scroll(fix_window(position));
+    //add event handler to window after click, from now on
 });
 
+
+function fix_window(pos){
+    $(window).scrollTop(pos); 
+}
 
 
 $("#main-gray-layer").click(function(e){
@@ -52,8 +54,8 @@ $("#main-gray-layer").click(function(e){
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='0%';
     //$('body').css('overflow', 'auto');
-    $('body').removeAttr('style');
-    $(window).off();//移除
+    $('body').css('overflow', ''); 
+    $(window).off("scroll", "window", fix_window);//移除
    //$('body')[0].classList.toggle('overflowhidden');
    //$("body").toggleClass('overflowhidden');
         e.stopPropagation();
@@ -159,7 +161,7 @@ console.log(bodytest);
 var body0=$("body")[0];
 console.log("this is body 0: "+body0);
 
-
+console.log($(window));
 
 
 
