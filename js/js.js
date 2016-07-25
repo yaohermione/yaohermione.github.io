@@ -47,7 +47,7 @@ $("#menu_icon").click(function(e){
 
 var scrollHandler = function(){
     $(window).scrollTop(position);
-    //console.log( 'something was scrolled' );
+    
 }
 // function fix_window(pos){
 //     $(window).scrollTop(pos); 
@@ -70,7 +70,7 @@ $("#main-gray-layer").click(function(e){
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='0%';
     //$('body').css('overflow', 'auto');
-    $('body').css('overflow', ''); 
+    //$('body').css('overflow', ''); 
     $(window).off("scroll", scrollHandler);//移除
    //$('body')[0].classList.toggle('overflowhidden');
    //$("body").toggleClass('overflowhidden');
