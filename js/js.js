@@ -3,6 +3,7 @@ var menu_icon = document.getElementById("menu_icon");
 var content = document.getElementById("content");
 var header = document.querySelector("header");
 var drawer = document.querySelector("nav");
+var body = document.querySelector("body");
 var gray = document.getElementById("main-gray-layer");
 
 
@@ -22,17 +23,17 @@ $("#menu_icon").click(function(e){
    
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='100%'; 
-    
-    
+    body.classList.toggle('overflowhidden');
+    //$('body').css('overflow', 'hidden'); 
+   
+   
+    e.stopPropagation();
     // $('#main-gray-layer').css({
     //     'display': 'block',
     //     'margin-top': scrollpos + 'px'
     // });
-
-    $('body').css('overflow', 'hidden'); 
-   //$(window).scrollTop(abc);
-   
-    e.stopPropagation();
+//$(window).scrollTop(abc);
+    
 })
 
 
@@ -47,8 +48,8 @@ $("#main-gray-layer").click(function(e){
   
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='0%';
-    $('body').css('overflow', ''); 
-   
+    //$('body').css('overflow', ''); 
+   body.classList.toggle('overflowhidden');
         e.stopPropagation();
 })
 

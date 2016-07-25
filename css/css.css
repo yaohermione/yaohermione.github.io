@@ -19,7 +19,9 @@ body{
   position: relative;
 
 }
-
+.overflowhidden{
+  overflow: hidden;
+}
 
 /*
 main{
