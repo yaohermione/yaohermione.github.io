@@ -51,8 +51,9 @@ $("#main-gray-layer").click(function(e){
   
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='0%';
-    $('body').css('overflow', 'auto');
-   
+    //$('body').css('overflow', 'auto');
+    $('body').removeAttr('style');
+    $(window).off();//移除
    //$('body')[0].classList.toggle('overflowhidden');
    //$("body").toggleClass('overflowhidden');
         e.stopPropagation();
