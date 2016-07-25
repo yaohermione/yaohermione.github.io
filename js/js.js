@@ -13,9 +13,9 @@ var gray = document.getElementById("main-gray-layer");
 var banner_h = $( "#banner_img" ).height();
 $("#img-gray-layer").height(banner_h);
 //$("#banner-textbox").height(banner_h);
-
+var position;
 $("#menu_icon").click(function(e){
-    var position = $(window).scrollTop(); 
+    position = $(window).scrollTop(); 
     menu_icon.classList.toggle('open');
     content.classList.toggle('left');
     header.classList.toggle('left');
@@ -24,27 +24,39 @@ $("#menu_icon").click(function(e){
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='100%'; 
    // $('body')[0].classList.toggle('overflowhidden');
-    $('body').css('overflow', 'hidden'); 
+   // $('body').css('overflow', 'hidden'); 
     
    //$("body").toggleClass('overflowhidden');
    
-    e.stopPropagation();
+    
     // $('#main-gray-layer').css({
     //     'display': 'block',
     //     'margin-top': scrollpos + 'px'
     // });
-   // $(window).scroll(fix_window(position));
-    //add event handler to window after click, from now on
-      $(window).scroll(function (e) {
-           $(window).scrollTop(position); // 恢复滚动条位置
-       });
+   //$(window).scroll(fix_window(position));
+   //$(window).scroll(test(position));
 
+    //add event handler to window after click, from now on
+      // $(window).scroll(function () {
+      //      $(window).scrollTop(scrollHandler); // 恢复滚动条位置
+      //  });
+    $(window).on('scroll',scrollHandler);
+
+    e.stopPropagation();
 });
 
-
-function fix_window(pos){
-    $(window).scrollTop(pos); 
+var scrollHandler = function(){
+    $(window).scrollTop(position);
+    //console.log( 'something was scrolled' );
 }
+// function fix_window(pos){
+//     $(window).scrollTop(pos); 
+//     console.log(pos);
+// }
+
+// function test(pos){
+//     alert(pos);
+// }
 
 
 $("#main-gray-layer").click(function(e){
@@ -59,7 +71,7 @@ $("#main-gray-layer").click(function(e){
     document.getElementById("main-gray-layer").style.height='0%';
     //$('body').css('overflow', 'auto');
     $('body').css('overflow', ''); 
-    $(window).off("scroll", "window", fix_window);//移除
+    $(window).off("scroll", scrollHandler);//移除
    //$('body')[0].classList.toggle('overflowhidden');
    //$("body").toggleClass('overflowhidden');
         e.stopPropagation();
