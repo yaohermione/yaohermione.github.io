@@ -15,7 +15,7 @@ $("#img-gray-layer").height(banner_h);
 //$("#banner-textbox").height(banner_h);
 
 $("#menu_icon").click(function(e){
-    var position = $(window).scrollTop(); // 保存滚动条位置 
+    var position = $(window).scrollTop(); 
     menu_icon.classList.toggle('open');
     content.classList.toggle('left');
     header.classList.toggle('left');
@@ -25,7 +25,7 @@ $("#menu_icon").click(function(e){
     document.getElementById("main-gray-layer").style.height='100%'; 
    // $('body')[0].classList.toggle('overflowhidden');
     $('body').css('overflow', 'hidden'); 
-    $('body').css('position', '');
+    
    //$("body").toggleClass('overflowhidden');
    
     e.stopPropagation();
@@ -34,7 +34,7 @@ $("#menu_icon").click(function(e){
     //     'margin-top': scrollpos + 'px'
     // });
     $(window).scroll(function (e) {
-          $(window).scrollTop(position); // 恢复滚动条位置
+          $(window).scrollTop(position); 
       });
     
 });
@@ -51,8 +51,8 @@ $("#main-gray-layer").click(function(e){
   
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='0%';
-    $('body').css('overflow', '');
-    $('body').css('position', ''); 
+    $('body').css('overflow', 'auto');
+   
    //$('body')[0].classList.toggle('overflowhidden');
    //$("body").toggleClass('overflowhidden');
         e.stopPropagation();
