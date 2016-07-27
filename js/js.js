@@ -11,6 +11,7 @@ var gray = document.getElementById("main-gray-layer");
 
 
 var banner_h = $( "#banner_img" ).height();
+$( "#banner" ).height(banner_h);
 $("#img-gray-layer").height(banner_h);
 //$("#banner-textbox").height(banner_h);
 var position;
