@@ -339,10 +339,11 @@ transform: translate(-67vw,0);
 
 #banner{
  position: relative;
- background:url("../img/isabella-gray-narrow.jpg") fixed no-repeat;
+ background:url("../img/isabella-gray.jpg") fixed no-repeat;
     background-size: contain;
     width: 100%;
     
+    border: 0px solid red;
 }
 
 
@@ -386,7 +387,7 @@ h3{
 h6{
   text-align: center;
   color: #ececec;
-font-weight: bold;
+  font-weight: bold;
 }
 
 #banner_img{
@@ -394,7 +395,11 @@ visibility: hidden;
 max-width: 100%;
 top: 0%;
 }
-
+#banner_img-narrow{
+visibility: hidden;
+max-width: 100%;
+top: 0%;
+}
 
 #intro{
   /*text-align: center;
@@ -415,6 +420,28 @@ top: 0%;
   transition: transform .5s ease;
 }
 
-@media screen and (min-width:600px){
- 
+@media screen and (min-width:1000px){
+ #banner{
+ position: relative;
+ background:url("../img/isabella-gray-narrow.jpg") fixed no-repeat;
+    background-size: contain;
+    width: 100%;
+    border: 0px solid red;
+}
+#banner-text{
+  float: right;
+  margin-right: 10vw;
+  border: 0px solid red;
+}
+h3{
+  color: #fefefe;
+  margin: ;
+  font-size: 35px;
+}
+h6{
+  text-align: center;
+  color: #ececec;
+  font-weight: bold;
+  font-size: 20px;
+}
 }

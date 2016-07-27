@@ -11,9 +11,46 @@ var gray = document.getElementById("main-gray-layer");
 
 
 var banner_h = $( "#banner_img" ).height();
-$( "#banner" ).height("banner_h");
+//console.log("this is banner_h: "+banner_h);
+
+var banner_h_narrow = $( "#banner_img-narrow" ).height();
+//console.log("this is banner_h_narrow: "+banner_h_narrow);
+
+if($(window).width()>"1000"){
+    //console.log("window width: "+$(window).width());
+    $( "#banner" ).height(banner_h_narrow);
+//console.log("this is banner_h_narrow in >1000: "+banner_h_narrow);
+}
+else{
+  $( "#banner" ).height(banner_h);  
+  //console.log("this is banner_h in else: "+banner_h);
+}
+
+//Parallax 
+function simpleParallax() {
+    //This variable is storing the distance scrolled
+    var scrolled = $(window).scrollTop() + 1;
+
+    //Every element with the class "scroll" will have parallax background 
+    //Change the "0.3" for adjusting scroll speed.
+    $('#banner').css('background-position', '0' + -(scrolled * 0.66) + 'px');
+}
+//Everytime we scroll, it will fire the function
+$(window).scroll(function (e) {
+    simpleParallax();
+});
+
+
+
+
+
+
+
 $("#img-gray-layer").height(banner_h);
 //$("#banner-textbox").height(banner_h);
+
+
+
 var position;
 $("#menu_icon").click(function(e){
     position = $(window).scrollTop(); 
@@ -170,15 +207,15 @@ $("header").removeClass('fixed').removeClass('header-up');
 
 var boxheight= $("#banner-textbox").height();
 var allheight=$("#content").height();
-console.log(boxheight);
-console.log(allheight);
+//console.log(boxheight);
+//console.log(allheight);
 
 var bodytest = $("body");
-console.log(bodytest);
+//console.log(bodytest);
 var body0=$("body")[0];
-console.log("this is body 0: "+body0);
+//console.log("this is body 0: "+body0);
 
-console.log($(window));
+//console.log($(window));
 
 
 
