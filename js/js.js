@@ -11,10 +11,10 @@ var gray = document.getElementById("main-gray-layer");
 
 
 var banner_h = $( "#banner_img" ).height();
-console.log("this is banner_h: "+banner_h);
+//console.log("this is banner_h: "+banner_h);
 
 var banner_h_narrow = $( "#banner_img-narrow" ).height();
-console.log("this is banner_h_narrow: "+banner_h_narrow);
+//console.log("this is banner_h_narrow: "+banner_h_narrow);
 
 if($(window).width()>"300"){
     console.log("this is window width in >300: "+$(window).width());
