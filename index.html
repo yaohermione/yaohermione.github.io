@@ -56,7 +56,20 @@
 <div id="content">
 
 <div id="banner" class="col-12">
-    <img src="img/isabella-gray.jpg" id="banner_img">
+    <picture>
+      <source 
+      src="(min-device-width: 1200)and(-webkit-min-device-pixel-ratio: 2)"
+      srcset="img/isabella-gray-narrow.jpg"
+      />
+      <source 
+      src="(max-device-width: 480)and(-webkit-min-device-pixel-ratio: 2)and (orientation: portrait)"
+      srcset="img/isabella-gray.jpg"
+      />
+
+    </picture>
+
+    <!--default img incase some browser cannot support picture-->
+    <!--<img src="img/isabella-gray.jpg" id="banner_img">-->
 
     
     <div id="banner-textbox">
