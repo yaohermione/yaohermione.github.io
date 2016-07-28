@@ -419,10 +419,7 @@ h6{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-#banner-text{
-  margin-right: 0px;
-  float: right;
-}
+
 
 h3{
   color: #fefefe;
@@ -464,6 +461,9 @@ h6{
 #menu_icon{
   display: none;
 }
-
+#banner-text{
+  margin-right: 0px;
+  float: right;
+}
 
 }
