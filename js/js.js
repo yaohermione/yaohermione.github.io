@@ -26,7 +26,7 @@ console.log("this is banner_h_narrow: "+banner_h_narrow);
 //   $( "#banner" ).height(banner_h);  
 //   console.log("this is banner_h in else: "+banner_h);
 // }
-$(document).load($(window).bind("resize", checkSize));
+//$(document).load($(window).bind("resize", checkSize));
 // function checkPosition() {
 //     if (window.matchMedia('(min-device-width: 1200px)').matches) {
 //         $( "#banner" ).height(banner_h_narrow);
@@ -36,14 +36,15 @@ $(document).load($(window).bind("resize", checkSize));
 // }
 
 //Function to the css rule
-function checkSize(){
-    if ($(".girl_img").css("display") == "none" ){
-        //$( "#banner" ).height(banner_h_narrow);
-    }
-    else{
-        //$( "#banner" ).height(banner_h);
-    }
-}
+// function checkSize(){
+//     if ($(".girl_img").css("display") == "none" ){
+//         $( "#banner" ).height(banner_h_narrow);
+//     }
+//     else{
+//         $( "#banner" ).height(banner_h);
+//     }
+// }
+console.log("banner height: "+$( "#banner" ).height());
 
 
 
