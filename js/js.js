@@ -39,8 +39,8 @@ $(document).load($(window).bind("resize", checkSize));
 function checkSize(){
     console.log($("#intro").css("font-size"));
 
-    if ($("#intro").css("font-size") == "1px" ){
-        console.log("font size=1");
+    if ($("#girl_img").css("display") == "none" ){
+        console.log("display==none");
         $( "#banner" ).height(banner_h_narrow);
     }
     else{
