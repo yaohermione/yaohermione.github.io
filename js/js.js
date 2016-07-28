@@ -26,7 +26,6 @@ function checkSize(){
         $( "#banner-img" ).attr("src","img/isabella-gray.jpg");
     }
 }
-console.log("banner height: "+$( "#banner" ).height());
 
 
 
