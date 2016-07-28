@@ -480,7 +480,16 @@ h6{
   font-weight: bold;
 }
 
-
+#banner_img{
+visibility: hidden;
+max-width: 100%;
+top: 0%;
+}
+#banner_img-narrow{
+visibility: hidden;
+max-width: 100%;
+top: 0%;
+}
 }
 @media screen 
   and (min-device-width: 1200px) 
@@ -521,5 +530,15 @@ h6{
 }
 #menu_icon{
   display: none;
+}
+#banner_img{
+visibility: hidden;
+max-width: 100%;
+top: 0%;
+}
+#banner_img-narrow{
+visibility: hidden;
+max-width: 100%;
+top: 0%;
 }
 }
