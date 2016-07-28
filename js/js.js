@@ -11,7 +11,7 @@ $( document ).ready(function() {
 
     if ($(".girl_img").css("display") == "none" ){
         
-        $( "#banner_img" ).attr("src","img/isabella-gray-narrow.jpg");
+        $( "#banner_img" ).attr("src","img/isabella-gray.jpg");
     }
     else{
         $( "#banner_img" ).attr("src","img/isabella-gray.jpg");
