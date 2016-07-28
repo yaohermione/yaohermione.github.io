@@ -343,7 +343,7 @@ transform: translate(-67vw,0);
 #banner{
  position: relative;
 
-    border: 0px solid red;
+    border: 1px solid red;
 }
 
 
@@ -451,6 +451,7 @@ h6{
       color: #ececec;
       font-weight: bold;
       font-size: 5px;
+      letter-spacing: 2px;
     }
     #intro{
   font-size: 1px;
