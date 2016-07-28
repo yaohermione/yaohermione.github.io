@@ -7,25 +7,24 @@ var body = document.querySelector("body");
 var gray = document.getElementById("main-gray-layer");
 
 
-$(document).load($(window).bind("resize", checkSize));
+// $(document).load($(window).bind("resize", checkSize));
 
-//Function to the css rule
-function checkSize(){
-    console.log("checksize");
-    if ($(".girl_img").css("display") != "none" ){
-        console.log("display not none");
-        $( "#banner-img" ).attr("src","img/isabella-gray.jpg");
-    }
-    else{
-        $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
-    }
-}
+// function checkSize(){
+//     console.log("checksize");
+//     if ($(".girl_img").css("display") != "none" ){
+//         console.log("display not none");
+//         $( "#banner-img" ).attr("src","img/isabella-gray.jpg");
+//     }
+//     else{
+//         $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
+//     }
+// }
 
 $( document ).ready(function() {
    console.log("checksize");
     if ($(".girl_img").css("display") != "none" ){
         console.log("display not none");
-        $( "#banner-img" ).attr("src","img/isabella-gray.jpg");
+        $( "#banner-img" ).attr("src","test.jpg");
     }
     else{
         $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
