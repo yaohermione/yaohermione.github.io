@@ -463,6 +463,8 @@ h6{
 header{
   padding: 0px;
   border: 1px solid blue;
+  align-items:;
+  justify-content:;
 }
 .horizontal{
   display: inline;
