@@ -18,6 +18,7 @@ $( document ).ready(function() {
     }
     //var banner_img_h = $("#banner_img").height();
     $("#banner").height($("#banner_img").height());
+    console.log($("#banner_img").height());
 });
 
 
