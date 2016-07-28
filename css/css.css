@@ -500,7 +500,7 @@ h6{
     #banner-text{
       float: right;
       margin-right: 0px;
-      border: 0px solid red;
+      border: 3px solid red;
     }
     h3{
       color: #fefefe;
