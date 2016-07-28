@@ -8,55 +8,18 @@ var gray = document.getElementById("main-gray-layer");
 
 
 $(document).load($(window).bind("resize", checkSize));
-// function checkPosition() {
-//     if (window.matchMedia('(min-device-width: 1200px)').matches) {
-//         $( "#banner" ).height(banner_h_narrow);
-//     } else {
-//         $( "#banner" ).height(banner_h);  
-//     }
-// }
 
 //Function to the css rule
 function checkSize(){
     console.log("checksize");
-    if ($(".girl_img").css("display") == "none" ){
-        console.log("display none");
-        $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
-    }
-    else{
+    if ($(".girl_img").css("display") != "none" ){
+        console.log("display not none");
         $( "#banner-img" ).attr("src","img/isabella-gray.jpg");
     }
-}
-
-
-
-
-
-
-//Parallax 
-function simpleParallax() {
-    //This variable is storing the distance scrolled
-    var scrolled = $(window).scrollTop() + 1;
-
-    //Every element with the class "scroll" will have parallax background 
-    //Change the "0.3" for adjusting scroll speed.
-    $('#banner').css('background-position', '0' + -(scrolled * 0.66) + 'px');
-}
-//Everytime we scroll, it will fire the function
-$(window).scroll(function (e) {
-    if($(".girl_img").css("display") == "none" ){
-    //simpleParallax();
+    else{
+        $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
     }
-});
-
-
-
-
-
-
-
-//$("#img-gray-layer").height(banner_h);
-//$("#banner-textbox").height(banner_h);
+}
 
 
 
@@ -70,23 +33,7 @@ $("#menu_icon").click(function(e){
    
     gray.classList.toggle('left');
     document.getElementById("main-gray-layer").style.height='100%'; 
-   // $('body')[0].classList.toggle('overflowhidden');
-   // $('body').css('overflow', 'hidden'); 
-    
-   //$("body").toggleClass('overflowhidden');
-   
-    
-    // $('#main-gray-layer').css({
-    //     'display': 'block',
-    //     'margin-top': scrollpos + 'px'
-    // });
-   //$(window).scroll(fix_window(position));
-   //$(window).scroll(test(position));
 
-    //add event handler to window after click, from now on
-      // $(window).scroll(function () {
-      //      $(window).scrollTop(scrollHandler); // 恢复滚动条位置
-      //  });
     $(window).on('scroll',scrollHandler);
 
     e.stopPropagation();
@@ -96,14 +43,6 @@ var scrollHandler = function(){
     $(window).scrollTop(position);
     
 }
-// function fix_window(pos){
-//     $(window).scrollTop(pos); 
-//     console.log(pos);
-// }
-
-// function test(pos){
-//     alert(pos);
-// }
 
 
 $("#main-gray-layer").click(function(e){
