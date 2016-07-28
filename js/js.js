@@ -21,7 +21,16 @@ function checkSize(){
     }
 }
 
-
+$( document ).ready(function() {
+   console.log("checksize");
+    if ($(".girl_img").css("display") != "none" ){
+        console.log("display not none");
+        $( "#banner-img" ).attr("src","img/isabella-gray.jpg");
+    }
+    else{
+        $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
+    }
+});
 
 var position;
 $("#menu_icon").click(function(e){
