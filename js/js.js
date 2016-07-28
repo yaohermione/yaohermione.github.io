@@ -19,8 +19,7 @@ var gray = document.getElementById("main-gray-layer");
 //         $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
 //     }
 // }
-var banner_img_h = $("#banner_img").height();
-$("#banner").height(banner_img_h);
+
 
 $( document ).ready(function() {
    console.log("checksize");
@@ -32,6 +31,8 @@ $( document ).ready(function() {
         $( "#banner_img" ).attr("src","img/isabella-gray.jpg");
     }
 });
+var banner_img_h = $("#banner_img").height();
+$("#banner").height(banner_img_h);
 
 var position;
 $("#menu_icon").click(function(e){
