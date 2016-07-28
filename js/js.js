@@ -9,7 +9,7 @@ var gray = document.getElementById("main-gray-layer");
 
 $( document ).ready(function() {
 
-    if ($(".girl_img").css("display") == "none" ){
+    if ($("#menu_icon").css("display") == "none" ){
         
         $( "#banner_img" ).attr("src","img/isabella-gray-narrow.jpg");
     }
