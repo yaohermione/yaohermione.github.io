@@ -516,12 +516,16 @@ header{
   letter-spacing: 1px;
   margin-right: 5px;
   height: 0vh;
+  text-align: center;
 }
 
 .horizontal:hover{
   cursor: pointer;
   color: #ececec;
   background-color: rgba(0,0,0,0);
+}
+.fixed{
+  color: #9a9a9a;
 }
 ul{
   list-style-type: none;
