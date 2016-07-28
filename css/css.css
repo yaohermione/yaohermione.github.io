@@ -93,7 +93,7 @@ header{
 
   transition: transform 0.5s ease;
 
-  border: 1px solid red;
+  border: 0px solid red;
 
   
 
@@ -458,13 +458,19 @@ h6{
 .h-menu{
   float: right;
   margin-right: 5px;
-  border: 1px solid blue;
+  border: 0px solid blue;
 }
 .horizontal{
   display: inline;
   color:#fefefe;
   padding: 4px;
   font-size: 4px;
+  letter-spacing: 1px;
+}
+
+.horizontal:hover{
+  cursor: pointer;
+  color: #ececec;
 }
 ul{
   list-style-type: none;
