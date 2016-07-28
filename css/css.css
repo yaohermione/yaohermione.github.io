@@ -343,7 +343,7 @@ transform: translate(-67vw,0);
 #banner{
  position: relative;
  padding: 0px;
-    border: 0px solid red;
+    border: 1px solid red;
 }
 
 
@@ -360,7 +360,7 @@ height: 100%;
 max-width: 100%;
 height: auto;
 top: 0%;
-border: 0px solid red;
+border: 1px solid blue;
 }
 #banner-text{
   margin: auto;
