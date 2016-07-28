@@ -500,7 +500,7 @@ h6{
 .h-menu{
   float: right;
   margin-right: 5px;
-  border: 0px solid blue;
+  border: 1px solid blue;
 }
 header{
   padding: 0px;
@@ -517,6 +517,7 @@ header{
   margin-right: 5px;
   height: 0vh;
   text-align: center;
+  border: 1px solid red;
 }
 
 .horizontal:hover{
@@ -533,7 +534,7 @@ ul{
 border: 0px solid red;
 display: flex;
   flex-wrap: wrap;
- border: 0px solid red;
+ border: 1px solid red;
 }
 
 h4{
