@@ -19,6 +19,7 @@ $(document).load($(window).bind("resize", checkSize));
 //Function to the css rule
 function checkSize(){
     if ($(".girl_img").css("display") == "none" ){
+        console.log("display none");
         $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
     }
     else{
