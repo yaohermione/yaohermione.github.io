@@ -11,7 +11,7 @@ var gray = document.getElementById("main-gray-layer");
 
 
 var banner_h = $( "#banner_img" ).height();
-//console.log("this is banner_h: "+banner_h);
+console.log("this is banner_h: "+banner_h);
 
 var banner_h_narrow = $( "#banner_img-narrow" ).height();
 console.log("this is banner_h_narrow: "+banner_h_narrow);
@@ -23,7 +23,7 @@ console.log("this is banner_h_narrow in >1000: "+banner_h_narrow);
 }
 else{
   $( "#banner" ).height(banner_h);  
-  //console.log("this is banner_h in else: "+banner_h);
+  console.log("this is banner_h in else: "+banner_h);
 }
 
 //Parallax 
