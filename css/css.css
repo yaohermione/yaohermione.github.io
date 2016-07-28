@@ -452,7 +452,7 @@ h6{
   display: none;
 }
 #banner-text{
-  margin-right: 5px;
+  margin-right:30px;
   float: right;
 }
 .h-menu{
@@ -472,7 +472,7 @@ header{
   padding: 4px;
   font-size: 4px;
   letter-spacing: 1px;
-  margin-right: 30px;
+  margin-right: 5px;
   height: 0vh;
 }
 
