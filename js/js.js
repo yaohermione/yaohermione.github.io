@@ -17,7 +17,7 @@ $( document ).ready(function() {
         $( "#banner_img" ).attr("src","img/isabella-gray.jpg");
     }
     //var banner_img_h = $("#banner_img").height();
-    //$("#banner").height(banner_img_h);
+    $("#banner").height($("#banner_img").height());
 });
 
 
