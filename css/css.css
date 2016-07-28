@@ -415,9 +415,10 @@ h6{
 text-align: center;
   top:0px;
   left: 0px;
-  border: 1px solid blue;
-width: 100%;
+  border: 0px solid blue;
+width: 60%;
 height: 100%;
+margin: auto;
   
 }
 #camera{
@@ -450,7 +451,12 @@ h6{
   display: inline-block;
   width: 30px;
 }
-
+#latest{
+  margin-top: 30px;
+}
+p{
+  font-size: 10px;
+}
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
