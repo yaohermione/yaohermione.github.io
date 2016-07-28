@@ -37,9 +37,9 @@ $(document).load($(window).bind("resize", checkSize));
 
 //Function to the css rule
 function checkSize(){
-    console.log($("#intro").css("font-size"));
+    
 
-    if ($("#girl_img").css("display") == "none" ){
+    if ($(".girl_img").css("display") == "none" ){
         console.log("display==none");
         $( "#banner" ).height(banner_h_narrow);
     }
