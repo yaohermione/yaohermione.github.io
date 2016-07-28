@@ -11,14 +11,13 @@ $( document ).ready(function() {
 
     if ($(".girl_img").css("display") == "none" ){
         
-        $( "#banner_img" ).attr("src","img/isabella-gray.jpg");
+        $( "#banner_img" ).attr("src","img/isabella-gray-narrow.jpg");
     }
     else{
         $( "#banner_img" ).attr("src","img/isabella-gray.jpg");
     }
-    //var banner_img_h = $("#banner_img").height();
     $("#banner").height($("#banner_img").height());
-    console.log($("#banner_img").height());
+
 });
 
 
