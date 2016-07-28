@@ -342,28 +342,10 @@ transform: translate(-67vw,0);
 
 #banner{
  position: relative;
-
+ padding: 0px;
     border: 1px solid red;
 }
 
-
-#img-gray-layer{
-  position: absolute;
-  top:0px;
-  left: 0px;
-  
-  width: 100%;
-   background-image: 
-  linear-gradient(
-    rgba(0,0,0,0.35),
-    rgba(0,0,0,0.35)
-    );
-  
- opacity: 0;
-
-
-
-}
 
 #banner-textbox{
   position: absolute;
@@ -376,6 +358,7 @@ height: 100%;
 }
 #banner_img{
 max-width: 100%;
+height: auto;
 top: 0%;
 border: 0px solid red;
 }
@@ -444,7 +427,7 @@ h6{
     h3{
       color: #fefefe;
       margin: ;
-      font-size: 10px;
+      font-size: 8px;
       letter-spacing: 1px;
     }
     h6{
