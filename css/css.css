@@ -460,17 +460,22 @@ h6{
   margin-right: 5px;
   border: 0px solid blue;
 }
+header{
+  padding: 0px;
+}
 .horizontal{
   display: inline;
   color:#fefefe;
   padding: 4px;
   font-size: 4px;
   letter-spacing: 1px;
+  margin-right: 5px;
 }
 
 .horizontal:hover{
   cursor: pointer;
   color: #ececec;
+  background-color: rgba(0,0,0,0);
 }
 ul{
   list-style-type: none;
