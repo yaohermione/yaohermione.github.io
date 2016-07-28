@@ -342,9 +342,7 @@ transform: translate(-67vw,0);
 
 #banner{
  position: relative;
- background:url("../img/isabella-gray.jpg") fixed no-repeat;
-    background-size: contain;
-    background-size: 100% auto;
+
     border: 0px solid red;
 }
 
@@ -374,13 +372,15 @@ transform: translate(-67vw,0);
   border: 0px solid red;
 width: 100%;
 height: 100%;
-
   display: flex;
 }
-
+#banner_img{
+max-width: 100%;
+top: 0%;
+border: 0px solid red;
+}
 #banner-text{
   margin: auto;
-
 }
 h3{
   color: #fefefe;
@@ -392,16 +392,8 @@ h6{
   font-weight: bold;
 }
 
-#banner_img{
-visibility: hidden;
-max-width: 100%;
-top: 0%;
-}
-#banner_img-narrow{
-visibility: hidden;
-max-width: 100%;
-top: 0%;
-}
+
+
 
 #intro{
   /*text-align: center;
@@ -421,55 +413,14 @@ top: 0%;
   border: 0px solid red;
   transition: transform .5s ease;
 }
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
-#banner{
- position: relative;
- background:url("../img/isabella-gray.jpg") fixed no-repeat;
-    background-size: contain;
-    width: 100%;
-    
-    border: 0px solid red;
-}
 
-
-#img-gray-layer{
-  position: absolute;
-  top:0px;
-  left: 0px;
-  
-  width: 100%;
-   background-image: 
-  linear-gradient(
-    rgba(0,0,0,0.35),
-    rgba(0,0,0,0.35)
-    );
-  
- opacity: 0;
-
-
-
-}
-
-#banner-textbox{
-  position: absolute;
-  top:0px;
-  left: 0px;
-  border: 0px solid red;
-width: 100%;
-height: 100%;
-
-  display: flex;
-}
-
-#banner-text{
-  margin: auto;
-
-}
 h3{
   color: #fefefe;
   margin: ;
@@ -480,16 +431,8 @@ h6{
   font-weight: bold;
 }
 
-#banner_img{
-visibility: hidden;
-max-width: 100%;
-top: 0%;
-}
-#banner_img-narrow{
-visibility: hidden;
-max-width: 100%;
-top: 0%;
-}
+
+
 }
 @media screen 
   and (min-device-width: 1200px) 
@@ -498,19 +441,6 @@ top: 0%;
   and (min-resolution: 192dpi) { 
 
 
-     #banner{
-        position: relative;
-        background:url("../img/isabella-gray-narrow.jpg") fixed no-repeat;
-        background-size: contain;
-        background-size: 100% auto;
-        width: 100%;
-        border: 1px solid red;
-    }
-    #banner-text{
-      float: right;
-      margin-right: 0px;
-      border: 0px solid red;
-    }
     h3{
       color: #fefefe;
       margin: ;
@@ -531,14 +461,6 @@ top: 0%;
 #menu_icon{
   display: none;
 }
-#banner_img{
-visibility: hidden;
-max-width: 100%;
-top: 0%;
-}
-#banner_img-narrow{
-visibility: hidden;
-max-width: 100%;
-top: 0%;
-}
+
+
 }

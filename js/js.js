@@ -7,26 +7,7 @@ var body = document.querySelector("body");
 var gray = document.getElementById("main-gray-layer");
 
 
-//var banner = document.getElementById("banner");
-
-
-var banner_h = $( "#banner_img" ).height();
-console.log("this is banner_h: "+banner_h);
-
-var banner_h_narrow = $( "#banner_img-narrow" ).height();
-console.log("this is banner_h_narrow: "+banner_h_narrow);
-
-// if($(window).width()>"300"){
-//     console.log("this is window width in >300: "+$(window).width());
-//     $( "#banner" ).height(banner_h_narrow);
-// console.log("this is banner_h_narrow in >300: "+banner_h_narrow);
-// }
-// else{
-//     console.log("this is window width in else: "+$(window).width());
-//   $( "#banner" ).height(banner_h);  
-//   console.log("this is banner_h in else: "+banner_h);
-// }
-//$(document).load($(window).bind("resize", checkSize));
+$(document).load($(window).bind("resize", checkSize));
 // function checkPosition() {
 //     if (window.matchMedia('(min-device-width: 1200px)').matches) {
 //         $( "#banner" ).height(banner_h_narrow);
@@ -36,14 +17,14 @@ console.log("this is banner_h_narrow: "+banner_h_narrow);
 // }
 
 //Function to the css rule
-// function checkSize(){
-//     if ($(".girl_img").css("display") == "none" ){
-//         $( "#banner" ).height(banner_h_narrow);
-//     }
-//     else{
-//         $( "#banner" ).height(banner_h);
-//     }
-// }
+function checkSize(){
+    if ($(".girl_img").css("display") == "none" ){
+        $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
+    }
+    else{
+        $( "#banner-img" ).attr("src","img/isabella-gray.jpg");
+    }
+}
 console.log("banner height: "+$( "#banner" ).height());
 
 
@@ -73,7 +54,7 @@ $(window).scroll(function (e) {
 
 
 
-$("#img-gray-layer").height(banner_h);
+//$("#img-gray-layer").height(banner_h);
 //$("#banner-textbox").height(banner_h);
 
 
