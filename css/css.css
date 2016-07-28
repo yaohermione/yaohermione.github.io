@@ -420,7 +420,7 @@ top: 0%;
   transition: transform .5s ease;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:300px){
  #banner{
  position: relative;
  background:url("../img/isabella-gray-narrow.jpg") fixed no-repeat;
