@@ -30,9 +30,10 @@ $( document ).ready(function() {
     else{
         $( "#banner_img" ).attr("src","img/isabella-gray.jpg");
     }
+    var banner_img_h = $("#banner_img").height();
+    $("#banner").height(banner_img_h);
 });
-var banner_img_h = $("#banner_img").height();
-$("#banner").height(banner_img_h);
+
 
 var position;
 $("#menu_icon").click(function(e){
