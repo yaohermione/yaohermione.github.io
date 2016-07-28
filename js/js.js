@@ -26,14 +26,30 @@ console.log("this is banner_h_narrow: "+banner_h_narrow);
 //   $( "#banner" ).height(banner_h);  
 //   console.log("this is banner_h in else: "+banner_h);
 // }
-$(document).load($(window).bind("resize", checkPosition));
-function checkPosition() {
-    if (window.matchMedia('(min-device-width: 1200px)').matches) {
+$(document).load($(window).bind("resize", checkSize));
+// function checkPosition() {
+//     if (window.matchMedia('(min-device-width: 1200px)').matches) {
+//         $( "#banner" ).height(banner_h_narrow);
+//     } else {
+//         $( "#banner" ).height(banner_h);  
+//     }
+// }
+
+//Function to the css rule
+function checkSize(){
+    if ($("#intro").css("font-size") == "1px" ){
         $( "#banner" ).height(banner_h_narrow);
-    } else {
-        $( "#banner" ).height(banner_h);  
+    }
+    else{
+        $( "#banner" ).height(banner_h);
     }
 }
+
+
+
+
+
+
 //Parallax 
 function simpleParallax() {
     //This variable is storing the distance scrolled
