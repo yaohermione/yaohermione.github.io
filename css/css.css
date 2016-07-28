@@ -344,6 +344,7 @@ transform: translate(-67vw,0);
  position: relative;
  padding: 0px;
     border: 1px solid red;
+    display: inline-block;
 }
 
 
