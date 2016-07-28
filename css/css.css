@@ -41,6 +41,8 @@ ul{
 	background-color: #ececec;
   background-color: #f6f6f6;
 border: 0px solid red;
+display: flex;
+  flex-wrap: wrap;
 
 }
 li{
@@ -91,7 +93,7 @@ header{
 
   transition: transform 0.5s ease;
 
-  
+  border: 1px solid red;
 
   
 
@@ -415,7 +417,9 @@ h6{
   font-weight: bold;
 }
 
-
+.h-menu{
+  display: none;
+}
 
 }
 @media screen 
@@ -451,5 +455,35 @@ h6{
   margin-right: 0px;
   float: right;
 }
+.h-menu{
+  float: right;
+}
+.horizontal{
+  display: inline;
+  color:#fefefe;
+  padding: 3px;
+}
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(0,0,0,0);
+border: 0px solid red;
+display: flex;
+  flex-wrap: wrap;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
 
 }
