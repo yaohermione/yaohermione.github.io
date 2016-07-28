@@ -409,16 +409,19 @@ h6{
   align-items: center;
   justify-content: space-around;
 
-  border: 1px solid red;
+  border: 0px solid red;
 }
 #latest-textbox{
-
+text-align: center;
   top:0px;
   left: 0px;
   border: 1px solid blue;
 width: 100%;
 height: 100%;
   display: flex;
+}
+#camera{
+  margin: auto;
 }
 @media only screen 
   and (min-device-width: 320px) 
