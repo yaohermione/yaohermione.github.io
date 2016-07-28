@@ -462,6 +462,7 @@ h6{
 }
 header{
   padding: 0px;
+  border: 1px solid blue;
 }
 .horizontal{
   display: inline;
@@ -486,7 +487,7 @@ ul{
 border: 0px solid red;
 display: flex;
   flex-wrap: wrap;
-
+ border: 1px solid red;
 }
 
 }
