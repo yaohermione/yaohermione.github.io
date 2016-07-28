@@ -136,7 +136,7 @@ function hasScrolled() {
 //st + $(window).height() < $(document).height()
 
     } else if(st < lastScrollTop && st > banner_height) {
-            $("header").addClass('fixed').removeClass('header-up');
+            $("header").addClass('fixed').removeClass('header-up').addClass("dark-banner-text");
            
         
     }else if(st < banner_height) {
