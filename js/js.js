@@ -61,7 +61,7 @@ function simpleParallax() {
 }
 //Everytime we scroll, it will fire the function
 $(window).scroll(function (e) {
-    if($(window).width()>"1000"){
+    if($(".girl_img").css("display") == "none" ){
     simpleParallax();
     }
 });
