@@ -493,7 +493,7 @@ h6{
      #banner{
         position: relative;
         background:url("../img/isabella-gray-narrow.jpg") fixed no-repeat;
-        background-size: cover;
+        background-size: contain;
         width: 100%;
         border: 0px solid red;
     }
