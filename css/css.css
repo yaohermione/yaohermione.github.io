@@ -524,9 +524,7 @@ header{
   color: #ececec;
   background-color: rgba(0,0,0,0);
 }
-.fixed{
-  color: #9a9a9a;
-}
+
 ul{
   list-style-type: none;
   padding: 0px;
@@ -541,7 +539,9 @@ display: flex;
 h4{
   letter-spacing: 
 }
-
+.dark-banner-text{
+  color:#9a9a9a;
+}
 
 #camera{
   
