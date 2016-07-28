@@ -516,4 +516,10 @@ h6{
     #intro{
   font-size: 1px;
 }
+.girl_img{
+  display: none;
+}
+#menu_icon{
+  display: none;
+}
 }
