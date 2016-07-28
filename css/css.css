@@ -457,12 +457,13 @@ h6{
 }
 .h-menu{
   float: right;
+  margin-right: 5px;
   border: 1px solid blue;
 }
 .horizontal{
   display: inline;
   color:#fefefe;
-  padding: 3px;
+  padding: 4px;
   font-size: 4px;
 }
 ul{
