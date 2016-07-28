@@ -461,7 +461,8 @@ h6{
 .horizontal{
   display: inline;
   color:#fefefe;
-  padding: 3px;
+  padding: 2px;
+  font-size: 4px;
 }
 ul{
   list-style-type: none;
