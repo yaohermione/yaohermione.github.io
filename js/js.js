@@ -21,14 +21,15 @@ var gray = document.getElementById("main-gray-layer");
 // }
 var banner_img_h = $("#banner_img").height();
 $("#banner").height(banner_img_h);
+
 $( document ).ready(function() {
    console.log("checksize");
-    if ($(".girl_img").css("display") != "none" ){
-        console.log("display not none");
-        $( "#banner-img" ).attr("src","test.jpg");
+    if ($(".girl_img").css("display") == "none" ){
+        console.log("display none");
+        $( "#banner_img" ).attr("src","img/isabella-gray-narrow.jpg");
     }
     else{
-        $( "#banner-img" ).attr("src","img/isabella-gray-narrow.jpg");
+        $( "#banner_img" ).attr("src","img/isabella-gray.jpg");
     }
 });
 
