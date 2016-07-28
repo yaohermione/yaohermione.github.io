@@ -14,12 +14,12 @@ var banner_h = $( "#banner_img" ).height();
 //console.log("this is banner_h: "+banner_h);
 
 var banner_h_narrow = $( "#banner_img-narrow" ).height();
-//console.log("this is banner_h_narrow: "+banner_h_narrow);
+console.log("this is banner_h_narrow: "+banner_h_narrow);
 
 if($(window).width()>"1000"){
     //console.log("window width: "+$(window).width());
     $( "#banner" ).height(banner_h_narrow);
-//console.log("this is banner_h_narrow in >1000: "+banner_h_narrow);
+console.log("this is banner_h_narrow in >1000: "+banner_h_narrow);
 }
 else{
   $( "#banner" ).height(banner_h);  
