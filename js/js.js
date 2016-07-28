@@ -37,14 +37,11 @@ $(document).load($(window).bind("resize", checkSize));
 
 //Function to the css rule
 function checkSize(){
-    
-
     if ($(".girl_img").css("display") == "none" ){
-        console.log("display==none");
-        $( "#banner" ).height(banner_h_narrow);
+        //$( "#banner" ).height(banner_h_narrow);
     }
     else{
-        $( "#banner" ).height(banner_h);
+        //$( "#banner" ).height(banner_h);
     }
 }
 
