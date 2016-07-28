@@ -38,6 +38,7 @@ $(document).load($(window).bind("resize", checkSize));
 //Function to the css rule
 function checkSize(){
     if ($("#intro").css("font-size") == "1px" ){
+        console.log("font size=1");
         $( "#banner" ).height(banner_h_narrow);
     }
     else{
