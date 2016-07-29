@@ -368,11 +368,7 @@ border: 0px solid blue;
   margin: auto;
 }
 
-h6{
-  text-align: center;
-  color: #ececec;
-  font-weight: bold;
-}
+
 
 
 
@@ -423,9 +419,10 @@ margin: auto;
 h4{
   font-size: 1em;
   letter-spacing: 1px;
+  font-weight: ;
 }
 p{
-  font-size: 16px;
+  font-size: 1em;
   color:gray;
   text-align: left;
 }
@@ -437,7 +434,7 @@ h3{
 h6{
   text-align: center;
   color: #ececec;
-  font-weight: bold;
+  font-size: 1em;
 }
 
 .h-menu{
@@ -452,6 +449,9 @@ h6{
 }
 #latest{
   margin-top: 30px;
+}
+.normal{
+  font-weight: 400;
 }
 
 @media screen 
