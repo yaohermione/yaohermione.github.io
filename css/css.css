@@ -506,7 +506,11 @@ header{
   border: 0px solid blue;
   align-items:;
   justify-content:;
+  
+}
+.fixed{
   border-bottom: 0px solid #cccccc;
+
 }
 .horizontal{
   display: inline;
