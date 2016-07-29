@@ -561,6 +561,7 @@ h4{
   width: 100%;
   margin-top:.5em;
   border: 1px solid blue;
+  height: .5vh;
 }
 #latest-textbox{
   display: flex;
