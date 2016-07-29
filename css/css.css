@@ -559,7 +559,7 @@ h4{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-top:.5em;
+  margin-top:.1em;
   border: 0px solid blue;
   height: 50vh;
 }
@@ -587,6 +587,8 @@ height: 100%;
   margin: auto;
 }
 h4{
+  display: flex;
+  flex-wrap: wrap;
   font-size: .35em;
   letter-spacing: .1em;
   font-weight: ;
@@ -596,6 +598,8 @@ margin: auto;
 height: 50%;
 }
 p{
+  display: flex;
+  flex-wrap: wrap;
   font-size: .3em;
   color:#666666;
   text-align: left;
