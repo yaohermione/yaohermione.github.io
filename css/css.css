@@ -598,13 +598,14 @@ text-align: left;
 margin: auto;
 height: 50%;
 bottom: 0;
+color:#666666;
 }
 .latest-intro{
 
   display: flex;
   flex-wrap: wrap;
-  font-size: .3em;
-  color:#666666;
+  font-size: .25em;
+  color:#9a9a9a;
   text-align: left;
 border: 0px solid green;
 text-align: left;
