@@ -155,7 +155,7 @@ transform: translate(-67vw,0);
 	border: 0px solid red;
 }
 .girl_img{
-	width: 30px;
+	width: 2em;
 	height: auto;
 	opacity: .6;
 }
@@ -435,7 +435,12 @@ h6{
   text-align: center;
   color: #ececec;
   font-size: 1em;
+  font-weight: 100;
 }
+.light{
+  font-weight: 100;
+}
+
 
 .h-menu{
   display: none;
@@ -450,9 +455,7 @@ h6{
 #latest{
   margin-top: 30px;
 }
-.normal{
-  font-weight: 100;
-}
+
 
 @media screen 
   and (min-device-width: 1200px) 
@@ -465,20 +468,20 @@ h6{
       color: #fefefe;
       margin: ;
       font-size: .5em;
-      letter-spacing: 1px;
+      letter-spacing: .1em;
     }
     h6{
       text-align: center;
       color: #ececec;
-      font-weight: bold;
+      
       font-size: .35em;
-      letter-spacing: 2px;
+      letter-spacing: .1em;
     }
     #intro{
   font-size: 1px;
 }
 .girl_img{
-  width: 13px;
+  width: 1em;
 }
 #menu_icon{
   display: none;
