@@ -142,7 +142,7 @@ function hasScrolled() {
     }else if(st < banner_height) {
            
 $("header").removeClass('fixed').removeClass('header-up');
-
+$(".horizontal").removeClass("dark-banner-text");
          //$("header").css({ position: 'static', top: '0px' });
     }
 
