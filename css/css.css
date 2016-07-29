@@ -453,10 +453,11 @@ h4{
 border: 1px solid yellow;
 text-align: center;
 margin: auto;
+color:#666666;
 }
 .latest-intro{
   font-size: 1em;
-  color:#666666;
+  color:#9a9a9a;
   text-align: left;
 border: 1px solid green;
 text-align: center;
