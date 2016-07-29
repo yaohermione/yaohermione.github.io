@@ -524,7 +524,7 @@ header{
 
 .horizontal:hover{
   cursor: pointer;
-  color: #ececec;
+  color: #cccccc;
   background-color: rgba(0,0,0,0);
 }
 
