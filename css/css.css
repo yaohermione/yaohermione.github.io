@@ -514,8 +514,8 @@ header{
   display: inline;
   color:#fefefe;
   padding: 4px;
-  font-size: 4px;
-  letter-spacing: 1px;
+  font-size: .26em;
+  letter-spacing: .1em;
   margin-right: 5px;
   height: 0vh;
   text-align: center;
@@ -529,7 +529,7 @@ header{
   cursor: pointer;
   color: #e0e0e0;
   background-color: rgba(0,0,0,0);
-  font-size: .35em;
+  
 }
 
 ul{
