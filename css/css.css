@@ -441,17 +441,13 @@ h6{
   font-weight: 100;
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
 
 
   .h-menu{
     display: none;
   }
 
-}
+
 
 #camera{
   display: inline-block;
@@ -499,6 +495,9 @@ h6{
   float: right;
   margin-right: 5px;
   border: 0px solid blue;
+
+  display: ;
+  
 }
 header{
   padding: 0px;
@@ -530,6 +529,7 @@ header{
   cursor: pointer;
   color: #e0e0e0;
   background-color: rgba(0,0,0,0);
+  font-size: .35em;
 }
 
 ul{
