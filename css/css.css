@@ -452,6 +452,7 @@ h4{
   font-weight: ;
 border: 1px solid yellow;
 text-align: center;
+margin: auto;
 }
 p{
   font-size: 1em;
@@ -459,6 +460,7 @@ p{
   text-align: left;
 border: 1px solid green;
 text-align: center;
+margin: auto;
 }
 
 @media screen 
