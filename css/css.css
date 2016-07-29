@@ -454,7 +454,7 @@ border: 1px solid yellow;
 text-align: center;
 margin: auto;
 }
-p{
+.latest-intro{
   font-size: 1em;
   color:#666666;
   text-align: left;
@@ -583,7 +583,7 @@ width: 50%;
 height: 100%;
 }
 #camera{
-  width: .5em;
+  width: .1em;
   margin: auto;
 }
 h4{
@@ -598,7 +598,8 @@ margin: auto;
 height: 50%;
 bottom: 0;
 }
-p{
+.latest-intro{
+
   display: flex;
   flex-wrap: wrap;
   font-size: .3em;
