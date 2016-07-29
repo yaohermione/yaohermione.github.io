@@ -560,16 +560,15 @@ h4{
   flex-wrap: wrap;
   width: 100%;
   margin-top:.5em;
-  border: 1px solid blue;
+  border: 0px solid blue;
   height: 50vh;
 }
 #latest-textbox{
-  display: flex;
-  flex-wrap: wrap;
-text-align: center;
+  display: block;
+ 
 top:0px;
 left: 0px;
-border: 1px solid red;
+border: 0px solid red;
 width: 50%;
 height: 100%;
 }
@@ -579,7 +578,7 @@ height: 100%;
   text-align: center;
 top:0px;
 left: 0px;
-border: 1px solid black;
+border: 0px solid black;
 width: 50%;
 height: 100%;
 }
@@ -591,17 +590,19 @@ h4{
   font-size: .35em;
   letter-spacing: .1em;
   font-weight: ;
-border: 1px solid yellow;
-text-align: center;
+border: 0px solid yellow;
+text-align: left;
 margin: auto;
+height: 50%;
 }
 p{
   font-size: .3em;
   color:#666666;
   text-align: left;
-border: 1px solid green;
-text-align: center;
+border: 0px solid green;
+text-align: left;
 margin: auto;
+height: 50%;
 }
 
 
