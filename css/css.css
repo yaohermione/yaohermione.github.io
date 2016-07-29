@@ -589,7 +589,6 @@ height: 100%;
 h4{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   font-size: .35em;
   letter-spacing: .1em;
   font-weight: ;
@@ -597,11 +596,11 @@ border: 0px solid yellow;
 text-align: left;
 margin: auto;
 height: 50%;
+bottom: 0;
 }
 p{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   font-size: .3em;
   color:#666666;
   text-align: left;
