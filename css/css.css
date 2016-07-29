@@ -367,10 +367,7 @@ border: 0px solid blue;
 #banner-text{
   margin: auto;
 }
-h3{
-  color: #fefefe;
-  margin: ;
-}
+
 h6{
   text-align: center;
   color: #ececec;
@@ -432,12 +429,6 @@ p{
   color:gray;
   text-align: left;
 }
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
 
 h3{
   color: #fefefe;
@@ -453,7 +444,7 @@ h6{
   display: none;
 }
 
-}
+
 
 #camera{
   display: inline-block;
