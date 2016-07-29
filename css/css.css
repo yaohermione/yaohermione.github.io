@@ -561,7 +561,7 @@ h4{
   width: 100%;
   margin-top:.5em;
   border: 1px solid blue;
-  height: 70vh;
+  height: 30vh;
 }
 #latest-textbox{
   display: flex;
@@ -588,6 +588,7 @@ height: 100%;
   margin: auto;
 }
 h4{
+  width: 100%;
   font-size: .35em;
   letter-spacing: .1em;
   font-weight: ;
@@ -596,6 +597,7 @@ text-align: center;
 margin: auto;
 }
 p{
+  width: 100%;
   font-size: .3em;
   color:#666666;
   text-align: left;
