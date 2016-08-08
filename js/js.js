@@ -141,7 +141,7 @@ function hasScrolled() {
         
     }else if(st < banner_height) {
         console.log("this is st: "+st);
-        console.log("this is banner_height: "+st);
+        console.log("this is banner_height: "+banner_height);
            
 $("header").removeClass('fixed').removeClass('header-up');
 $(".horizontal").removeClass("dark-banner-text");
