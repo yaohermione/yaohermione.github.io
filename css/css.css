@@ -557,6 +557,7 @@ h4{
   color:#9a9a9a;
 }
 #below-banner{
+    background-color: #f6f6f6;
    position: relative;
   z-index: 10;
 }
@@ -569,7 +570,7 @@ h4{
   border: 0px solid blue;
   height: 25vh;
   
-  background-color: #f6f6f6;
+
 }
 #latest-textbox{
   display: block;
