@@ -557,10 +557,11 @@ h4{
   color:#9a9a9a;
 }
 #below-banner{
+   position: relative;
   z-index: 10;
 }
 #latest{
-  position: relative;
+ 
   display: flex;
   flex-wrap: wrap;
   width: 100%;
