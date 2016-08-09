@@ -556,16 +556,18 @@ h4{
 .dark-banner-text{
   color:#9a9a9a;
 }
-
+#below-banner{
+  z-index: 10;
+}
 #latest{
   position: relative;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   margin-top:.1em;
-  border: 1px solid blue;
+  border: 0px solid blue;
   height: 25vh;
-  z-index: 10;
+  
   background-color: #f6f6f6;
 }
 #latest-textbox{
