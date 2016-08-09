@@ -140,8 +140,8 @@ function hasScrolled() {
           $(".horizontal").addClass("dark-banner-text");
         
     }else if(st < banner_height) {
-        console.log("this is st: "+st);
-        console.log("this is banner_height: "+banner_height);
+        //console.log("this is st: "+st);
+        //console.log("this is banner_height: "+banner_height);
            
 $("header").removeClass('fixed').removeClass('header-up');
 $(".horizontal").removeClass("dark-banner-text");
@@ -151,9 +151,29 @@ $(".horizontal").removeClass("dark-banner-text");
     
     lastScrollTop = st;
 }
+//parellel scroll
+var bannerimg = document.getElementById('banner_img');
 
+addEvent(window,'scroll',parallel_scroll);
+parallel_scroll();
 
+function parallel_scroll(){
+    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    bannerimg.style.top = scrollTop*.3+'px';
+}
 
+function addEvent(eventTarget, eventType, eventHandler) {
+        if (eventTarget.addEventListener) {
+            eventTarget.addEventListener(eventType, eventHandler, false);
+        } else {
+            if (eventTarget.attachEvent) {
+                eventType = "on" + eventType;
+                eventTarget.attachEvent(eventType, eventHandler);
+            } else {
+                eventTarget["on" + eventType] = eventHandler;
+            }
+        }
+    }
 
 
 
