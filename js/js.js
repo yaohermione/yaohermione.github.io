@@ -154,8 +154,13 @@ $(".horizontal").removeClass("dark-banner-text");
 //parellel scroll
 var banner = document.getElementById('banner');
 
+if ($("#menu_icon").css("display") != "none" ){
 addEvent(window,'scroll',parallel_scroll);
 parallel_scroll();
+}
+else{
+
+};
 
 function parallel_scroll(){
     var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
