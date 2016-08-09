@@ -152,14 +152,14 @@ $(".horizontal").removeClass("dark-banner-text");
     lastScrollTop = st;
 }
 //parellel scroll
-var bannerimg = document.getElementById('banner_img');
+var banner = document.getElementById('banner');
 
 addEvent(window,'scroll',parallel_scroll);
 parallel_scroll();
 
 function parallel_scroll(){
     var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    bannerimg.style.top = scrollTop*.3+'px';
+    banner.style.top = scrollTop*.3+'px';
 }
 
 function addEvent(eventTarget, eventType, eventHandler) {
