@@ -563,15 +563,15 @@ h4{
   flex-wrap: wrap;
   width: 100%;
   margin-top:.1em;
-  border: 0px solid blue;
+  border:0px solid blue;
   height: 25vh;
   z-index: 10;
   background-color: #f6f6f6;
 }
 #latest-textbox{
   display: block;
- 
-top:0px;
+ position: relative;
+top:20px;
 left: 0px;
 border: 0px solid red;
 width: 50%;
