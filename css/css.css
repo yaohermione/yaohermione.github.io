@@ -640,6 +640,9 @@ height: 50%;
   padding: 0;
   height: 100%;
 }
+.frame ul {
+  flex-wrap: nowrap;
+}
 
 .frame ul li {
   float: left;
