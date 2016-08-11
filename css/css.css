@@ -63,16 +63,16 @@ border: 0px solid red;
 }
 .row{
 
-	width: 100%;
+	width: 100vw;
 }
 .col-6{
-	width: 50%;
+	width: 50vw;
 }
 .col-3{
-	width: 33.33%;
+	width: 33.33vw;
 }
 .col-12{
-  width: 100%;
+  width: 100vw;
 }
 
 header{
