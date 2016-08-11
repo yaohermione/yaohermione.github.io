@@ -31,7 +31,7 @@ body {
   height: 100%;
   font-size: 50px;
   flex-wrap: nowrap;
-  display: default;
+  display: inline;
 }
 
 .frame ul li {
