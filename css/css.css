@@ -20,6 +20,7 @@ html, body, main{
 
 body{
   position: relative;
+  overflow-x: hidden;
 
 }
 .overflowhidden{
@@ -92,7 +93,7 @@ header{
 
   transition: transform 0.5s ease;
 
-  border: 0px solid red;
+  border: 1px solid red;
 
   
 
@@ -152,12 +153,13 @@ transform: translate(-67vw,0);
   
 	*/
   
-	border: 0px solid red;
+	border: 1px solid yellow;
 }
 .girl_img{
 	width: 2em;
 	height: auto;
 	opacity: .6;
+  border: 1px solid red;
 }
 .col-btn{
 	/*
@@ -165,7 +167,7 @@ transform: translate(-67vw,0);
 	padding-bottom: 3vw;
   
 	*/
-  border: 0px solid red;
+  border: 1px solid blue;
 }
  .btn {
 
