@@ -30,7 +30,6 @@ body {
   padding: 0;
   height: 100%;
   font-size: 50px;
-  flex-wrap: nowrap;
   
 }
 
@@ -44,8 +43,8 @@ body {
   color: black;
   text-align: center;
   cursor: pointer;
-  flex-wrap: nowrap;
-  display: default;
+  
+  
 }
 
 .frame ul li.active {

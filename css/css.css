@@ -34,7 +34,7 @@ main{
 
 }
 */
-ul{
+#drawer ul{
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
@@ -44,7 +44,7 @@ border: 0px solid red;
 
 
 }
-li{
+#drawer ul li{
 	color: #666666;
 	font-size: 1.06em;
 	margin:0px;
@@ -57,7 +57,7 @@ li{
   flex-wrap: wrap;
   align-items: center;
 }
-li:hover{
+#drawer ul li:hover{
 	cursor: pointer;
 	background-color: #fefefe;
 }
@@ -539,13 +539,13 @@ header{
   
 }
 
-ul{
+header ul{
   list-style-type: none;
   padding: 0px;
   margin: 0px;
   background-color: rgba(0,0,0,0);
 border: 0px solid red;
-/*display: flex;*/
+display: flex;
   flex-wrap: wrap;
  border: 0px solid red;
 }
@@ -628,7 +628,7 @@ height: 50%;
 
 
 
-/*uncomment two*/
+/*test*/
 
 
 
