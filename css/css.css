@@ -89,7 +89,7 @@ header{
   align-items: center;
   justify-content: space-around;
 
-  height: 10%;
+  height: 10vh;
 
   transition: transform 0.5s ease;
 
