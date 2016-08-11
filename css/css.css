@@ -418,7 +418,7 @@ h6{
 #latest{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
   margin-top:1.5em;
   border: 0px solid blue;
 
@@ -565,7 +565,7 @@ h4{
  
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
   margin-top:.1em;
   border: 0px solid blue;
   height: 25vh;
