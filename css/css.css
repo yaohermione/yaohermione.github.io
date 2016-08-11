@@ -545,8 +545,8 @@ ul{
   margin: 0px;
   background-color: rgba(0,0,0,0);
 border: 0px solid red;
-display: flex;
-  flex-wrap: wrap;
+/*display: flex;
+  flex-wrap: wrap;*/
  border: 0px solid red;
 }
 
@@ -628,7 +628,7 @@ height: 50%;
 
 
 
-/*test*/
+/*comment those two*/
 
 
 
