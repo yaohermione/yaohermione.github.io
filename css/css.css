@@ -108,6 +108,7 @@ border-bottom: 1px solid #cccccc;
 
   position: fixed;
   top:0px;
+  height: 10vh;
  
 }
 .header-up{
@@ -386,7 +387,7 @@ border: 0px solid blue;
 #main-gray-layer{
   position: fixed;
   left:0px;
-  width: 100%;
+  width: 100vw;
   height : 0%;
   background-color: rgba(0,0,0,.45);
   z-index: 10000;
