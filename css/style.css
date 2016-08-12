@@ -42,17 +42,17 @@ body {
 
 
 #release0{
-  background:url(img/0.jpg);
+  background:url(../img/0.jpg);
   background-size:contain;
   background-repeat:no-repeat;
 }
 #release1{
-  background:url(img/1.jpg);
+  background:url(../img/1.jpg);
   background-size:contain;
   background-repeat:no-repeat;
 }
 #release2{
-  background:url(img/2.jpg);
+  background:url(../img/2.jpg);
   background-size:contain;
   background-repeat:no-repeat;
 }
