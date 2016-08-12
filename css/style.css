@@ -5,9 +5,10 @@ body {
 
 
 .frame {
-    height: 66.6vw;
+    height: 60vw;
     line-height: 250px;
     overflow: hidden;
+    margin-top: .1em; 
   }
 
   .frame ul {
@@ -23,7 +24,7 @@ body {
     float: left;
     width: 90vw;
     height: 100%;
-    margin: 0 5px 0 0;
+    margin: 0 8px 0 0;
     padding: 0;
     background: blue;
     color: black;
