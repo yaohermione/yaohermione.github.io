@@ -155,8 +155,8 @@ $(".horizontal").removeClass("dark-banner-text");
 var banner = document.getElementById('banner');
 
 if ($("#menu_icon").css("display") == "none" ){
-addEvent(window,'scroll',parallel_scroll);
-parallel_scroll();
+//addEvent(window,'scroll',parallel_scroll);
+//parallel_scroll();
 }
 else{
 
