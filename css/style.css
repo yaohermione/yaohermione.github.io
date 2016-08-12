@@ -8,7 +8,7 @@ body {
     height: 60vw;
     line-height: 250px;
     overflow: hidden;
-    margin-top: .1em; 
+    margin-top: 1.5em; 
   }
 
   .frame ul {
@@ -49,7 +49,7 @@ body {
   and (min-resolution: 192dpi) { 
 
   .frame {
-    height: 20.6vw;
+    height: 24vw;
     line-height: 250px;
     overflow: hidden;
     margin-left: 6vw;
@@ -68,7 +68,7 @@ body {
 
   .frame ul li {
     float: left;
-    width: 31vw;
+    width: 36vw;
     height: 100%;
     margin: 0 3px 0 0;
     padding: 0;
