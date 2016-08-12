@@ -13,7 +13,7 @@ html, body, main{
   margin: 0px;
   padding: 0px;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   background-color: #f6f6f6;
   font-family: 'Open Sans', serif;
 }
@@ -63,23 +63,23 @@ li:hover{
 }
 .row{
 
-  width: 100%;
+  width: 100vw;
 }
-.col-6{
+/*.col-6{
   width: 50%;
 }
 .col-3{
   width: 33.33%;
-}
+}*/
 .col-12{
-  width: 100%;
+  width: 100vw;
 }
 
 header{
   
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   top:0px;
   
