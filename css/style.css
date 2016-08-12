@@ -42,16 +42,22 @@ body {
 
 
 #release0{
+  width: 100%;
+  height: 100%;
   background:url(../img/0.jpg);
   background-size:contain;
   background-repeat:no-repeat;
 }
 #release1{
+  width: 100%;
+  height: 100%;
   background:url(../img/1.jpg);
   background-size:contain;
   background-repeat:no-repeat;
 }
 #release2{
+  width: 100%;
+  height: 100%;
   background:url(../img/2.jpg);
   background-size:contain;
   background-repeat:no-repeat;
