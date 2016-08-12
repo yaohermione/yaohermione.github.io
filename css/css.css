@@ -422,7 +422,7 @@ h6{
   flex-wrap: wrap;
   width: 100vw;
   margin-top:1.5em;
-  border: 1px solid blue;
+  border: 0px solid blue;
 
 }
 #latest-textbox{
@@ -431,7 +431,7 @@ h6{
 text-align: center;
 top:0px;
 left: 0px;
-border: 1px solid red;
+border: 0px solid red;
 width: 100%;
 height: 100%;
 }
@@ -441,7 +441,7 @@ height: 100%;
   text-align: center;
 top:0px;
 left: 0px;
-border: 1px solid black;
+border: 0px solid black;
 width: 100%;
 height: 100%;
 }
@@ -569,7 +569,7 @@ h4{
   flex-wrap: wrap;
   width: 100vw;
   margin-top:.1em;
-  border: 1px solid blue;
+  border: 0px solid blue;
   height: 25vh;
   
 
@@ -579,7 +579,7 @@ h4{
  
 top:0px;
 left: 0px;
-border: 1px solid red;
+border: 0px solid red;
 width: 50%;
 height: 100%;
 }
@@ -589,7 +589,7 @@ height: 100%;
   text-align: center;
 top:0px;
 left: 0px;
-border: 1px solid black;
+border: 0px solid black;
 width: 50%;
 height: 100%;
 }
@@ -610,7 +610,6 @@ height: 50%;
 bottom: 0;
 color:#666666;
 padding-top: 10px;
-border: 1px solid black;
 }
 .latest-intro{
 letter-spacing: .08em;
@@ -619,7 +618,7 @@ letter-spacing: .08em;
   font-size: .26em;
   color:#9a9a9a;
   text-align: left;
-border: 1px solid green;
+border: 0px solid green;
 text-align: left;
 margin: auto;
 height: 50%;
