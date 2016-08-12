@@ -5,7 +5,7 @@ body {
 
 
 .frame {
-    height: 64vw;
+    height: 66.6vw;
     line-height: 250px;
     overflow: hidden;
   }
@@ -21,9 +21,9 @@ body {
 
   .frame ul li {
     float: left;
-    width: 96vw;
+    width: 90vw;
     height: 100%;
-    margin: 0 1px 0 0;
+    margin: 0 5px 0 0;
     padding: 0;
     background: blue;
     color: black;
@@ -48,9 +48,12 @@ body {
   and (min-resolution: 192dpi) { 
 
   .frame {
-    height: 21vw;
+    height: 20.6vw;
     line-height: 250px;
     overflow: hidden;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: .1em; 
   }
 
   .frame ul {
@@ -66,7 +69,7 @@ body {
     float: left;
     width: 31vw;
     height: 100%;
-    margin: 0 1px 0 0;
+    margin: 0 3px 0 0;
     padding: 0;
     background: blue;
     color: black;
