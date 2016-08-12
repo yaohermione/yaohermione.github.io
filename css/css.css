@@ -610,6 +610,7 @@ height: 50%;
 bottom: 0;
 color:#666666;
 padding-top: 10px;
+border: 1px solid black;
 }
 .latest-intro{
 letter-spacing: .08em;
@@ -618,7 +619,7 @@ letter-spacing: .08em;
   font-size: .26em;
   color:#9a9a9a;
   text-align: left;
-border: 0px solid green;
+border: 1px solid green;
 text-align: left;
 margin: auto;
 height: 50%;
