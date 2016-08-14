@@ -136,6 +136,7 @@ body {
   .frame ul li {
     float: left;
     width: 36vw;
+    width: 26vw;
     height: 100%;
     margin: 0 3px 0 0;
     padding: 0;
