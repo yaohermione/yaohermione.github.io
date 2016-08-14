@@ -27,7 +27,7 @@ body {
     height: 100%;
     margin: 0 8px 0 0;
     padding: 0;
-    background: #f6f6f6;
+    background-color: #f6f6f6;
     color: black;
     text-align: center;
     cursor: pointer;
@@ -37,7 +37,7 @@ body {
 
   .frame ul li.active {
     color: red;
-    background: #f6f6f6;
+    background-color: #f6f6f6;
   }
 
 
@@ -139,7 +139,8 @@ body {
     height: 100%;
     margin: 0 3px 0 0;
     padding: 0;
-    background: #f6f6f6;
+    background-color: #f6f6f6;
+    background-color: red;
     color: black;
     text-align: center;
     cursor: pointer;
@@ -149,7 +150,7 @@ body {
 
   .frame ul li.active {
     color: red;
-    background: #f6f6f6;
+    background-color: #f6f6f6;
   }
 
 
