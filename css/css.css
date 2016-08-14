@@ -467,6 +467,15 @@ text-align: center;
 margin: auto;
 }
 
+#gallary{
+ display: flex;
+  flex-wrap: wrap;
+text-align: center; 
+}
+
+
+
+
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
