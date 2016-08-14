@@ -139,7 +139,7 @@ body {
     height: 100%;
     margin: 0 3px 0 0;
     padding: 0;
-    background: blue;
+    background: #f6f6f6;
     color: black;
     text-align: center;
     cursor: pointer;
@@ -149,7 +149,7 @@ body {
 
   .frame ul li.active {
     color: red;
-    background: yellow;
+    background: #f6f6f6;
   }
 
 
