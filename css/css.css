@@ -474,7 +474,7 @@ margin: auto;
 }
 
 
-#gallary-title{
+.gallary-title-iphone{
  display: flex;
   flex-wrap: wrap;
 text-align: center; 
@@ -693,9 +693,7 @@ height: 50%;
 #gallary-title{
   margin-bottom: 0em;
 }
-.gallary-title-mac{
-  margin-bottom: 0em;
-}
+
 
 .gallery-text{
   display: inline-block;
