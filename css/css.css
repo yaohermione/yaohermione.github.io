@@ -474,7 +474,7 @@ margin: auto;
 }
 
 
-.gallary-title-iphone{
+.gallary-title{
 
 text-align: center; 
 margin-bottom: .5em;
@@ -687,9 +687,13 @@ margin: auto;
 height: 50%;
 }
 .
-#gallary-title{
-  margin-bottom: 0em;
+
+.gallary-title{
+
+text-align: center; 
+margin-bottom: 0em;
 }
+
 
 
 .gallery-text{
