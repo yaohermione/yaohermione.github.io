@@ -701,7 +701,7 @@ height: 50%;
   flex-wrap: wrap;
   font-size: .26em;
   color:#9a9a9a;
-  text-align: left;
+  text-align: center;
 border: 1px solid green;
 text-align: left;
 margin: auto;
@@ -714,7 +714,7 @@ height: 50%;
 }
 
 .gallery{
-  width: 80vw;
+  width: 40vw;
   height: ;
   border: 1px solid blue;
 }
