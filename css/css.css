@@ -691,7 +691,7 @@ height: 50%;
 }
 .
 .gallary-title{
-  margin-bottom: 1em;
+  margin-bottom: .1em;
 }
 
 
@@ -702,7 +702,7 @@ height: 50%;
   font-size: .26em;
   color:#9a9a9a;
   text-align: center;
-border: 1px solid green;
+border: 0px solid green;
 text-align: left;
 margin: auto;
 height: 50%;
