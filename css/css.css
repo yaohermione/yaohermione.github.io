@@ -478,7 +478,7 @@ margin: auto;
  display: flex;
   flex-wrap: wrap;
 text-align: center; 
-margin-bottom: 1em;
+margin-bottom: 0em;
 }
 
 
@@ -486,7 +486,7 @@ margin-bottom: 1em;
 .gallery{
   /*height: 74vw;*/
   border: 0px solid blue;
-  margin-top: .5em; 
+  margin-top: 1em; 
 }
 .gallery-image{
   /*height: 90%;*/
