@@ -521,12 +521,12 @@ margin-bottom: 1.5em;
 
 
 .gallery-text{
-  border: 0px solid yellow;
+  
   /*height: 10%;*/
   font-size: 1em;
   color:#9a9a9a;
   text-align: left;
-  border: 1px solid green;
+  border: 0px solid green;
   text-align: center;
   margin: auto;
   padding-top: .7em;
@@ -691,7 +691,7 @@ height: 50%;
 }
 .
 .gallary-title{
-  margin-bottom: ;
+  margin-bottom: 0;
 }
 
 
