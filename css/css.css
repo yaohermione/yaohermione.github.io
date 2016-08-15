@@ -589,7 +589,7 @@ header{
   display: inline;
   color:#fefefe;
   padding: 4px;
-  font-size: .26em;
+  font-size: .3em;
   letter-spacing: .1em;
   margin-right: 5px;
   height: 0vh;
@@ -679,7 +679,7 @@ padding-top: 10px;
 letter-spacing: .08em;
   display: flex;
   flex-wrap: wrap;
-  font-size: .26em;
+  font-size: .3em;
   color:#9a9a9a;
   text-align: left;
 border: 0px solid green;
