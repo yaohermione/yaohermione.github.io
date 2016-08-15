@@ -694,7 +694,7 @@ height: 50%;
 
 
 .gallery-text{
-  display: inline-block;
+  
   letter-spacing: .08em;
   display: flex;
   flex-wrap: wrap;
@@ -702,7 +702,7 @@ height: 50%;
   color:#9a9a9a;
   text-align: center;
 border: 0px solid green;
-text-align: left;
+
 margin: auto;
 height: 50%;
 
