@@ -485,13 +485,13 @@ margin-bottom: 1.5em;
 
 .gallery{
   /*height: 74vw;*/
-  border: 1px solid blue;
+  border: 0px solid blue;
   margin-bottom: 
 }
 .gallery-image{
   /*height: 90%;*/
   height: 66.666vw;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 #pre-wedding-img{
@@ -521,7 +521,7 @@ margin-bottom: 1.5em;
 
 
 .gallery-text{
-  border: 1px solid yellow;
+  border: 0px solid yellow;
   /*height: 10%;*/
   font-size: 1em;
   color:#9a9a9a;
@@ -691,7 +691,7 @@ height: 50%;
 }
 .
 .gallary-title{
-  margin-bottom: 0.15em;
+  margin-bottom: 1em;
 }
 
 
@@ -716,11 +716,11 @@ height: 50%;
 .gallery{
   width: 40vw;
   height: ;
-  border: 1px solid blue;
+  border: 0px solid blue;
 }
 .gallery-image{
   height: 26.666vw;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .gallery-right{
 margin-left: 4vw;
