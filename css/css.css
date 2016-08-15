@@ -723,8 +723,7 @@ height: 50%;
   border: 1px solid red;
 }
 .gallery-right{
-  
-  float: right;
+margin-left: 4vw;
 }
 
 
