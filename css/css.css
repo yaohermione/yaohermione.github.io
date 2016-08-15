@@ -481,9 +481,7 @@ text-align: center;
 margin-bottom: 1.5em;
 }
 
-.gallery-container{
 
-}
 
 .gallery{
   height: 74vw;
@@ -493,23 +491,42 @@ margin-bottom: 1.5em;
   height: 90%;
   border: 1px solid red;
 }
+
 #pre-wedding-img{
- /* width: 100%;
-  height: 100%;*/
   background:url(../img/pre-wedding.jpg);
   background-size:cover;
   background-repeat:no-repeat;
-  
 }
+
+#potrait-img{
+  background:url(../img/portrait.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+#travel-img{
+  background:url(../img/travel.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+#life-img{
+  background:url(../img/life.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+
 .gallery-text{
   border: 1px solid yellow;
   height: 10%;
-   font-size: 1em;
+  font-size: 1em;
   color:#9a9a9a;
   text-align: left;
-border: 1px solid green;
-text-align: center;
-margin: auto;
+  border: 1px solid green;
+  text-align: center;
+  margin: auto;
 
 }
 @media screen 
@@ -686,6 +703,22 @@ text-align: left;
 margin: auto;
 height: 50%;
 }
+
+.gallery-container{
+ padding-left: 8vw;
+ padding-right: 8vw;
+}
+
+.gallery{
+  width: 80vw;
+  height: ;
+  border: 1px solid blue;
+}
+.gallery-image{
+  height: 53.33vw;
+  border: 1px solid red;
+}
+
 
 
 
