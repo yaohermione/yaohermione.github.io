@@ -474,18 +474,23 @@ margin: auto;
 }
 
 
-#gallary{
+#gallary-title{
  display: flex;
   flex-wrap: wrap;
 text-align: center; 
+margin-bottom: 1.5em;
+}
+
+.gallery-container{
+
 }
 
 .gallery{
-  height: 83vw;
+  height: 74vw;
   border: 1px solid blue;
 }
 .gallery-image{
-  height: 80%;
+  height: 90%;
   border: 1px solid red;
 }
 #pre-wedding-img{
@@ -497,7 +502,7 @@ text-align: center;
 }
 .gallery-text{
   border: 1px solid yellow;
-  height: 20%;
+  height: 10%;
    font-size: 1em;
   color:#9a9a9a;
   text-align: left;
@@ -652,6 +657,24 @@ padding-top: 10px;
 }
 .latest-intro{
 letter-spacing: .08em;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: .26em;
+  color:#9a9a9a;
+  text-align: left;
+border: 0px solid green;
+text-align: left;
+margin: auto;
+height: 50%;
+}
+.
+.gallary-title{
+  margin-bottom: .3em;
+}
+
+
+.gallery-text{
+  letter-spacing: .08em;
   display: flex;
   flex-wrap: wrap;
   font-size: .26em;
