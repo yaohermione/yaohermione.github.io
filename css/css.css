@@ -661,12 +661,11 @@ height: 100%;
   margin: auto;
 }
 h4{
-  display: flex;
-  flex-wrap: wrap;
+  
   font-size: .4em;
   letter-spacing: .1em;
   font-weight: ;
-border: 0px solid yellow;
+
 text-align: left;
 margin: auto;
 height: 50%;
