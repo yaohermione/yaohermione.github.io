@@ -694,7 +694,7 @@ height: 50%;
 
 
 .gallery-text{
-  
+  width: 100%;
   letter-spacing: .08em;
   display: flex;
   flex-wrap: wrap;
