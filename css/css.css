@@ -543,7 +543,7 @@ margin-bottom: .5em;
     h3{
       color: #fefefe;
       margin: ;
-      font-size: .5em;
+      font-size: .8em;
       letter-spacing: .1em;
     }
     h6{
@@ -618,9 +618,7 @@ display: flex;
  border: 0px solid red;
 }
 
-h4{
-  letter-spacing: 
-}
+
 .dark-banner-text{
   color:#9a9a9a;
 }
@@ -700,7 +698,7 @@ height: 50%;
   letter-spacing: .08em;
   display: flex;
   flex-wrap: wrap;
-  font-size: .26em;
+  font-size: .3em;
   color:#9a9a9a;
   text-align: center;
 border: 0px solid green;
