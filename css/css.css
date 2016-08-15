@@ -475,8 +475,7 @@ margin: auto;
 
 
 .gallary-title-iphone{
- display: flex;
-  flex-wrap: wrap;
+
 text-align: center; 
 margin-bottom: .5em;
 }
