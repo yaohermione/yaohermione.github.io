@@ -691,11 +691,12 @@ height: 50%;
 }
 .
 #gallary-title{
-  margin-bottom: 0em;
+  margin-bottom: 5em;
 }
 
 
 .gallery-text{
+  display: inline-block;
   letter-spacing: .08em;
   display: flex;
   flex-wrap: wrap;
@@ -706,6 +707,8 @@ border: 0px solid green;
 text-align: left;
 margin: auto;
 height: 50%;
+
+
 }
 
 .gallery-container{
