@@ -722,7 +722,10 @@ height: 50%;
   height: 26.666vw;
   border: 1px solid red;
 }
-
+.gallery-right{
+  
+  float: right;
+}
 
 
 
