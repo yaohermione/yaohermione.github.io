@@ -694,17 +694,14 @@ height: 50%;
 
 
 .gallery-text{
-  width: 100%;
+  text-align: center;
   letter-spacing: .08em;
-  display: flex;
-  flex-wrap: wrap;
+  
   font-size: .3em;
   color:#9a9a9a;
   text-align: center;
-border: 0px solid green;
 
-margin: auto;
-height: 50%;
+
 
 
 }
