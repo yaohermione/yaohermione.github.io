@@ -478,7 +478,7 @@ margin: auto;
  display: flex;
   flex-wrap: wrap;
 text-align: center; 
-margin-bottom: 0em;
+margin-bottom: .5em;
 }
 
 
@@ -691,9 +691,11 @@ height: 50%;
 }
 .
 #gallary-title{
-  margin-bottom: 5em;
+  margin-bottom: 0em;
 }
-
+.gallary-title-mac{
+  margin-bottom: 0em;
+}
 
 .gallery-text{
   display: inline-block;
