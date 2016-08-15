@@ -691,7 +691,7 @@ height: 50%;
 }
 .
 .gallary-title{
-  margin-bottom: .1em;
+  margin-bottom: ;
 }
 
 
@@ -715,8 +715,8 @@ height: 50%;
 
 .gallery{
   width: 40vw;
-  height: ;
   border: 0px solid blue;
+  margin-top: 4vw;
 }
 .gallery-image{
   height: 26.666vw;
