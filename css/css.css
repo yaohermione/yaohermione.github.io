@@ -543,14 +543,14 @@ margin-bottom: .5em;
     h3{
       color: #fefefe;
       margin: ;
-      font-size: .8em;
+      font-size: .6em;
       letter-spacing: .1em;
     }
     h6{
       text-align: center;
       color: #ececec;
       
-      font-size: .35em;
+      font-size: .45em;
       letter-spacing: .1em;
     }
     #intro{
@@ -664,7 +664,7 @@ height: 100%;
 h4{
   display: flex;
   flex-wrap: wrap;
-  font-size: .35em;
+  font-size: .4em;
   letter-spacing: .1em;
   font-weight: ;
 border: 0px solid yellow;
