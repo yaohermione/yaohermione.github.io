@@ -783,35 +783,43 @@ margin-bottom: 1em;
 margin-left: 4vw;
 }
 
-
+#me{
+  position: relative;
+}
 
 #me-image{
   
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
-  height: 66vw;
+  height: 50vw;
   display: flex;
 
 }
 #me-title{
   color: #fefefe;
-  text-align: center;
-  margin: auto;
+  text-align: left;
+  border: 1px solid blue;
+  
 }
 #me-intro-box{
   
   padding: 4vw;
   text-align: left;
+  position: absolute;
+  margin-top: 20%;
+  border: 1px solid red;
+
 }
 #me-intro-p{
  
-  font-size: 1em;
+  font-size: .3em;
   color:#9a9a9a;
   
   text-align: left;
   margin: auto;
 
+border: 1px solid yellow;
 
 }
 
