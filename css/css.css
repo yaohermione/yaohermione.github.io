@@ -421,10 +421,15 @@ h6{
   margin-top:1.5em;
   border: 0px solid blue;
   background:url(../img/latest-release-banner.jpg);
+  background-position: center;
   background-size:cover;
   background-repeat:no-repeat;
   padding-bottom: 1.5em;
   height: 30vh;
+ 
+    background-position: center;
+  
+
 }
 #latest-textbox{
   /*display: flex;
@@ -639,6 +644,7 @@ display: flex;
   border: 0px solid blue;
   height: 45vh;
   
+
   background-attachment: fixed;
 }
 #latest-textbox{
