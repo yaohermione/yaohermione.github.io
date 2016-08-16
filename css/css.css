@@ -811,7 +811,7 @@ margin-left: 4vw;
   position: absolute;
   top: 0px;
   left: 0px;
-  margin-top: 20%;
+  margin-top: 10%;
   width: 50%;
   border: 1px solid red;
 
@@ -819,7 +819,7 @@ margin-left: 4vw;
 #me-intro-p{
  
   font-size: .3em;
-  color:#9a9a9a;
+  color:#ececec;
   
   text-align: left;
   margin: auto;
