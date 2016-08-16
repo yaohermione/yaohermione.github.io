@@ -420,7 +420,9 @@ h6{
   width: 100vw;
   margin-top:1.5em;
   border: 0px solid blue;
-  background-color: white;
+  background:url(../img/latest-release-banner.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 #latest-textbox{
   display: flex;
