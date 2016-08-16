@@ -345,6 +345,7 @@ transform: translate(-67vw,0);
     border: 0px solid red;
     display: inline-block;
     width: 100vw;
+    margin-bottom: .5em;
 }
 
 
