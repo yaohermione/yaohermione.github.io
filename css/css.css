@@ -793,7 +793,7 @@ margin-left: 4vw;
   background-repeat:no-repeat;
   background-position: center;
   height: 50vw;
-  
+  display: inline;
 
 }
 #me-title{
