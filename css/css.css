@@ -557,7 +557,9 @@ margin-bottom: .5em;
   padding-bottom: .7em;
 
 }
-
+#me{
+  margin-bottom: 3em;
+}
 
 #me-image{
   border: 0px solid red;
@@ -829,6 +831,10 @@ border: 0px solid yellow;
 }
 
 
+#me{
+  margin-bottom: 5vw;
+  background-attachment: fixed;
+}
 
 
 
