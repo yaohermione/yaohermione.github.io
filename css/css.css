@@ -424,6 +424,7 @@ h6{
   background-size:cover;
   background-repeat:no-repeat;
   padding-bottom: 1.5em;
+  height: 30vh;
 }
 #latest-textbox{
   display: flex;
