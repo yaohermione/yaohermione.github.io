@@ -118,8 +118,8 @@ body {
     height: 24vw;
     line-height: 250px;
     overflow: hidden;
-    margin-left: 8vw;
-    margin-right: 8vw;
+    /*margin-left: 8vw;
+    margin-right: 8vw;*/
     margin-top: .5em; 
     margin-bottom: .3em;
   }
