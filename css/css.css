@@ -423,6 +423,7 @@ h6{
   background:url(../img/latest-release-banner.jpg);
   background-size:cover;
   background-repeat:no-repeat;
+  padding-bottom: 1.5em;
 }
 #latest-textbox{
   display: flex;
