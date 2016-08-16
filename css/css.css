@@ -801,7 +801,7 @@ margin-left: 4vw;
 #me-title{
   color: #fefefe;
   text-align: left;
-  border: 1px solid blue;
+  border: 0px solid blue;
   
 }
 #me-intro-box{
@@ -813,7 +813,7 @@ margin-left: 4vw;
   left: 0px;
   margin-top: 10%;
   width: 50%;
-  border: 1px solid red;
+  border: 0px solid red;
 
 }
 #me-intro-p{
@@ -824,7 +824,7 @@ margin-left: 4vw;
   text-align: left;
   margin: auto;
 
-border: 1px solid yellow;
+border: 0px solid yellow;
 
 }
 
