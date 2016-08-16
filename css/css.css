@@ -415,8 +415,8 @@ h6{
 
 
 #latest{
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
   width: 100vw;
   margin-top:1.5em;
   border: 0px solid blue;
@@ -427,8 +427,8 @@ h6{
   height: 30vh;
 }
 #latest-textbox{
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
 text-align: center;
 top:0px;
 left: 0px;
@@ -637,13 +637,14 @@ display: flex;
   width: 100vw;
   margin-top:.1em;
   border: 0px solid blue;
-  height: 25vh;
+  height: 35vh;
   
 
 }
 #latest-textbox{
   display: block;
- 
+ display: flex;
+  flex-wrap: wrap;
 top:0px;
 left: 0px;
 border: 0px solid red;
