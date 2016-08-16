@@ -561,7 +561,7 @@ margin-bottom: .5em;
 
 #me-image{
   border: 0px solid red;
-  background:url(../img/me-image.jpg);
+  background:url(../img/poster.jpg);
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
@@ -786,8 +786,7 @@ margin-left: 4vw;
 
 
 #me-image{
-  border: 0px solid red;
-  background:url(../img/poster.jpg);
+  
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
