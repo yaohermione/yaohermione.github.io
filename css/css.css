@@ -807,6 +807,8 @@ margin-left: 4vw;
   padding: 4vw;
   text-align: left;
   position: absolute;
+  top: 0px;
+  left: 0px;
   margin-top: 20%;
   border: 1px solid red;
 
