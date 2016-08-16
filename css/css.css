@@ -560,23 +560,31 @@ margin-bottom: .5em;
 
 
 #me-image{
-  border: 1px solid red;
+  border: 0px solid red;
   background:url(../img/me-image.jpg);
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
   height: 70vw;
+  display: flex;
+
+}
+#me-title{
+  color: #fefefe;
+  text-align: center;
+  margin: auto;
 }
 #me-intro-box{
-  display: flex;
+  
   padding: 4vw;
+  text-align: left;
 }
 #me-intro-p{
-  margin: auto;
+ 
   font-size: 1em;
   color:#9a9a9a;
   
-  text-align: center;
+  text-align: left;
   margin: auto;
 
 
