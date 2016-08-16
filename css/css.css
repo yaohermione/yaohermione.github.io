@@ -569,9 +569,16 @@ margin-bottom: .5em;
 }
 #me-intro-box{
   display: flex;
+  padding: 4vw;
 }
 #me-intro-p{
   margin: auto;
+  font-size: 1em;
+  color:#9a9a9a;
+  
+  text-align: center;
+  margin: auto;
+
 
 }
 
