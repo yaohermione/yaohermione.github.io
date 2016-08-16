@@ -637,9 +637,9 @@ display: flex;
   width: 100vw;
   margin-top:.1em;
   border: 0px solid blue;
-  height: 35vh;
+  height: 45vh;
   
-
+  background-attachment: fixed;
 }
 #latest-textbox{
   display: block;
