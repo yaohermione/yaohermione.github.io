@@ -560,7 +560,7 @@ margin-bottom: .5em;
 
 
 #me-image{
-  background:url(../img/me-image.jpg);
+  background:url("../img/me-image.jpg");
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
@@ -571,7 +571,7 @@ margin-bottom: .5em;
 }
 #me-intro-p{
   margin: auto;
-  
+
 }
 
 @media screen 
