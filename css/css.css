@@ -793,7 +793,7 @@ margin-left: 4vw;
   background-repeat:no-repeat;
   background-position: center;
   height: 50vw;
-  display: flex;
+  
 
 }
 #me-title{
@@ -809,7 +809,8 @@ margin-left: 4vw;
   position: absolute;
   top: 0px;
   left: 0px;
-  margin-top: 20%;
+  margin-top: 10%;
+  width: 60%;
   border: 1px solid red;
 
 }
