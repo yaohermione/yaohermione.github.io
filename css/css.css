@@ -1,4 +1,7 @@
-
+#below-banner{
+   
+  padding-top: 1em;
+}
 
 
 *{
@@ -499,7 +502,6 @@ margin-top: .2em;
 
 text-align: center; 
 margin-bottom: .5em;
-margin-top: 1em;
 }
 
 
@@ -652,6 +654,7 @@ display: flex;
     background-color: #f6f6f6;
    position: relative;
   z-index: 10;
+  padding-top: .5em;
 }
 #latest{
  
@@ -713,7 +716,6 @@ letter-spacing: .08em;
 
 text-align: center; 
 margin-bottom: 1em;
-margin-top: .5em;
 }
 
 
