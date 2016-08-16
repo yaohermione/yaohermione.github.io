@@ -787,11 +787,11 @@ margin-left: 4vw;
 
 #me-image{
   border: 0px solid red;
-  background:url(../img/me-image.jpg);
+  background:url(../img/poster.jpg);
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
-  height: 55vw;
+  height: 66vw;
   display: flex;
 
 }
