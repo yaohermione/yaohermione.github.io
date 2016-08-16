@@ -798,7 +798,7 @@ margin-left: 4vw;
   display: inline;
   padding-left: 8vw;
   padding-top: 8vw;
-  
+  background-attachment: fixed;
 }
 #me-title{
   color: #fefefe;
@@ -833,7 +833,7 @@ border: 0px solid yellow;
 
 #me{
   margin-bottom: 5vw;
-  background-attachment: fixed;
+  
 }
 
 
