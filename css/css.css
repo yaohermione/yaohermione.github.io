@@ -557,6 +557,23 @@ margin-bottom: .5em;
   padding-bottom: .7em;
 
 }
+
+
+#me-image{
+  background:url(../img/me-image.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 70vw;
+}
+#me-intro-box{
+  display: flex;
+}
+#me-intro-p{
+  margin: auto;
+  
+}
+
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
