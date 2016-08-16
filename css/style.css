@@ -9,7 +9,7 @@ body {
     line-height: 250px;
     overflow: hidden;
     margin-top: 1.5em; 
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
   }
 
   .frame ul {
@@ -121,7 +121,7 @@ body {
     margin-left: 8vw;
     margin-right: 8vw;
     margin-top: .5em; 
-    margin-bottom: .3em;
+    margin-bottom: 5vw;
   }
 
   .frame ul {
