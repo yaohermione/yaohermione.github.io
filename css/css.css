@@ -663,14 +663,7 @@ display: flex;
   background-attachment: fixed;
 }
 #latest-textbox{
-  display: block;
- display: flex;
-  flex-wrap: wrap;
-top:0px;
-left: 0px;
-border: 0px solid red;
-width: 100%;
-height: 100%;
+ 
 }
 #latest-text{
   color: #fefefe;
@@ -705,15 +698,7 @@ padding-top: 10px;
 }
 .latest-intro{
 letter-spacing: .08em;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: .3em;
-  color:#9a9a9a;
-  color:#ececec;
-  text-align: center;
-border: 0px solid green;
-margin: auto;
-height: 50%;
+  
 }
 .
 
