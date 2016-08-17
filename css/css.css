@@ -2,14 +2,19 @@
    
   padding-top: 1em;
 }
-
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+/*
+@import url(https://weloveiconfonts.com/api/?family=fontawesome|zocial);
+*/
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
 
 /* zocial */
 [class*="zocial-"]:before {
-  font-family: 'zocial', serif, sans-serif;
-  display: inline-block;
-  width: 2vw;
+  font-family: 'zocial', sans-serif;
+  /*display: inline-block;
+  width: 2vw;*/
 }
 
 *{
