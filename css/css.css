@@ -3,6 +3,12 @@
   padding-top: 1em;
 }
 
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', 'Open Sans', serif, sans-serif;
+}
 
 *{
    -webkit-box-sizing: border-box;
