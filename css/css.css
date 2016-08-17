@@ -607,14 +607,9 @@ margin-bottom: .5em;
   background-position: center;
   height: 50vw;
   border: 1px solid blue;
+  display: flex;
 }
-#contact-text{
- position: absolute;
- top: 0;
- left: 0;
- display: flex;
- border: 1px solid green;
-}
+
 #contact-title{
    color: #fefefe;
   text-align: center;
