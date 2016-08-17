@@ -517,7 +517,7 @@ margin-bottom: .5em;
 }
 .gallery-image{
   /*height: 90%;*/
-  height: 58.666vw;
+  height: 58.6667vw;
   border: 0px solid red;
 }
 
@@ -570,7 +570,7 @@ margin-bottom: .5em;
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
-  height: 70vw;
+  height: 66.6667vw;
   display: flex;
 
 }
@@ -814,7 +814,7 @@ margin-left: 4vw;
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
-  height: 50vw;
+  height: 30vw;
   display: inline;
   padding-left: 8vw;
   padding-top: 8vw;
