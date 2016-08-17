@@ -879,7 +879,43 @@ border: 0px solid yellow;
 
 }
 
+#contact{
+  display: flex;
+  position: relative;
+}
+#contact-img{
+    border: 0px solid red;
+  background:url(../img/contact.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 50vw;
+  border: 0px solid blue;
+  display: flex;
+  width: 50vw;
+}
 
+#contact-title{
+   color: #fefefe;
+  text-align: center;
+  margin: auto;
+}
+#contact-info{
+  border: 0px solid red;
+  padding: 6vw;
+}
+.contact-style{
+font-size: 1em;
+  color:#9a9a9a;
+  
+  text-align: left;
+}
+.contact-content{
+  font-size: 1em;
+  color:#9a9a9a;
+  
+  text-align: left;
+}
 
 
 
