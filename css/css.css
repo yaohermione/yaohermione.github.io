@@ -903,7 +903,7 @@ border: 0px solid yellow;
   /*height: 10%;*/
 }
 #contact-info{
-  width: 70%;
+  width: 100%;
   border: 0px solid red;
   padding: 3vw;
 }
@@ -919,7 +919,14 @@ border: 0px solid yellow;
 #contact-form{
   display: block;
   border: 1px solid red;
+  width: 100%;
+  height
+}
+#contact-container{
   width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid blue;
 }
 
 
