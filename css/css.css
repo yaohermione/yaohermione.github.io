@@ -917,6 +917,7 @@ border: 0px solid yellow;
 }
 
 #contact-form{
+  display: block;
   border: 1px solid red;
   width: 70%;
 }
