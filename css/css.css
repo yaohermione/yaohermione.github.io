@@ -606,7 +606,7 @@ margin-bottom: .5em;
   background-repeat:no-repeat;
   background-position: center;
   height: 50vw;
-  border: 1px solid blue;
+  border: 0px solid blue;
   display: flex;
 }
 
@@ -616,7 +616,7 @@ margin-bottom: .5em;
   margin: auto;
 }
 #contact-info{
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 6vw;
 }
 .contact-style{
@@ -907,13 +907,13 @@ border: 0px solid yellow;
   padding: 6vw;
 }
 .contact-style{
-font-size: .3em;
+font-size: 1em;
   color:#9a9a9a;
   
   text-align: left;
 }
 .contact-content{
-  font-size: .3em;
+  font-size: 1em;
   color:#9a9a9a;
   
   text-align: left;
