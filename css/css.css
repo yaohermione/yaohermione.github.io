@@ -4,12 +4,7 @@
 }
 
 
-/* zocial */
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-  display: inline-block;
-  width: 4vw;
-}
+
 
 *{
    -webkit-box-sizing: border-box;
@@ -643,15 +638,22 @@ display: none;
 
 .footer{
   height: 6vh;
+  padding: 6vw;
 }
 #copyright{
   font-size: 1em;
   color:#9a9a9a;
   text-align: left;
-  padding: 6vw;
+  
 }
 
-
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  display: inline-block;
+  width: 4vw;
+  
+}
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
