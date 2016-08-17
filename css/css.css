@@ -639,6 +639,7 @@ display: none;
 .footer{
   height: 6vh;
   padding: 6vw;
+  border: 1px solid yellow;
 }
 #copyright{
   font-size: 1em;
@@ -646,6 +647,13 @@ display: none;
   text-align: left;
   
 }
+#copyright-box{
+border: 1px solid red;
+}
+#social-icon{
+border: 1px solid blue;
+}
+
 
 /* zocial */
 [class*="zocial-"]:before {
@@ -979,6 +987,18 @@ border: 0px solid yellow;
 [class*="zocial-"]:before:hover {
   
   color: #666666;
+}
+
+
+#copyright-box{
+  width: 50%;
+border: 1px solid red;
+}
+#social-icon{
+  width:50%;
+  position: relative;
+  left: 50%;
+border: 1px solid blue;
 }
 
 
