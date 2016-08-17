@@ -606,14 +606,14 @@ margin-bottom: .5em;
   background-repeat:no-repeat;
   background-position: center;
   height: 50vw;
-  boder: 1px solid blue;
+  border: 1px solid blue;
 }
 #contact-text{
  position: absolute;
  top: 0;
  left: 0;
  display: flex;
- boder: 1px solid green;
+ border: 1px solid green;
 }
 #contact-title{
    color: #fefefe;
@@ -621,22 +621,19 @@ margin-bottom: .5em;
   margin: auto;
 }
 #contact-info{
-  boder: 1px solid red;
+  border: 1px solid red;
 }
 .contact-style{
 font-size: 1em;
   color:#9a9a9a;
+  
   text-align: left;
-  font-weight: bold;
-color: #ececec;
-margin-top: .2em;
 }
 .contact-content{
   font-size: 1em;
   color:#9a9a9a;
+  
   text-align: left;
-color: #ececec;
-margin-top: .2em;
 }
 
 @media screen 
