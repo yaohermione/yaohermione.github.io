@@ -637,15 +637,16 @@ display: none;
 }
 
 .footer{
-  height: 6vh;
-  padding: 6vw;
+  
+  padding-left: 6vw;
+  padding-right: 6vw;
   border: 1px solid yellow;
 }
 #copyright{
   font-size: 1em;
   color:#9a9a9a;
   text-align: left;
-  
+  margin: 0px;
 }
 #copyright-box{
 border: 1px solid red;
