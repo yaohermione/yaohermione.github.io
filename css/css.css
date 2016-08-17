@@ -8,6 +8,8 @@
 /* zocial */
 [class*="zocial-"]:before {
   font-family: 'zocial', serif, sans-serif;
+  display: inline-block;
+  width: 2vw;
 }
 
 *{
