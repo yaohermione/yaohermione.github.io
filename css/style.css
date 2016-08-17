@@ -10,6 +10,8 @@ body {
     overflow: hidden;
     margin-top: 1.5em; 
     margin-bottom: 3em;
+    margin-left: 6vw;
+    margin-right: 6vw;
   }
 
   .frame ul {

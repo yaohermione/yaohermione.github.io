@@ -505,7 +505,10 @@ text-align: center;
 margin-bottom: .5em;
 }
 
-
+.gallery-container{
+ padding-left: 6vw;
+ padding-right: 6vw;
+}
 
 .gallery{
   /*height: 74vw;*/
@@ -578,7 +581,7 @@ margin-bottom: .5em;
 }
 #me-intro-box{
   
-  padding: 4vw;
+  padding: 6vw;
   text-align: left;
 }
 #me-intro-p{
@@ -591,6 +594,23 @@ margin-bottom: .5em;
 
 
 }
+
+#contact{
+  display: flex;
+}
+#contact-img{
+    border: 0px solid red;
+  background:url(../img/contact.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 50vw;
+  display: flex;
+}
+#contact-text{
+
+}
+
 
 @media screen 
   and (min-device-width: 1200px) 
@@ -833,7 +853,7 @@ border: 0px solid yellow;
 
 #me{
   margin-bottom: 5vw;
-  
+
 }
 
 
