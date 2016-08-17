@@ -653,7 +653,7 @@ display: none;
   display: inline-block;
   font-size: 1em;
   color: #9a9a9a;
-  margin: .6em;
+  margin-right: .3em;
 }
 
 
@@ -972,7 +972,7 @@ border: 0px solid yellow;
   display: inline-block;
   font-size: .3em;
   color: #9a9a9a;
-  margin:.1em;
+  margin-right:.1em;
 }
 
 
