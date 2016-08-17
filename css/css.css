@@ -891,7 +891,7 @@ border: 0px solid yellow;
   background-repeat:no-repeat;
   background-position: center;
   height: 35vw;
-  border: 1px solid blue;
+  border: 0px solid blue;
   display: flex;
   width:33.33%;
 }
@@ -903,7 +903,7 @@ border: 0px solid yellow;
 }
 #contact-info{
   width: 33.33%;
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 3vw;
 }
 .contact-style{
