@@ -986,6 +986,7 @@ border: 0px solid yellow;
   margin-right:.1em;
   margin-top: 0px;
   border: 1px solid red;
+  text-align: top;
 }
 
 
@@ -1004,6 +1005,7 @@ border: 1px solid red;
   width:50%;
   left: 50%;
 border: 1px solid blue;
+text-align: top;
 }
 
 
