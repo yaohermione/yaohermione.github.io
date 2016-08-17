@@ -7,7 +7,7 @@
 
 /* zocial */
 [class*="zocial-"]:before {
-  font-family: 'zocial', 'Open Sans', serif, sans-serif;
+  font-family: 'zocial', serif, sans-serif;
 }
 
 *{
@@ -955,6 +955,7 @@ border: 0px solid yellow;
   color:#9a9a9a;
   display: block;
   text-align: left;
+  padding: 8vw;
 }
 
 }
