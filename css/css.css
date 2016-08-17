@@ -817,7 +817,7 @@ margin-left: 4vw;
   height: 55vh;
   display: inline;
   padding-left: 8vw;
-  padding-top: 4vw;
+  padding-top: 3vw;
   background-attachment: fixed;
 }
 #me-title{
@@ -833,7 +833,7 @@ margin-left: 4vw;
   position: absolute;
   top: 0px;
   left: 0px;
-  margin-top: 5%;
+  margin-top: 4%;
   width: 55%;
   border: 0px solid red;
 
