@@ -983,13 +983,14 @@ border: 0px solid yellow;
   font-size: .3em;
   color: #9a9a9a;
   margin-right:.1em;
+  margin-top: 0px;
 }
 
 
-[class*="zocial-"]:before:hover {
+[class*="zocial-"]:hover {
   
-  color: #9a9a9a;
-  margin-top: 0px;
+  color: #666666;
+  
 }
 
 
