@@ -649,10 +649,10 @@ display: none;
   margin: 0px;
 }
 #copyright-box{
-border: 1px solid red;
+border: 0px solid red;
 }
 #social-icon{
-border: 1px solid blue;
+border: 0px solid blue;
 }
 
 
@@ -964,8 +964,9 @@ border: 0px solid yellow;
   padding: 3vw;
 }
 .footer{
-  height: 6vh;
-  padding: 8vw;
+  
+  padding-left: 8vw;
+  padding-left: 8vw;
 }
 #copyright{
   font-size: .3em;
@@ -997,7 +998,6 @@ border: 1px solid red;
 }
 #social-icon{
   width:50%;
-  position: relative;
   left: 50%;
 border: 1px solid blue;
 }
