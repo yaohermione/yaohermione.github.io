@@ -651,9 +651,13 @@ display: none;
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
   display: inline-block;
-  width: 4vw;
+  font-size: 1em;
   color: #9a9a9a;
+  margin: .6em;
 }
+
+
+
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
@@ -966,8 +970,9 @@ border: 0px solid yellow;
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
   display: inline-block;
-  width: .3em;
+  font-size: .3em;
   color: #9a9a9a;
+  margin:.1em;
 }
 
 
