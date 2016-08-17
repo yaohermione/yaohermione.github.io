@@ -893,7 +893,7 @@ border: 0px solid yellow;
   height: 35vw;
   border: 1px solid blue;
   display: flex;
-  width:33.333vw;
+  width:33.33%;
 }
 
 #contact-title{
@@ -902,7 +902,7 @@ border: 0px solid yellow;
   margin: auto;
 }
 #contact-info{
-  width: 33.333vw;
+  width: 33.33%;
   border: 1px solid red;
   padding: 6vw;
 }
