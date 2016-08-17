@@ -652,7 +652,7 @@ display: none;
   font-family: 'zocial', sans-serif;
   display: inline-block;
   width: 4vw;
-  
+  color: #9a9a9a;
 }
 @media screen 
   and (min-device-width: 1200px) 
@@ -952,14 +952,31 @@ border: 0px solid yellow;
 }
 .footer{
   height: 6vh;
+  padding: 8vw;
 }
 #copyright{
   font-size: .3em;
   color:#9a9a9a;
   display: block;
   text-align: left;
-  padding: 8vw;
+  
 }
+
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  display: inline-block;
+  width: .3em;
+  color: #9a9a9a;
+}
+
+
+[class*="zocial-"]:before:hover {
+  
+  color: #666666;
+}
+
+
 
 }
 
