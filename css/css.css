@@ -890,10 +890,10 @@ border: 0px solid yellow;
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
-  height: 50vw;
+  height: 35vw;
   border: 1px solid blue;
   display: flex;
-  width: 50vw;
+  width:33.333vw;
 }
 
 #contact-title{
@@ -902,7 +902,7 @@ border: 0px solid yellow;
   margin: auto;
 }
 #contact-info{
-  width: 50vw;
+  width: 33.333vw;
   border: 1px solid red;
   padding: 6vw;
 }
