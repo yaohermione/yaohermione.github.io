@@ -901,6 +901,8 @@ border: 0px solid yellow;
   text-align: center;
   margin: auto;
   border: 1px solid red;
+  padding-top:0;
+  height: 0;
 }
 #contact-info{
   width: 33.33%;
@@ -910,13 +912,13 @@ border: 0px solid yellow;
 .contact-style{
 font-size: .3em;
   color:#9a9a9a;
-  display: block;
+  display: inline-block;
   text-align: left;
 }
 .contact-content{
   font-size: .3em;
   color:#9a9a9a;
-  display: block;
+  display: inline-block;
   text-align: left;
 }
 
