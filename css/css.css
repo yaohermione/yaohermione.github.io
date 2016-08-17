@@ -882,6 +882,7 @@ border: 0px solid yellow;
 #contact{
   display: flex;
   position: relative;
+  margin: 8vw;
 }
 #contact-img{
     border: 0px solid red;
@@ -890,7 +891,7 @@ border: 0px solid yellow;
   background-repeat:no-repeat;
   background-position: center;
   height: 50vw;
-  border: 0px solid blue;
+  border: 1px solid blue;
   display: flex;
   width: 50vw;
 }
@@ -901,17 +902,18 @@ border: 0px solid yellow;
   margin: auto;
 }
 #contact-info{
-  border: 0px solid red;
+  width: 50vw;
+  border: 1px solid red;
   padding: 6vw;
 }
 .contact-style{
-font-size: 1em;
+font-size: .3em;
   color:#9a9a9a;
   
   text-align: left;
 }
 .contact-content{
-  font-size: 1em;
+  font-size: .3em;
   color:#9a9a9a;
   
   text-align: left;
