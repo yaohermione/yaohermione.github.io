@@ -771,7 +771,7 @@ h4{
 
 text-align: left;
 margin: auto;
-height: 50%;
+/*height: 50%;*/
 bottom: 0;
 color:#666666;
 padding-top: 10px;
@@ -897,7 +897,7 @@ border: 0px solid yellow;
   margin: auto;
   border: 1px solid red;
   padding-top:0;
-  height: 10%;
+  /*height: 10%;*/
 }
 #contact-info{
   width: 33.33%;
@@ -908,8 +908,9 @@ border: 0px solid yellow;
 .contact-content{
   font-size: .3em;
   color:#9a9a9a;
-  display: inline-block;
+  display: block;
   text-align: left;
+
 }
 
 
