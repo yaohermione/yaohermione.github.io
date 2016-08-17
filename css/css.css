@@ -619,12 +619,7 @@ margin-bottom: .5em;
   border: 0px solid red;
   padding: 6vw;
 }
-.contact-style{
-font-size: 1em;
-  color:#9a9a9a;
-  
-  text-align: left;
-}
+
 .contact-content{
   font-size: 1em;
   color:#9a9a9a;
@@ -902,19 +897,14 @@ border: 0px solid yellow;
   margin: auto;
   border: 1px solid red;
   padding-top:0;
-  height: 0;
+  height: 10%;
 }
 #contact-info{
   width: 33.33%;
   border: 0px solid red;
   padding: 3vw;
 }
-.contact-style{
-font-size: .3em;
-  color:#9a9a9a;
-  display: inline-block;
-  text-align: left;
-}
+
 .contact-content{
   font-size: .3em;
   color:#9a9a9a;
