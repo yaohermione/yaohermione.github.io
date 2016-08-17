@@ -989,12 +989,33 @@ border: 0px solid yellow;
   text-align: top;
 }
 
+.zocial-facebook{
+  text-align: top;
+  margin-top: 0px;
+}
+.zocial-fivehundredpx{
+  text-align: top;
+  margin-top: 0px;
+}
+.zocial-linkedin{
+  text-align: top;
+  margin-top: 0px;
+}
+.zocial-weibo{
+  text-align: top;
+  margin-top: 0px;
+}
+
+
 
 [class*="zocial-"]:hover {
   
   color: #666666;
   
 }
+
+
+
 
 
 #copyright-box{
