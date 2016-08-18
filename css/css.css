@@ -637,7 +637,7 @@ display: none;
 }
 
 .footer{
-  
+  background-color: white;
   padding-left: 6vw;
   padding-right: 6vw;
   border: 0px solid yellow;
@@ -987,13 +987,14 @@ border: 0px solid yellow;
   margin-top: 0px;
   border: 1px solid red;
   text-align: top;
+  height: .3em;
 }
 
 .zocial-facebook{
   padding: 0px;
   margin-top: 0px;
 }
-.zocial-fivehundredpx{
+.zocial-instagram{
 padding: 0px;
   margin-top: 0px;
 }
