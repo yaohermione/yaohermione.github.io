@@ -637,14 +637,14 @@ display: none;
 }
 
 .footer{
-  background-color: white;
+  background-color: #666666;
   padding-left: 6vw;
   padding-right: 6vw;
   border: 0px solid yellow;
 }
 #copyright{
   font-size: 1em;
-  color:#9a9a9a;
+  color:#fefefe;
   text-align: left;
   margin: auto;
 }
@@ -666,7 +666,7 @@ display: flex;
   font-family: 'zocial', sans-serif;
   display: inline-block;
   font-size: 1em;
-  color: #9a9a9a;
+  color: #fefefe;
   margin-right: .3em;
 }
 
@@ -986,7 +986,7 @@ border: 0px solid yellow;
   font-family: 'zocial', sans-serif;
   display: inline-block;
   font-size: .3em;
-  color: #9a9a9a;
+  color: #ececec;
   margin-right:.1em;
   margin-top: 0px;
   border: 1px solid red;
