@@ -646,13 +646,15 @@ display: none;
   font-size: 1em;
   color:#9a9a9a;
   text-align: left;
-  margin: 0px;
+  margin: auto;
 }
 #copyright-box{
 border: 0px solid red;
+display: flex;
 }
-#social-icon{
+#social-icon-box{
 border: 0px solid blue;
+display: flex;
 }
 
 
@@ -971,9 +973,8 @@ border: 0px solid yellow;
 }
 #copyright{
   font-size: .3em;
-  color:#9a9a9a;
-  display: block;
-  text-align: left;
+ 
+  
   
 }
 
@@ -1020,14 +1021,13 @@ padding: 0px;
 
 
 #copyright-box{
-  width: 50%;
+  
 border: 1px solid red;
 }
-#social-icon{
-  width:50%;
-  left: 50%;
+#social-icon-box{
+ 
 border: 1px solid blue;
-text-align: top;
+
 }
 
 
