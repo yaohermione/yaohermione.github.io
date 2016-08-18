@@ -656,6 +656,9 @@ display: flex;
 border: 0px solid blue;
 display: flex;
 }
+#span-box{
+  margin: auto;
+}
 
 
 /* zocial */
