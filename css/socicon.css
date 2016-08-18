@@ -62,7 +62,7 @@
     z-index: 1;
     width: 1.6em;
     height: 1.6em;
-    line-height: 29px;
+    line-height: 1.6em;
     font-size: 1em;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
@@ -70,11 +70,13 @@
     margin-right: 10px;
     color: #fefefe;
     background-color: none;
+    border: 1px solid #fefefe;
 }
 
 .soc a:hover {
     z-index: 2;
     color: #666666 !important;
+    border: 1px solid #666666;
 }
 
 
@@ -108,10 +110,14 @@
 
 
 .soc li a {
-    width: .5em;
-    height: .5em;
+    width: 2em;
+    height: 2em;
     font-size: .3em;
-
+    line-height: 2em;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #fefefe;
 }
 
 
