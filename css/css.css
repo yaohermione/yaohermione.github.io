@@ -653,6 +653,7 @@ display: none;
 #copyright-box{
 border: 0px solid red;
 display: flex;
+margin-top: 1em;
 }
 #social-icon-box{
 border: 0px solid blue;
@@ -1030,6 +1031,7 @@ padding: 0px;
 #copyright-box{
   
 border: 1px solid red;
+margin-top: 0px;
 }
 #social-icon-box{
  

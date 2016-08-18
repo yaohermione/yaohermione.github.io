@@ -24,8 +24,8 @@
     padding:0;
     list-style:none;
     background-color: #9a9a9a;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .soc li {
@@ -136,8 +136,8 @@
 
 .soc a:hover {
     z-index: 2;
-    color: #666666 !important;
-    border: 0.5px solid #1a1a1a;
+    color: #aaaaaa !important;
+    border: 0.5px solid #aaaaaa;
 }
 
 
