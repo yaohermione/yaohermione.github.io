@@ -58,10 +58,10 @@
     display:block;
     position: relative;
     z-index: 1;
-    width: 1em;
-    height: 1em;
+    width: 3em;
+    height: 3em;
     line-height: 29px;
-    font-size: 15px;
+    font-size: 1em;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
@@ -100,7 +100,10 @@
 
 
 .soc li a {
+    width: .5em;
+    height: .5em;
     font-size: .3em;
+
 }
 
 
