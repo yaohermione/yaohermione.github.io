@@ -620,6 +620,7 @@ margin-bottom: .5em;
 #contact-info{
   border: 0px solid red;
   padding: 6vw;
+  padding-bottom: 0vw;
 }
 
 .contact-content{
@@ -923,6 +924,7 @@ border: 0px solid yellow;
   display: flex;
   position: relative;
   margin: 8vw;
+
 }
 #contact-img{
     border: 0px solid red;
