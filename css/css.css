@@ -641,6 +641,8 @@ display: none;
   padding-left: 6vw;
   padding-right: 6vw;
   border: 0px solid yellow;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 }
 #copyright{
   font-size: 1em;
@@ -972,7 +974,9 @@ border: 0px solid yellow;
   
   padding-left: 8vw;
   padding-left: 8vw;
-  height: 1em;
+  
+  padding-top: 4vw;
+  padding-bottom: 4vw;
 }
 #copyright{
   font-size: .3em;
