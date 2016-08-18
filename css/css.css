@@ -637,7 +637,7 @@ display: none;
 }
 
 .footer{
-  background-color: #666666;
+  background-color: #9a9a9a;
   padding-left: 6vw;
   padding-right: 6vw;
   border: 0px solid yellow;
@@ -986,7 +986,7 @@ border: 0px solid yellow;
   font-family: 'zocial', sans-serif;
   display: inline-block;
   font-size: .3em;
-  color: #ececec;
+  
   margin-right:.1em;
   margin-top: 0px;
   border: 1px solid red;
