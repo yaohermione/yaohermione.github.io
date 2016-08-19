@@ -632,6 +632,12 @@ margin-bottom: .5em;
   padding-right: 6vw;*/
 border: 1px solid red;
 }
+
+.form-element:-moz-placeholder{ color:#ececec; font-size:1em;}
+.form-element::-moz-placeholder{ color:#ececec; font-size:1em;}
+.form-element::-webkit-placeholder{ color:#ececec; font-size:1em;}
+.form-element:-ms-placeholder{ color:#ececec; font-size:1em;}
+
 .form-element{
   display: block;
   margin-bottom: 3vw;
