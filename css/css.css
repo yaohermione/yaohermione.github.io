@@ -622,14 +622,19 @@ margin-bottom: .5em;
   text-align: center;
   margin: auto;
 }
+#contact-container{
+  padding: 6vw;
+}
+
 #contact-form{
    /*padding-left: 6vw;
   padding-right: 6vw;*/
 border: 1px solid red;
 }
-#contact-container{
-  padding: 6vw;
+.form-element{
+  display: block;
 }
+
 #contact-info{
   border: 0px solid red;
   /*padding-left: 6vw;
