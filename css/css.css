@@ -628,8 +628,7 @@ margin-bottom: .5em;
 border: 1px solid red;
 }
 #contact-container{
-  padding-left: 6vw;
-  padding-right: 6vw;
+  padding: 6vw;
 }
 #contact-info{
   border: 0px solid red;
