@@ -624,6 +624,7 @@ margin-bottom: .5em;
 }
 #contact-container{
   padding: 6vw;
+  margin-bottom: 6vw;
 }
 
 #contact-form{
@@ -633,6 +634,8 @@ border: 1px solid red;
 }
 .form-element{
   display: block;
+  margin-bottom: 3vw;
+  height: 12vw;
 }
 
 #contact-info{
