@@ -630,7 +630,7 @@ margin-bottom: .5em;
 #contact-form{
    /*padding-left: 6vw;
   padding-right: 6vw;*/
-border: 1px solid red;
+border: 0px solid red;
 }
 
 /*input::-webkit-input-placeholder { font-size: 1em; color: #9a9a9a; }
@@ -643,21 +643,21 @@ textarea:-ms-input-placeholder { font-size: 1em; color: #9a9a9a; }
 textarea:-moz-placeholder { font-size: 1em; color: #9a9a9a; }*/
 ::-webkit-input-placeholder { /* Chrome */
   color: red;
-  font-size: 2em;
+  font-size: 1em;
 }
 :-ms-input-placeholder { /* IE 10+ */
   color: red;
-  font-size: 2em;
+  font-size: 1em;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: red;
   opacity: 1;
-  font-size: 2em;
+  font-size: 1em;
 }
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: red;
   opacity: 1;
-  font-size: 2em;
+  font-size: 1em;
 }
 .form-element{
   display: block;
