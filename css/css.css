@@ -633,11 +633,28 @@ margin-bottom: .5em;
 border: 1px solid red;
 }
 
-input::-webkit-input-placeholder { font-size: 3em; color: #9a9a9a; }
-input::-moz-placeholder { font-size: 3em; color: #9a9a9a; }
-input:-ms-input-placeholder { font-size: 3em; color: #9a9a9a; }
-input:-moz-placeholder { font-size: 3em; color: #9a9a9a; }
-
+/*input::-webkit-input-placeholder { font-size: 1em; color: #9a9a9a; }
+input::-moz-placeholder { font-size: 1em; color: #9a9a9a; }
+input:-ms-input-placeholder { font-size: 1em; color: #9a9a9a; }
+input:-moz-placeholder { font-size: 1em; color: #9a9a9a; }
+textarea::-webkit-input-placeholder { font-size: 1em; color: #9a9a9a; }
+textarea::-moz-placeholder { font-size: 1em; color: #9a9a9a; }
+textarea:-ms-input-placeholder { font-size: 1em; color: #9a9a9a; }
+textarea:-moz-placeholder { font-size: 1em; color: #9a9a9a; }*/
+::-webkit-input-placeholder { /* Chrome */
+  color: red;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: red;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: red;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: red;
+  opacity: 1;
+}
 .form-element{
   display: block;
   margin-bottom: 3vw;
