@@ -964,9 +964,8 @@ border: 0px solid yellow;
 
 #contact-form{
   display: block;
-  border: 0px solid red;
+  border: 1px solid red;
   width: 100%;
-  height
 }
 #contact-container{
   width: 70%;

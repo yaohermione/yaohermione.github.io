@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/ospb.css">
-    <link rel="stylesheet" href="css/weloveiconfonts.css">
     <link rel="stylesheet" href="css/socicon.css">
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/ospb.css">
@@ -212,7 +212,28 @@
  
   <div id="contact-container">
     <div id="contact-form">
-      <span></span>
+      <label>Name:</label>
+        <input id="sender">
+        <br>
+
+        <label>Email address:</label>
+        <input id="senderEmail">
+        <br>
+
+        <label>Subject:</label>
+        <input id="subject">
+        <br>
+
+        <label>Message:</label>
+        <textarea rows="5" cols="20" id="message" ></textarea>
+        <br>
+
+        <button onclick="gotosendemail()">Send</button>
+
+        <div id="email-result" style="border: 1px solid red; height: 50px">
+          
+        </div>
+
     </div>
 
 
@@ -286,6 +307,6 @@
   <script src="js/index.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/sly.min.js"></script>
-    
+  <script src="js/sendemailfunc.js"></script>
  
 </html>
