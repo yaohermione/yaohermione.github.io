@@ -633,10 +633,15 @@ margin-bottom: .5em;
 border: 1px solid red;
 }
 
-.form-element:-moz-placeholder{ color:#ececec; font-size:1em;}
-.form-element::-moz-placeholder{ color:#ececec; font-size:1em;}
-.form-element::-webkit-placeholder{ color:#ececec; font-size:1em;}
-.form-element:-ms-placeholder{ color:#ececec; font-size:1em;}
+input.form-element:-moz-placeholder{ 
+  color:#ececec; 
+  font-size:1em;
+}
+
+textarea.form-element:-ms-placeholder{ 
+  color:#ececec; 
+  font-size:1em;
+}
 
 .form-element{
   display: block;
