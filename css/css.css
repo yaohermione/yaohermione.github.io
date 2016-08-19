@@ -633,15 +633,10 @@ margin-bottom: .5em;
 border: 1px solid red;
 }
 
-input.form-element:-moz-placeholder{ 
-  color:#ececec; 
-  font-size:1em;
-}
-
-textarea.form-element:-ms-placeholder{ 
-  color:#ececec; 
-  font-size:1em;
-}
+input::-webkit-input-placeholder { font-size: 1em; color: #ececec; }
+input::-moz-placeholder { font-size: 1em; color: #ececec; }
+input:-ms-input-placeholder { font-size: 1em; color: #ececec; }
+input:-moz-placeholder { font-size: 1em; color: #ececec; }
 
 .form-element{
   display: block;
