@@ -636,7 +636,7 @@ a[href^="tel"]{
     text-decoration:none;
 }
 #contact-form{
-display: none;
+border: 1px solid red;
 }
 
 .footer{
