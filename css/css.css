@@ -642,22 +642,27 @@ textarea::-moz-placeholder { font-size: 1em; color: #9a9a9a; }
 textarea:-ms-input-placeholder { font-size: 1em; color: #9a9a9a; }
 textarea:-moz-placeholder { font-size: 1em; color: #9a9a9a; }*/
 ::-webkit-input-placeholder { /* Chrome */
-  color: red;
+  color: #9a9a9a;
   font-size: 1em;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: red;
-  font-size: 1em;
+  color: #9a9a9a;
+  font-size: 20px;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: red;
+  color: #9a9a9a;
   opacity: 1;
-  font-size: 1em;
+  font-size: 20px;
 }
 :-moz-placeholder { /* Firefox 4 - 18 */
-  color: red;
+  color: #9a9a9a;
   opacity: 1;
-  font-size: 1em;
+  font-size: 20px;
+}
+input[type=text]{
+  border: 1px solid #9a9a9a;
+  border-radius: 3px;
+
 }
 .form-element{
   display: block;
