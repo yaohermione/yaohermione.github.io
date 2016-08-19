@@ -633,10 +633,10 @@ margin-bottom: .5em;
 border: 1px solid red;
 }
 
-input::-webkit-input-placeholder { font-size: 1em; color: #ececec; }
-input::-moz-placeholder { font-size: 1em; color: #ececec; }
-input:-ms-input-placeholder { font-size: 1em; color: #ececec; }
-input:-moz-placeholder { font-size: 1em; color: #ececec; }
+input::-webkit-input-placeholder { font-size: 3em; color: #9a9a9a; }
+input::-moz-placeholder { font-size: 3em; color: #9a9a9a; }
+input:-ms-input-placeholder { font-size: 3em; color: #9a9a9a; }
+input:-moz-placeholder { font-size: 3em; color: #9a9a9a; }
 
 .form-element{
   display: block;
