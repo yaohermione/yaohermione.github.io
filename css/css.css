@@ -1023,7 +1023,7 @@ border: 0px solid yellow;
   display: flex;
   position: relative;
   margin: 8vw;
-  border: 1px solid green;
+  border: 0px solid green;
 }
 #contact-img{
     border: 0px solid red;
@@ -1047,7 +1047,7 @@ border: 0px solid yellow;
 }
 #contact-info{
   width: 60%;
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 3vw;
 }
 
@@ -1061,7 +1061,7 @@ border: 0px solid yellow;
 
 #contact-form{
   display: block;
-  border: 1px solid blue;
+  border: 0px solid blue;
   width: 40%;
   padding-left: 3vw;
 }
@@ -1071,7 +1071,7 @@ border: 0px solid yellow;
   width: 66.7%;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid blue;
+  border: 0px solid blue;
   
 }
 
