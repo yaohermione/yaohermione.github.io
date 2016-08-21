@@ -685,7 +685,8 @@ border-radius: 3px;
 }
 #message{
 line-height:0;
-padding: 1em;
+padding-left: 1em;
+padding-top: 1em;
 }
 
 
