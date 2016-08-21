@@ -1046,7 +1046,7 @@ border: 0px solid yellow;
   /*height: 10%;*/
 }
 #contact-info{
-  width: 33.3%;
+  width: 50%;
   border: 0px solid red;
   padding: 3vw;
 }
@@ -1062,7 +1062,7 @@ border: 0px solid yellow;
 #contact-form{
   display: block;
   border: 1px solid red;
-  width: 50%;
+  width: 100%;
   padding-left: 3vw;
 }
 #contact-container{
@@ -1071,6 +1071,7 @@ border: 0px solid yellow;
   display: flex;
   flex-wrap: wrap;
   border: 0px solid blue;
+  height: 100%;
 }
 
 
