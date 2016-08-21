@@ -684,6 +684,7 @@ border-radius: 3px;
   color:#9a9a9a;
 }
 #message{
+  height: 36vw;
 line-height:0;
 padding-left: 1em;
 padding-top: 1em;
