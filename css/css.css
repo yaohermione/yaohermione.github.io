@@ -1067,6 +1067,7 @@ border: 0px solid yellow;
 }
 #contact-container{
   padding: 0px;
+  margin: 0px;
   width: 66.7%;
   display: flex;
   flex-wrap: wrap;
