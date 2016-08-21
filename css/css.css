@@ -57,10 +57,10 @@ border: 0px solid red;
   font-size: 1.06em;
   margin:0px;
   padding-left: 10vw;
-  border-bottom: 0px solid #fefefe;
-  text-align: left;
+  border: 1px solid red;
+  
   height: 10vh;
-
+text-align: left;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -671,9 +671,9 @@ textarea:-moz-placeholder { font-size: 1em; color: #9a9a9a; }*/
 background:#fefefe;
 
 font-size:1em ;
-line-height:1em;
-padding-left: 1em;
-padding-top: 1em;
+/*line-height:1em;
+padding-left: .5em;
+padding-top: .5em;*/
 border: 1px solid #cccccc;
   -webkit-border-radius: 3;
   -moz-border-radius: 3;
@@ -682,6 +682,12 @@ border: 1px solid #cccccc;
   margin-bottom: 3vw;
   height: 12vw;
   color:#9a9a9a;
+
+text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
 }
 #message{
 height: 36vw;
@@ -696,10 +702,11 @@ padding-top: 1em;
   text-decoration: none;
   display: -webkit-flex;
   display:         flex;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  text-align: center;
+}
+
+#send-btn.div{
+  margin: auto;
 }
 
 #send-btn:hover {
