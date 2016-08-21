@@ -1084,6 +1084,10 @@ border: 0px solid yellow;
     -moz-appearance: none;
     appearance: none;
 
+font-family: inherit; 
+font-size: inherit; 
+font-weight: inherit;
+
 background:#fefefe;
 
 font-size:.24em ;
