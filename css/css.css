@@ -1124,10 +1124,12 @@ height: 46%;
   width: 40%;
   margin: 0px;
   display: flex;
+
 }
 #send-btn div{
-  border: 1px solid red;
+  border: 0px solid red;
   margin: auto;
+  line-height: .24em ;
 }
 .footer{
   
