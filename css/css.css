@@ -1063,14 +1063,49 @@ border: 0px solid yellow;
   display: block;
   border: 1px solid red;
   width: 100%;
+  padding: 3vw;
 }
 #contact-container{
   width: 70%;
   display: flex;
   flex-wrap: wrap;
   border: 0px solid blue;
-  padding: 3vw;
 }
+
+
+.form-element{
+ -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+background:#fefefe;
+
+font-size:.3em ;
+/*line-height:1em;
+padding-left: .5em;
+padding-top: .5em;*/
+border: 1px solid #cccccc;
+  -webkit-border-radius: .5;
+  -moz-border-radius: .5;
+  border-radius: .5px;
+ display: block;
+  margin-bottom: 1vw;
+  height: 6vw;
+  color:#9a9a9a;
+padding-left: .5em;
+text-align: left;
+  display: flex;
+  align-items: center;
+
+}
+#message{
+height: 18vw;
+/*line-height:0;*/
+padding-left: .5em;
+padding-top: .5em;
+}
+
+
 .footer{
   
   padding-left: 8vw;
