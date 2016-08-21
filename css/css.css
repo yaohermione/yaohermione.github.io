@@ -671,7 +671,7 @@ textarea:-moz-placeholder { font-size: 1em; color: #9a9a9a; }*/
 background:#fefefe;
 
 font-size:1em ;
-line-height:normal;
+line-height:1em;
 padding-left: 1em;
 padding-top: 1em;
 border: 1px solid #cccccc;
@@ -694,6 +694,12 @@ padding-top: 1em;
 #send-btn {
   line-height:0;
   text-decoration: none;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
 }
 
 #send-btn:hover {
@@ -701,6 +707,8 @@ padding-top: 1em;
   background: #eeeeee;
   text-decoration: none;
 }
+
+
 #contact-info{
   border: 0px solid red;
   /*padding-left: 6vw;
