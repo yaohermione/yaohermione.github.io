@@ -668,6 +668,10 @@ textarea:-moz-placeholder { font-size: 1em; color: #9a9a9a; }*/
     -moz-appearance: none;
     appearance: none;
 
+font-family: inherit; 
+font-size: inherit; 
+font-weight: inherit;
+
 background:#fefefe;
 
 font-size:1em ;
@@ -1084,9 +1088,7 @@ border: 0px solid yellow;
     -moz-appearance: none;
     appearance: none;
 
-font-family: inherit; 
-font-size: inherit; 
-font-weight: inherit;
+
 
 background:#fefefe;
 
