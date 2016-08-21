@@ -1062,12 +1062,12 @@ border: 0px solid yellow;
 #contact-form{
   display: block;
   border: 1px solid red;
-  width: 100%;
+  width: 50%;
   padding-left: 3vw;
 }
 #contact-container{
   padding: 0px;
-  width: 33.3%;
+  width: 66.7%;
   display: flex;
   flex-wrap: wrap;
   border: 0px solid blue;
