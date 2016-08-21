@@ -70,12 +70,12 @@ border: 0px solid red;
   background-color: #fefefe;
 }
 
-/*.col-6{
+.col-6{
   width: 50%;
 }
 .col-3{
   width: 33.33%;
-}*/
+}
 .col-12{
   width: 100%;
 }
@@ -684,14 +684,26 @@ border-radius: 3px;
   color:#9a9a9a;
 }
 #message{
-  height: 36vw;
+height: 36vw;
 line-height:0;
 padding-left: 1em;
-padding-top: 1em;
+padding-top: 2em;
 }
 
 
+#send-btn {
+  line-height:0;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  background: #fefefe;
+  text-decoration: none;
+}
 
+#send-btn:hover {
+  background: #eeeeee;
+  text-decoration: none;
+}
 #contact-info{
   border: 0px solid red;
   /*padding-left: 6vw;
