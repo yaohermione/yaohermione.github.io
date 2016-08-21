@@ -705,8 +705,8 @@ padding-top: 1em;
   align-items: center;
 }
 
-#send-btn.div{
-border: 1px solid red;
+#send-btn div{
+border: 0px solid red;
   margin: auto;
 }
 
