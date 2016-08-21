@@ -1123,8 +1123,12 @@ height: 46%;
   bottom: 0px;
   width: 40%;
   margin: 0px;
+  display: flex;
 }
-
+#send-btn div{
+  border: 1px solid red;
+  margin: auto;
+}
 .footer{
   
   padding-left: 8vw;
