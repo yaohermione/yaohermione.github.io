@@ -1063,7 +1063,7 @@ border: 0px solid yellow;
   display: block;
   border: 1px solid red;
   width: 100%;
-  padding: 3vw;
+  padding-left: 3vw;
 }
 #contact-container{
   width: 70%;
@@ -1074,6 +1074,7 @@ border: 0px solid yellow;
 
 
 .form-element{
+  width: 50%;
  -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -1084,13 +1085,13 @@ font-size:.3em ;
 /*line-height:1em;
 padding-left: .5em;
 padding-top: .5em;*/
-border: 1px solid #cccccc;
+border: .5px solid #cccccc;
   -webkit-border-radius: .5;
   -moz-border-radius: .5;
   border-radius: .5px;
  display: block;
   margin-bottom: 1vw;
-  height: 6vw;
+  height: 4vw;
   color:#9a9a9a;
 padding-left: .5em;
 text-align: left;
@@ -1103,8 +1104,12 @@ height: 18vw;
 /*line-height:0;*/
 padding-left: .5em;
 padding-top: .5em;
+width: 80%;
 }
-
+#send-btn{
+  width: 10%;
+  font-size: .5em;
+}
 
 .footer{
   
