@@ -664,7 +664,7 @@ input[type=text]{
  -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    
+
 background:#fefefe;
 color:#9a9a9a;
 font-size:16px ;
@@ -673,7 +673,7 @@ padding: 10px ;
 box-shadow: 0px 0px 0px #FFFFFF; 
 -webkit-box-shadow: 0px 0px 0px #FFFFFF; 
 -moz-box-shadow: 0px 0px 0px #FFFFFF; 
-border: 1px solid #9a9a9a;
+border: 1px solid #cccccc;
 border-radius: 3px;
 
 }
