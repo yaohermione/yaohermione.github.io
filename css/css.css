@@ -1023,7 +1023,7 @@ border: 0px solid yellow;
   display: flex;
   position: relative;
   margin: 8vw;
-
+  border: 0px solid green;
 }
 #contact-img{
     border: 0px solid red;
@@ -1046,7 +1046,7 @@ border: 0px solid yellow;
   /*height: 10%;*/
 }
 #contact-info{
-  width: 50%;
+  width: 70%;
   border: 1px solid red;
   padding: 3vw;
 }
@@ -1062,7 +1062,7 @@ border: 0px solid yellow;
 #contact-form{
   display: block;
   border: 1px solid blue;
-  width: 50%;
+  width: 30%;
   padding-left: 3vw;
 }
 #contact-container{
