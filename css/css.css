@@ -671,8 +671,9 @@ textarea:-moz-placeholder { font-size: 1em; color: #9a9a9a; }*/
 background:#fefefe;
 
 font-size:1em ;
-line-height:12vw;
-padding: 1em ;
+line-height:normal;
+padding-left: 1em;
+padding-top: 1em;
 border: 1px solid #cccccc;
   -webkit-border-radius: 3;
   -moz-border-radius: 3;
@@ -686,7 +687,7 @@ border: 1px solid #cccccc;
 height: 36vw;
 /*line-height:0;*/
 padding-left: 1em;
-padding-top: 1.5em;
+padding-top: 1em;
 }
 
 
