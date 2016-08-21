@@ -643,22 +643,22 @@ textarea:-ms-input-placeholder { font-size: 1em; color: #9a9a9a; }
 textarea:-moz-placeholder { font-size: 1em; color: #9a9a9a; }*/
 ::-webkit-input-placeholder { /* Chrome */
   color: #cccccc;
-  font-size: 16px;
+  font-size: 1em;
 
 }
 :-ms-input-placeholder { /* IE 10+ */
   color: #cccccc;
-  font-size: 16px;
+  font-size: 1em;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: #cccccc;
   opacity: 1;
-  font-size: 16px;
+  font-size: 1em;
 }
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: #cccccc;
   opacity: 1;
-  font-size: 16px;
+  font-size: 1em;
 }
 /*input[type=text]{
  
@@ -684,7 +684,7 @@ border: 1px solid #cccccc;
 }
 #message{
 height: 36vw;
-line-height:0;
+/*line-height:0;*/
 padding-left: 1em;
 padding-top: 1.5em;
 }
@@ -692,11 +692,11 @@ padding-top: 1.5em;
 
 #send-btn {
   line-height:0;
-
   text-decoration: none;
 }
 
 #send-btn:hover {
+  cursor: pointer;
   background: #eeeeee;
   text-decoration: none;
 }
