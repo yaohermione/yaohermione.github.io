@@ -1066,6 +1066,7 @@ border: 0px solid yellow;
   padding-left: 3vw;
 }
 #contact-container{
+  padding: 0px;
   width: 70%;
   display: flex;
   flex-wrap: wrap;
@@ -1074,7 +1075,7 @@ border: 0px solid yellow;
 
 
 .form-element{
-  width: 50%;
+  width: 40%;
  -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -1100,15 +1101,15 @@ text-align: left;
 
 }
 #message{
-height: 18vw;
+height: 10vw;
 /*line-height:0;*/
 padding-left: .5em;
 padding-top: .5em;
-width: 80%;
+width: 60%;
 }
 #send-btn{
-  width: 10%;
-  font-size: .5em;
+  width: 20%;
+  font-size: .4em;
 }
 
 .footer{
