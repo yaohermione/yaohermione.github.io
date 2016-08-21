@@ -662,14 +662,16 @@ textarea:-moz-placeholder { font-size: 1em; color: #9a9a9a; }*/
 }
 input[type=text]{
 
-
+background:#fefefe;
 color:#9a9a9a;
 font-size:16px ;
 line-height:12vw;
 padding: 10px ;
-
-  border: 1px solid #9a9a9a;
-  border-radius: 3px;
+box-shadow: -50px 50px 0px #FFFFFF; 
+-webkit-box-shadow: -50px 50px 0px #FFFFFF; 
+-moz-box-shadow: -50px 50px 0px #FFFFFF; 
+border: 1px solid #9a9a9a;
+border-radius: 3px;
 
 }
 .form-element{
@@ -678,19 +680,7 @@ padding: 10px ;
   height: 12vw;
 }
 
-.dap_text_box
-{ 
-background:#F5F5F5;
-color:#999999;
-border:1px solid #CFCDCD;
-border-radius:4px ;
-font-size:19px ;
-height: 30px ;
-line-height:30px ;
-width: 250px ;
-padding: 10px ;
 
-}
 
 
 #contact-info{
