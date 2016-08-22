@@ -3,7 +3,7 @@
 	var subject;
 	var message;
 	var email_result_container;
-	email_result_container.classList.add('hide-result');
+
 	function gotosendemail(){
 		
 		var sender = $("#sender").val();
@@ -41,16 +41,19 @@
 				xmlhttp.send();
 			}
 			else if(senderEmail==""&message==""){
+				email_result_container.classList.add('hide-result');
 				alert("senderEmail="+senderEmail+"message="+message);
 					$("#senderEmail").addClass('wong-input');
 					$("#message").addClass('wong-input');
 			}
 			else if(senderEmail==""){
+				email_result_container.classList.add('hide-result');
 				alert("senderEmail="+senderEmail);
 					// senderEmail.classList.add('wong-input');
 					$("#senderEmail").addClass('wong-input');
 			}
 			else if(message==""){
+				email_result_container.classList.add('hide-result');
 				alert("message="+message);
 					// message.classList.add('wong-input');
 					$("#message").addClass('wong-input');
