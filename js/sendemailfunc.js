@@ -33,6 +33,7 @@
 						message.classList.remove('wong-input');
 					}
 					else if(1){
+						var email_result_container = document.getElementById("email-result-container");
 						email_result_container.classList.remove('hide-result');
 						$("#email-result").html("<div class=\"uil-ring-css\"></div>");
 					}
