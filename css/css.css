@@ -729,11 +729,13 @@ border: 0px solid red;
   margin-top: 6vw;
    padding-bottom: 3vw;
   padding-top: 3vw;
-  display: flex;
+  
   background-color: #fefefe;
 
 }
-
+.result-flex{
+  display: flex;
+}
 .hide-result{
    display: none;
 }
