@@ -24,7 +24,8 @@
 					{
 						//alert("finished");
 						//$("#email-result").html(xmlhttp.responseText);
-						$("#email-result-container").classList.toggle('hide-result');
+						var email_result_container = $("#email-result-container");
+						email_result_container.classList.toggle('hide-result');
 						$("#email-result").html("Message sent successfully, thank you!");
 					}
 				  }
