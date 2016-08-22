@@ -750,6 +750,10 @@ border: 0px solid red;
   font-family: inherit;
   margin: auto;
 }
+.tick{
+  width: 8vw;
+  height: 8vw;
+}
 #contact-info{
   border: 0px solid red;
   /*padding-left: 6vw;
@@ -1187,6 +1191,10 @@ height: 46%;
 }
 .rolling{
   border: 1px solid blue;
+}
+.tick{
+  width: 2vw;
+  height: 2vw;
 }
 .footer{
   

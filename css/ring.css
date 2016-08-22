@@ -129,15 +129,15 @@
 .uil-ring-css {
   background: none;
   position: relative;
-  width: 12vw;
-  height: 12vw;
+  width: 8vw;
+  height: 8vw;
   border: 0px solid red;
 }
 .uil-ring-css > div {
   position: absolute;
   display: block;
-  width: 12vw;
-  height: 12vw;
+  width: 8vw;
+  height: 8vw;
   top: 0px;
   left: 0px;
   border-radius: 80px;
@@ -157,15 +157,15 @@
 .uil-ring-css {
   background: none;
   position: relative;
-  width: 3.5vw;
-  height: 3.5vw;
+  width: 2vw;
+  height: 2vw;
   border: 0px solid red;
 }
 .uil-ring-css > div {
   position: absolute;
   display: block;
-  width: 3.5vw;
-  height: 3.5vw;
+  width: 2vw;
+  height: 2vw;
   top: 0px;
   left: 0px;
   border-radius: 80px;

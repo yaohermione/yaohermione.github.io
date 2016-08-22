@@ -12,7 +12,7 @@
 		var email_result_container = document.getElementById("email-result-container");
 	 //alert("sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message);
 		if(senderEmail&&message){
-			alert("both not null");
+			//alert("both not null");
 				var xmlhttp;
 				if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
 				  xmlhttp=new XMLHttpRequest();
@@ -24,10 +24,10 @@
 				xmlhttp.onreadystatechange=function(){
 				  if (xmlhttp.readyState==4 && xmlhttp.status==200)
 					{
-						alert("finished");
+						//alert("finished");
 						//$("#email-result").html(xmlhttp.responseText);
 						email_result_container.classList.remove('hide-result');
-						$("#email-result").html("<img src=\"img/tick.svg\">Sent successfully!");
+						$("#email-result").html("<img class=\"tick\" src=\"img/tick.svg\">Sent successfully!");
 						senderEmail.classList.remove('wong-input');
 						message.classList.remove('wong-input');
 					}
