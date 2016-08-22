@@ -49,14 +49,14 @@
 			else if(senderEmail==""){
 				email_result_container.classList.add('hide-result');
 				alert("senderEmail="+senderEmail);
-					// senderEmail.classList.add('wong-input');
-					$("#senderEmail").addClass('wong-input');
+					 senderEmail.classList.add('wong-input');
+					//$("#senderEmail").addClass('wong-input');
 			}
 			else if(message==""){
 				email_result_container.classList.add('hide-result');
 				alert("message="+message);
-					// message.classList.add('wong-input');
-					$("#message").addClass('wong-input');
+					message.classList.add('wong-input');
+					//$("#message").addClass('wong-input');
 			}
 			
 
