@@ -28,6 +28,9 @@
 						email_result_container.classList.remove('hide-result');
 						$("#email-result").html("Message sent successfully, thanks!");
 					}
+					else{
+						$("#email-result").html("<img class=\"rolling\" src=\"img/rolling.svg\">");
+					}
 				  }
 				xmlhttp.open("GET","sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message,true);
 				xmlhttp.send();
