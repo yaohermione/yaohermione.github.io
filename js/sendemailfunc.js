@@ -3,6 +3,7 @@
 	var subject;
 	var message;
 	var email_result_container;
+	email_result_container.classList.add('hide-result');
 	function gotosendemail(){
 		
 		var sender = $("#sender").val();
