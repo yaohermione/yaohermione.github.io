@@ -45,11 +45,13 @@
 			}
 			else if(senderEmail==""){
 				alert("senderEmail="+senderEmail);
-					senderEmail.classList.add('wong-input');
+					// senderEmail.classList.add('wong-input');
+					$("#senderEmail").addClass('wong-input');
 			}
 			else if(message==""){
 				alert("message="+message);
-					message.classList.add('wong-input');
+					// message.classList.add('wong-input');
+					$("#message").addClass('wong-input');
 			}
 			
 

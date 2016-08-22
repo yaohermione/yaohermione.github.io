@@ -693,7 +693,7 @@ text-align: left;
 
 }
 .wrong-input{
-  box-shadow: 0 0 0 3px red;
+  box-shadow: 0 0 3px red;
   border: 1px solid red;
 }
 #message{
