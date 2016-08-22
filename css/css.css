@@ -747,6 +747,9 @@ background-color: #f6f6f6;
    display: none;
 }
 #email-result{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
   border: 0px solid red;
   font-size: inherit;
   color: #66a558;
