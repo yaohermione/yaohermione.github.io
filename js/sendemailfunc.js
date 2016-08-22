@@ -45,19 +45,19 @@
 			}
 			else if(senderEmail==""&message==""){
 				email_result_container.classList.add('hide-result');
-				alert("senderEmail="+senderEmail+"message="+message);
+				//alert("senderEmail="+senderEmail+"message="+message);
 					$("#senderEmail").addClass('empty-input');
 					$("#message").addClass('empty-input');
 			}
 			else if(senderEmail==""){
 				email_result_container.classList.add('hide-result');
-				alert("senderEmail="+senderEmail);
+				//alert("senderEmail="+senderEmail);
 				$("#senderEmail").addClass('empty-input');
 				
 			}
 			else if(message==""){
 				email_result_container.classList.add('hide-result');
-				alert("message="+message);
+				//alert("message="+message);
 				$("#message").addClass('empty-input');
 				
 			}
