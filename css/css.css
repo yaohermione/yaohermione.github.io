@@ -728,12 +728,15 @@ border: 0px solid red;
   margin-bottom: 3vw;
   margin-top: 6vw;
   display: flex;
+  background-color: #fefefe;
 }
 #email-result{
   border: 1px solid red;
   font-size: inherit;
   color: #9a9a9a;
   font-family: inherit;
+   margin-bottom: 3vw;
+  margin-top: 3vw;
   margin: auto;
 }
 #contact-info{
