@@ -43,20 +43,18 @@
 			else if(senderEmail==""&message==""){
 				email_result_container.classList.add('hide-result');
 				alert("senderEmail="+senderEmail+"message="+message);
-					$("#senderEmail").addClass('wong-input');
-					$("#message").addClass('wong-input');
+					$("#senderEmail").addClass('empty-input');
+					$("#message").addClass('empty-input');
 			}
 			else if(senderEmail==""){
 				email_result_container.classList.add('hide-result');
 				alert("senderEmail="+senderEmail);
-				//$("#senderEmail").addClass('wong-input');
-document.getElementById("senderEmail").addClass('wong-input');
+				$("#senderEmail").addClass('empty-input');
 			}
 			else if(message==""){
 				email_result_container.classList.add('hide-result');
 				alert("message="+message);
-				//$("#message").addClass('wong-input');
-document.getElementById("message").addClass('wong-input');
+				$("#message").addClass('empty-input');
 			}
 			
 
