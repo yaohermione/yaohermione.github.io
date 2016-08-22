@@ -21,7 +21,8 @@
 				  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 				  }
 				xmlhttp.onreadystatechange=function(){
-				  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+				  //if (xmlhttp.readyState==4 && xmlhttp.status==200)
+				  	if(0)
 					{
 						//alert("finished");
 						//$("#email-result").html(xmlhttp.responseText);
@@ -31,7 +32,7 @@
 						senderEmail.classList.remove('wong-input');
 						message.classList.remove('wong-input');
 					}
-					else{
+					else if(1){
 						$("#email-result").html("<img class=\"rolling\" src=\"img/rolling.svg\">");
 					}
 				  }
