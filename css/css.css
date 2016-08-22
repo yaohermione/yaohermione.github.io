@@ -751,8 +751,8 @@ border: 0px solid red;
   margin: auto;
 }
 .tick{
-  width: 10vw;
-  height: 10vw;
+  width: 12vw;
+  height: 12vw;
 }
 #contact-info{
   border: 0px solid red;
@@ -1193,8 +1193,8 @@ height: 46%;
   border: 1px solid blue;
 }
 .tick{
-  width: 3vw;
-  height: 3vw;
+  width: 3.5vw;
+  height: 3.5vw;
 }
 .footer{
   
