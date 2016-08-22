@@ -720,13 +720,21 @@ border: 0px solid red;
   text-decoration: none;
 }
 
+#email-result-container{
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: 3vw;
+  margin-top: 6vw;
+  display: flex;
+}
 #email-result{
   border: 1px solid red;
   font-size: inherit;
   color: #9a9a9a;
   font-family: inherit;
-  margin-bottom: 3vw;
-  margin-top: 6vw;
+  margin: auto;
 }
 #contact-info{
   border: 0px solid red;
