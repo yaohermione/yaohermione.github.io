@@ -136,12 +136,12 @@
 .uil-ring-css > div {
   position: absolute;
   display: block;
-  width: 160px;
-  height: 160px;
-  top: 20px;
-  left: 20px;
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  left: 0px;
   border-radius: 80px;
-  box-shadow: 0 6px 0 0 #66a558;
+  box-shadow: 0 1px 0 0 #66a558;
   -ms-animation: uil-ring-anim 1s linear infinite;
   -moz-animation: uil-ring-anim 1s linear infinite;
   -webkit-animation: uil-ring-anim 1s linear infinite;
