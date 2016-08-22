@@ -726,6 +726,7 @@ border: 0px solid red;
 
 #email-result-container{
   border: 1px solid #66a558;
+  border: 0px solid #66a558;
   -webkit-border-radius: 3;
   -moz-border-radius: 3;
   border-radius: 3;
@@ -735,7 +736,7 @@ border: 0px solid red;
   padding-top: 3vw;
   
   background-color: #fefefe;
-
+background-color: #f6f6f6;
 }
 .result-flex{
   display: flex;
@@ -1166,6 +1167,7 @@ height: 46%;
 }
 #email-result-container{
   border: .2px solid #66a558;
+  border: .2px solid #66a558;
   -webkit-border-radius: 1;
   -moz-border-radius: 1;
   border-radius: 1px;
@@ -1175,6 +1177,7 @@ height: 46%;
   padding-top: 1vw;
   
   background-color: #fefefe;
+  background-color: #f6f6f6;
 
 }
 
