@@ -721,7 +721,7 @@ border: 0px solid red;
 }
 
 #email-result-container{
-  border: 1px solid #cccccc;
+  border: 1px solid #66a558;
   -webkit-border-radius: 3;
   -moz-border-radius: 3;
   border-radius: 3;
@@ -742,7 +742,7 @@ border: 0px solid red;
 #email-result{
   border: 0px solid red;
   font-size: inherit;
-  color: #9a9a9a;
+  color: #66a558;
   font-family: inherit;
   margin: auto;
 }
@@ -1157,7 +1157,7 @@ height: 46%;
   text-align: center;
 }
 #email-result-container{
-  border: .2px solid #cccccc;
+  border: .2px solid #66a558;
   -webkit-border-radius: 1;
   -moz-border-radius: 1;
   border-radius: 1px;
@@ -1173,7 +1173,7 @@ height: 46%;
 #email-result{
   border: 0px solid red;
   font-size: .24em;
-  color: #9a9a9a;
+  color: #66a558;
   font-family: inherit;
   margin: auto;
 }
