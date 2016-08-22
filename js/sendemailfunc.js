@@ -25,8 +25,8 @@
 						//alert("finished");
 						//$("#email-result").html(xmlhttp.responseText);
 						var email_result_container = document.getElementById("email-result-container");
-						email_result_container.classList.toggle('hide-result');
-						$("#email-result").html("Message sent successfully, thank you!");
+						email_result_container.classList.add('hide-result');
+						$("#email-result").html("Message sent successfully, thanks!");
 					}
 				  }
 				xmlhttp.open("GET","sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message,true);
