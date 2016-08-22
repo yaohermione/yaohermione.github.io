@@ -1196,6 +1196,7 @@ height: 46%;
   color: #66a558;
   font-family: inherit;
   margin: auto;
+  float: left;
 }
 .wrong-input{
   box-shadow: 0 0 2px red;
