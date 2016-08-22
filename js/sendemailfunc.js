@@ -33,7 +33,7 @@
 						message.classList.remove('wong-input');
 					}
 					else if(1){
-						$("#email-result").html("<div class='uil-ring-css' style='transform:scale(0.21);'></div>");
+						$("#email-result").html("<div class=\"uil-ring-css\"></div>");
 					}
 				  }
 				xmlhttp.open("GET","sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message,true);
