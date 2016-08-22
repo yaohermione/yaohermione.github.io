@@ -1185,7 +1185,9 @@ height: 46%;
   box-shadow: 0 0 2px red;
   border: .2px solid red;
 }
-
+.rolling{
+  border: 1px solid red;
+}
 .footer{
   
   padding-left: 8vw;
