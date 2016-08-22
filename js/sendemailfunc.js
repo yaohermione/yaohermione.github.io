@@ -5,7 +5,8 @@
 	var email_result_container;
 
 	function gotosendemail(){
-		
+		$("#senderEmail").removeClass('empty-input');
+		$("#message").removeClass('empty-input');
 		var sender = $("#sender").val();
 		var senderEmail = $("#senderEmail").val();
 		var subject = $("#subject").val();
@@ -13,7 +14,8 @@
 		var email_result_container = document.getElementById("email-result-container");
 	 //alert("sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message);
 		if(senderEmail&&message){
-			//alert("both not null");
+			
+
 				var xmlhttp;
 				if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
 				  xmlhttp=new XMLHttpRequest();
@@ -25,6 +27,7 @@
 				xmlhttp.onreadystatechange=function(){
 				  if (xmlhttp.readyState==4 && xmlhttp.status==200)
 					{
+
 						//alert("finished");
 						//$("#email-result").html(xmlhttp.responseText);
 						email_result_container.classList.remove('hide-result');
@@ -50,11 +53,13 @@
 				email_result_container.classList.add('hide-result');
 				alert("senderEmail="+senderEmail);
 				$("#senderEmail").addClass('empty-input');
+				
 			}
 			else if(message==""){
 				email_result_container.classList.add('hide-result');
 				alert("message="+message);
 				$("#message").addClass('empty-input');
+				
 			}
 			
 
