@@ -11,6 +11,7 @@
 
 	 alert("sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message);
 		if(senderEmail&&message){
+			alert("both not null");
 				var xmlhttp;
 				if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
 				  xmlhttp=new XMLHttpRequest();
@@ -37,10 +38,17 @@
 				xmlhttp.open("GET","sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message,true);
 				xmlhttp.send();
 			}
+			else if(senderEmail==""&message==""){
+				alert("senderEmail="+senderEmail+"message="+message);
+					senderEmail.classList.add('wong-input');
+					message.classList.add('wong-input');
+			}
 			else if(senderEmail==""){
+				alert("senderEmail="+senderEmail);
 					senderEmail.classList.add('wong-input');
 			}
 			else if(message==""){
+				alert("message="+message);
 					message.classList.add('wong-input');
 			}
 			
