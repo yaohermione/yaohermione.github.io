@@ -27,7 +27,7 @@
 						//alert("finished");
 						//$("#email-result").html(xmlhttp.responseText);
 						email_result_container.classList.remove('hide-result');
-						$("#email-result").html("<img class=\"tick\" src=\"img/tick.svg\">Sent successfully!");
+						$("#email-result").html("<img class=\"tick\" src=\"img/tick.svg\">Sent!");
 						senderEmail.classList.remove('wong-input');
 						message.classList.remove('wong-input');
 					}
