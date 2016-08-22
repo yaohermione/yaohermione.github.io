@@ -731,6 +731,11 @@ border: 0px solid red;
   padding-top: 3vw;
   display: flex;
   background-color: #fefefe;
+
+}
+
+.hide-result{
+   display: none;
 }
 #email-result{
   border: 0px solid red;

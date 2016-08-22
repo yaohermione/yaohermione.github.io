@@ -24,6 +24,7 @@
 					{
 						//alert("finished");
 						//$("#email-result").html(xmlhttp.responseText);
+						$("#email-result-container").classList.toggle('hide-result');
 						$("#email-result").html("Message sent successfully, thank you!");
 					}
 				  }
