@@ -723,8 +723,10 @@ border: 0px solid red;
 #email-result{
   border: 1px solid red;
   font-size: inherit;
-  color: inherit;
+  color: #9a9a9a;
   font-family: inherit;
+  margin-bottom: 3vw;
+  margin-top: 6vw;
 }
 #contact-info{
   border: 0px solid red;
