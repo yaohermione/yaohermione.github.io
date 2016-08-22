@@ -24,7 +24,7 @@
 					{
 						//alert("finished");
 						//$("#email-result").html(xmlhttp.responseText);
-						var email_result_container = $("#email-result-container");
+						var email_result_container = document.getElementById("email-result-container");
 						email_result_container.classList.toggle('hide-result');
 						$("#email-result").html("Message sent successfully, thank you!");
 					}
