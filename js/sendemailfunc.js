@@ -9,7 +9,7 @@
 		var subject = $("#subject").val();
 		var message = $("#message").val();
 
-		// alert("sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message);
+	 alert("sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message);
 		if(senderEmail&&message){
 				var xmlhttp;
 				if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -37,10 +37,10 @@
 				xmlhttp.open("GET","sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message,true);
 				xmlhttp.send();
 			}
-			else if(!senderEmail){
+			else if(senderEmail==""){
 					senderEmail.classList.add('wong-input');
 			}
-			else if(!message){
+			else if(message==""){
 					message.classList.add('wong-input');
 			}
 			
