@@ -1182,8 +1182,8 @@ height: 46%;
   margin: auto;
 }
 .wrong-input{
-  box-shadow: 0 0 3px red;
-  border: 1px solid red;
+  box-shadow: 0 0 2px red;
+  border: .2px solid red;
 }
 
 .footer{

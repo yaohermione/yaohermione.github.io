@@ -9,7 +9,7 @@
 		var subject = $("#subject").val();
 		var message = $("#message").val();
 
-	 alert("sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message);
+	 //alert("sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message);
 		if(senderEmail&&message){
 			alert("both not null");
 				var xmlhttp;
@@ -40,8 +40,8 @@
 			}
 			else if(senderEmail==""&message==""){
 				alert("senderEmail="+senderEmail+"message="+message);
-					senderEmail.classList.add('wong-input');
-					message.classList.add('wong-input');
+					$("#senderEmail").addClass('wong-input');
+					$("#message").addClass('wong-input');
 			}
 			else if(senderEmail==""){
 				alert("senderEmail="+senderEmail);
