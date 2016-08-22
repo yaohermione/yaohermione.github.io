@@ -692,6 +692,10 @@ text-align: left;
   align-items: center;
 
 }
+.wrong-input{
+  box-shadow: 0 0 0 3px red;
+  border: 1px solid red;
+}
 #message{
 height: 36vw;
 /*line-height:0;*/

@@ -27,6 +27,8 @@
 						var email_result_container = document.getElementById("email-result-container");
 						email_result_container.classList.remove('hide-result');
 						$("#email-result").html("Sent successfully, thanks!");
+						senderEmail.classList.remove('wong-input');
+						message.classList.remove('wong-input');
 					}
 					else{
 						$("#email-result").html("<img class=\"rolling\" src=\"img/rolling.svg\">");
@@ -34,6 +36,12 @@
 				  }
 				xmlhttp.open("GET","sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message,true);
 				xmlhttp.send();
+			}
+			else if(!senderEmail){
+					senderEmail.classList.add('wong-input');
+			}
+			else if(!message){
+					message.classList.add('wong-input');
 			}
 			
 
