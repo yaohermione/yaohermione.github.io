@@ -28,14 +28,14 @@
 						//$("#email-result").html(xmlhttp.responseText);
 						var email_result_container = document.getElementById("email-result-container");
 						email_result_container.classList.remove('hide-result');
-						$("#email-result").html("Sent successfully, thanks!");
+						$("#email-result").html("Sent successfully!");
 						senderEmail.classList.remove('wong-input');
 						message.classList.remove('wong-input');
 					}
 					else if(1){
 						var email_result_container = document.getElementById("email-result-container");
 						email_result_container.classList.remove('hide-result');
-						$("#email-result").html("<div class=\"uil-ring-css\"></div>");
+						$("#email-result").html("<div class=\"uil-ring-css\"><div></div></div>");
 					}
 				  }
 				xmlhttp.open("GET","sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message,true);
