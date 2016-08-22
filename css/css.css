@@ -727,6 +727,8 @@ border: 0px solid red;
   border-radius: 0;
   margin-bottom: 3vw;
   margin-top: 6vw;
+   padding-bottom: 3vw;
+  padding-top: 3vw;
   display: flex;
   background-color: #fefefe;
 }
@@ -735,9 +737,7 @@ border: 0px solid red;
   font-size: inherit;
   color: #9a9a9a;
   font-family: inherit;
-   margin-bottom: 3vw;
-  margin-top: 3vw;
-  margin: auto;
+  margin-left: auto;
 }
 #contact-info{
   border: 0px solid red;
