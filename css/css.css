@@ -759,10 +759,10 @@ background-color: #f6f6f6;
 #tick{
   width: 12vw;
   height: 12vw;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 #sent-text{
-  border: 1px solid blue;
+  border: 0px solid blue;
 }
 #contact-info{
   border: 0px solid red;
