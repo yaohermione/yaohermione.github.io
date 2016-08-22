@@ -26,7 +26,7 @@
 						//$("#email-result").html(xmlhttp.responseText);
 						var email_result_container = document.getElementById("email-result-container");
 						email_result_container.classList.remove('hide-result');
-						$("#email-result").html("Message sent successfully, thanks!");
+						$("#email-result").html("Sent successfully, thanks!");
 					}
 					else{
 						$("#email-result").html("<img class=\"rolling\" src=\"img/rolling.svg\">");
