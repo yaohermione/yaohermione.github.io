@@ -23,8 +23,8 @@
 				  if (xmlhttp.readyState==4 && xmlhttp.status==200)
 					{
 						//alert("finished");
-						$("#email-result").html(xmlhttp.responseText);
-						//$("#email-result").html("the result");
+						//$("#email-result").html(xmlhttp.responseText);
+						$("#email-result").html("Message sent successfully, thank you!");
 					}
 				  }
 				xmlhttp.open("GET","sendemail.php?sender="+sender+"&senderEmail="+senderEmail+"&subject="+subject+"&message="+message,true);
