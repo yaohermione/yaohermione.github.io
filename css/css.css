@@ -365,7 +365,9 @@ transform: translate(-67vw,0);
     width: 100vw;
 
 }
-
+.banner-not-mainpage{
+  height: 0px;
+}
 
 #banner-textbox{
   position: absolute;
