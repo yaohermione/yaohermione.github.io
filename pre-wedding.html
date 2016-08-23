@@ -15,13 +15,16 @@
     <link rel="stylesheet" href="css/socicon.css">
     <link rel="stylesheet" href="css/ring.css">
 
+    <link rel="stylesheet" href="css/swipebox.min.css" />
+    <link rel="stylesheet" href="css/justifiedGallery.css" />
+    
+
+
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/ospb.css">
 
   </head>
 <body ontouchstart="">
@@ -75,7 +78,60 @@
 </header>
 
 <div id="content">
+  <div class="swipeboxEx">
+      
+        <a href="photos/bikeboys.jpg" >
+            <img src="photos/bikeboys.jpg" />
+        </a>
+        <a href="photos/bikepathsunset.jpg">
+            <img src="photos/bikepathsunset.jpg" />
+        </a>
+        <a href=".photos/girlinsakura.jpg" >
+            <img src="photos/girlinsakura.jpg" />
+        </a>
+        <a href="photos/girlsakura.jpg">
+            <img src="photos/girlsakura.jpg" />
+        </a>
+        <a href="photos/grandma.jpg">
+            <img src="photos/grandma.jpg" />
+        </a>
+        <a href="photos/pathgrass.jpg">
+            <img src="photos/pathgrass.jpg" />
+        </a>
+        <a href="photos/oldman.jpg">
+            <img src="photos/oldman.jpg" />
+        </a>
+        <a href="photos/oneflw.jpg" >
+            <img src="photos/oneflw.jpg" />
+        </a>
+        <a href="photos/grass-6.jpg" >
+            <img src="photos/grass-6.jpg" />
+        </a>
+        <a href="photos/cover.jpg" >
+            <img src="photos/cover.jpg" />
+        </a>
+        <a href="photos/IMG_9938.jpg">
+            <img src="photos/IMG_9938.jpg" />
+        </a>
+        <a href="photos/IMG_0425-6.jpg">
+            <img src="photos/IMG_0425-6.jpg" />
+        </a>
+        <a href="photos/boat.jpg" >
+            <img src="photos/boat.jpg" />
+        </a>
+        <a href="photos/IMG_0569.jpg">
+            <img src="photos/IMG_0569.jpg" />
+        </a>
 
+     
+        <a href="photos/IMG_6263.jpg">
+            <img src="photos/IMG_6263.jpg" />
+        </a>
+        <a href="photos/opposite.jpg">
+            <img src="photos/opposite.jpg" />
+        </a>
+
+    </div>
 
 </div>
 
@@ -94,12 +150,25 @@
 
 
   <script src="js/js.js"></script>
- <!--  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
- <!--  <script src='https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js'>
-  </script> -->
+ 
   <script src="js/index.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/sly.min.js"></script>
   <script src="js/sendemailfunc.js"></script>
+  <script src="js/jquery.swipebox.min.js"></script>
+  <script src="js/jquery.justifiedGallery.js"></script>
+
+ 
+      <script>
+    $('.swipeboxEx').each(function(i, el) {
+        $(el).justifiedGallery({
+            rel: 'gal' + i
+        }).on('jg.complete', function() {
+            if (i == 0) $('.swipeboxEx a').swipebox(); //swipebox, wants to be called only once to work properly
+        });
+    });
+    </script>
+
+
  
 </html>
