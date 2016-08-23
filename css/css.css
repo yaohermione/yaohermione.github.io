@@ -69,8 +69,15 @@ text-align: left;
   cursor: pointer;
   background-color: #fefefe;
 }
-#drawer a{
+a{
   text-decoration:none;
+  color: inherit;
+}
+a:hover{
+  color: inherit;
+}
+a:visited{
+  color: inherit;
 }
 
 .col-6{
