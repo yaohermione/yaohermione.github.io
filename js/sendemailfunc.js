@@ -62,7 +62,9 @@
 				
 			}
 			else if(message==""){
-
+				 if(senderEmail.indexOf("@") == -1){ 
+							$("#senderEmail").addClass('empty-input');
+						}
 				$("#message").addClass('empty-input');
 				
 			}
