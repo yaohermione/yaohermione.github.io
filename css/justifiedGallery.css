@@ -153,3 +153,26 @@
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
 }
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+.justified-gallery {
+  width: 84vw;
+  margin-left: 8vw;
+    margin-right: 8vw;
+  position: relative;
+  overflow: hidden;
+  }
+
+  }
+
+
+
+
+
+
+
