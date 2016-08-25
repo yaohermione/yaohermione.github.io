@@ -1,5 +1,11 @@
-/*! Swipebox v1.4.4 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
-
+/*! Swipebox v1.4.1 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
+/*
+ * Pinch-zoom added by Claudio Castelpietra - www.itala.net - 21/09/2015
+ * Code identified by:
+ * C.C. begin
+ * ...
+ * C.C. end
+ */
 ;( function ( window, document, $, undefined ) {
 
 	$.swipebox = function( elem, options ) {
@@ -18,7 +24,6 @@
 				beforeOpen: null,
 				afterOpen: null,
 				afterClose: null,
-				afterMedia: null,
 				nextSlide: null,
 				prevSlide: null,
 				loopAtEnd: false,
@@ -31,6 +36,7 @@
 			elements = [], // slides array [ { href:'...', title:'...' }, ...],
 			$elem,
 			selector = elem.selector,
+			$selector = $( selector ),
 			isMobile = navigator.userAgent.match( /(iPad)|(iPhone)|(iPod)|(Android)|(PlayBook)|(BB10)|(BlackBerry)|(Opera Mini)|(IEMobile)|(webOS)|(MeeGo)/i ),
 			isTouch = isMobile !== null || document.createTouch !== undefined || ( 'ontouchstart' in window ) || ( 'onmsgesturechange' in window ) || navigator.msMaxTouchPoints,
 			supportSVG = !! document.createElementNS && !! document.createElementNS( 'http://www.w3.org/2000/svg', 'svg').createSVGRect,
@@ -92,12 +98,12 @@
 					}
 
 					elements = [];
-					var index, relType, relVal;
+					var index , relType, relVal;
 
 					// Allow for HTML5 compliant attribute before legacy use of rel
 					if ( ! relVal ) {
 						relType = 'data-rel';
-						relVal = $( this ).attr( relType );
+						relVal  = $( this ).attr( relType );
 					}
 
 					if ( ! relVal ) {
@@ -106,7 +112,7 @@
 					}
 
 					if ( relVal && relVal !== '' && relVal !== 'nofollow' ) {
-						$elem = $( selector ).filter( '[' + relType + '="' + relVal + '"]' );
+						$elem = $selector.filter( '[' + relType + '="' + relVal + '"]' );
 					} else {
 						$elem = $( selector );
 					}
@@ -157,7 +163,7 @@
 				this.preloadMedia( index+1 );
 				this.preloadMedia( index-1 );
 				if ( plugin.settings.afterOpen ) {
-					plugin.settings.afterOpen(index);
+					plugin.settings.afterOpen();
 				}
 			},
 
@@ -290,6 +296,9 @@
 					vSwipMinDistance = 50,
 					startCoords = {},
 					endCoords = {},
+					// C.C. begin
+					pinchData = {inProgress:false,lastZoom:100,overZoom:false},
+					// C.C. end
 					bars = $( '#swipebox-top-bar, #swipebox-bottom-bar' ),
 					slider = $( '#swipebox-slider' );
 
@@ -304,16 +313,94 @@
 					startCoords.pageX = event.originalEvent.targetTouches[0].pageX;
 					startCoords.pageY = event.originalEvent.targetTouches[0].pageY;
 
-					$( '#swipebox-slider' ).css( {
-						'-webkit-transform' : 'translate3d(' + currentX +'%, 0, 0)',
-						'transform' : 'translate3d(' + currentX + '%, 0, 0)'
-					} );
-
+					// C.C. begin
+					if (event.originalEvent.targetTouches.length > 1) {
+						// pinch started
+						pinchData.inProgress = true;
+						pinchData.startZoom = pinchData.lastZoom;
+						pinchData.startDistance = Math.sqrt(Math.pow(event.originalEvent.targetTouches[0].pageX-event.originalEvent.targetTouches[1].pageX,2) + Math.pow(event.originalEvent.targetTouches[0].pageY-event.originalEvent.targetTouches[1].pageY,2));
+						if (pinchData.lastZoom == 100) {
+							pinchData.marginTop = 0;
+							pinchData.marginLeft = 0;
+							pinchData.diffHeight = 0;
+							pinchData.diffWidth = 0;
+						}
+					} else {
+						pinchData.inProgress = false;
+					}
+					if (!pinchData.inProgress && !pinchData.overZoom) {
+					// C.C. end
+					
+						$( '#swipebox-slider' ).css( {
+							'-webkit-transform' : 'translate3d(' + currentX +'%, 0, 0)',
+							'transform' : 'translate3d(' + currentX + '%, 0, 0)'
+						} );
+					
+					// C.C. begin
+					}
+					// C.C. end
+					
 					$( '.touching' ).bind( 'touchmove',function( event ) {
 						event.preventDefault();
 						event.stopPropagation();
 						endCoords = event.originalEvent.targetTouches[0];
 
+						// C.C. begin
+						if (pinchData.inProgress) {
+							var lastDistance = Math.sqrt(Math.pow(event.originalEvent.targetTouches[0].pageX-event.originalEvent.targetTouches[1].pageX,2) + Math.pow(event.originalEvent.targetTouches[0].pageY-event.originalEvent.targetTouches[1].pageY,2));
+							var perc = pinchData.startZoom * (1+(lastDistance-pinchData.startDistance)/pinchData.startDistance);
+							perc = Math.max(100, perc);
+							var nowZoom = pinchData.lastZoom;
+							var nowDiffHeight = pinchData.diffHeight;
+							var nowDiffWidth = pinchData.diffWidth;
+							pinchData.lastZoom = perc;
+							
+							$("#swipebox-slider .current img").css({"max-width":perc+"%", "max-height":perc+"%"});
+							pinchData.diffHeight = Math.max(0, $("#swipebox-slider .current img").height() - $("#swipebox-slider .current").height());
+							pinchData.diffWidth = Math.max(0, $("#swipebox-slider .current img").width() - $("#swipebox-slider .current").width());
+							
+							pinchData.overZoom = false;
+							if (pinchData.diffHeight > 0) {
+								pinchData.marginTop += -(pinchData.diffHeight-nowDiffHeight)/2;
+								pinchData.marginTop = Math.min(0, pinchData.marginTop);
+								pinchData.marginTop = Math.max(-pinchData.diffHeight, pinchData.marginTop);
+								pinchData.overZoom = true;
+							} else {
+								pinchData.marginTop = 0;
+							}
+							if (pinchData.diffWidth > 0) {
+								pinchData.marginLeft += -(pinchData.diffWidth-nowDiffWidth)/2;
+								pinchData.marginLeft = Math.min(0, pinchData.marginLeft);
+								pinchData.marginLeft = Math.max(-pinchData.diffWidth, pinchData.marginLeft);
+								pinchData.overZoom = true;
+							} else {
+								pinchData.marginLeft = 0;
+							}
+							$("#swipebox-slider .current img").css({"margin-top":pinchData.marginTop+'px', "margin-left":pinchData.marginLeft+'px'});
+							if (nowDiffHeight == pinchData.diffHeight && nowDiffWidth == pinchData.diffWidth) {
+								pinchData.lastZoom = nowZoom;
+								pinchData.diffHeight = nowDiffHeight;
+								pinchData.diffWidth = nowDiffWidth;
+							}
+							
+							return;
+						} else if (pinchData.overZoom) {
+							// let's move the image
+							
+							pinchData.lastMarginTop = pinchData.marginTop + endCoords.pageY - startCoords.pageY;
+							pinchData.lastMarginTop = Math.min(0, pinchData.lastMarginTop);
+							pinchData.lastMarginTop = Math.max(-pinchData.diffHeight, pinchData.lastMarginTop);
+							
+							pinchData.lastMarginLeft = pinchData.marginLeft + endCoords.pageX - startCoords.pageX;
+							pinchData.lastMarginLeft = Math.min(0, pinchData.lastMarginLeft);
+							pinchData.lastMarginLeft = Math.max(-pinchData.diffWidth, pinchData.lastMarginLeft);
+							
+							$("#swipebox-slider .current img").css({"margin-top":pinchData.lastMarginTop+'px', "margin-left":pinchData.lastMarginLeft+'px'});
+							
+							return;
+						}
+						// C.C. end
+						
 						if ( ! hSwipe ) {
 							vDistanceLast = vDistance;
 							vDistance = endCoords.pageY - startCoords.pageY;
@@ -382,6 +469,17 @@
 					event.preventDefault();
 					event.stopPropagation();
 
+					// C.C. begin
+					if (!pinchData.inProgress && pinchData.overZoom) {
+						pinchData.marginTop = pinchData.lastMarginTop;
+						pinchData.marginLeft = pinchData.lastMarginLeft;
+					}
+					if (pinchData.inProgress || pinchData.overZoom) {
+						$( '.touching' ).off( 'touchmove' ).removeClass( 'touching' );
+						return;
+					}
+					// C.C. end
+					
 					$( '#swipebox-slider' ).css( {
 						'-webkit-transition' : '-webkit-transform 0.4s ease',
 						'transition' : 'transform 0.4s ease'
@@ -412,11 +510,25 @@
 						// swipeLeft
 						if( hDistance >= hSwipMinDistance && hDistance >= hDistanceLast) {
 
+							// C.C. begin
+							if (pinchData.lastZoom > 100) {
+								// let's reset css props before swiping
+								$("#swipebox-slider .current img").css({"max-width":"100%", "max-height":"100%", "margin-top":'',"margin-left":''});
+								pinchData.lastZoom = 100;
+							}
+							// C.C. end
 							$this.getPrev();
 
 						// swipeRight
 						} else if ( hDistance <= -hSwipMinDistance && hDistance <= hDistanceLast) {
 
+							// C.C. begin
+							if (pinchData.lastZoom > 100) {
+								// let's reset css props before swiping
+								$("#swipebox-slider .current img").css({"max-width":"100%", "max-height":"100%", "margin-top":'',"margin-left":''});
+								pinchData.lastZoom = 100;
+							}
+							// C.C. end
 							$this.getNext();
 						}
 
@@ -687,17 +799,9 @@
 					$this.loadMedia( src, function() {
 						slide.removeClass( 'slide-loading' );
 						slide.html( this );
-
-						if ( plugin.settings.afterMedia ) {
-							plugin.settings.afterMedia( index );
-						}
 					} );
 				} else {
 					slide.html( $this.getVideo( src ) );
-
-					if ( plugin.settings.afterMedia ) {
-						plugin.settings.afterMedia( index );
-					}
 				}
 
 			},
@@ -851,7 +955,7 @@
 					$this.setSlide( index );
 					$this.preloadMedia( index+1 );
 					if ( plugin.settings.nextSlide ) {
-						plugin.settings.nextSlide(index);
+						plugin.settings.nextSlide();
 					}
 				} else {
 
@@ -863,7 +967,7 @@
 						$this.setSlide( index );
 						$this.preloadMedia( index + 1 );
 						if ( plugin.settings.nextSlide ) {
-							plugin.settings.nextSlide(index);
+							plugin.settings.nextSlide();
 						}
 					} else {
 						$( '#swipebox-overlay' ).addClass( 'rightSpring' );
@@ -887,7 +991,7 @@
 					this.setSlide( index );
 					this.preloadMedia( index-1 );
 					if ( plugin.settings.prevSlide ) {
-						plugin.settings.prevSlide(index);
+						plugin.settings.prevSlide();
 					}
 				} else {
 					$( '#swipebox-overlay' ).addClass( 'leftSpring' );
@@ -896,12 +1000,12 @@
 					}, 500 );
 				}
 			},
-			/* jshint unused:false */
-			nextSlide : function ( index ) {
+
+			nextSlide : function () {
 				// Callback for next slide
 			},
 
-			prevSlide : function ( index ) {
+			prevSlide : function () {
 				// Callback for prev slide
 			},
 
