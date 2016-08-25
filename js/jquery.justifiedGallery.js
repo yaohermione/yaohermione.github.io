@@ -1085,11 +1085,11 @@
     thumbnailPath: undefined, /* If defined, sizeRangeSuffixes is not used, and this function is used to determine the
     path relative to a specific thumbnail size. The function should accept respectively three arguments: 
     current path, width and height */
-    rowHeight: 200,
+    rowHeight: 60,
     maxRowHeight: -1, // negative value = no limits, number to express the value in pixels,
                           // '[0-9]+%' to express in percentage (e.g. 300% means that the row height
                           // can't exceed 3 * rowHeight)
-    margins: 8,
+    margins: 4,
     border: -1, // negative value = same as margins, 0 = disabled, any other value to set the border
 
     lastRow: 'nojustify', // … which is thse same as 'left', or can be 'justify', 'center', 'right' or 'hide'
