@@ -531,7 +531,9 @@ margin-bottom: .5em;
   height: 58.6667vw;
   border: 0px solid red;
 }
-
+.swipeboxEx{
+  margin-top: 1em;
+}
 #pre-wedding-img{
   background:url(../img/pre-wedding.jpg);
   background-size:cover;
@@ -1025,6 +1027,9 @@ margin-bottom: 1em;
 }
 .gallery-right{
 margin-left: 4vw;
+}
+.swipeboxEx{
+  margin-top: 4vw;
 }
 
 #me{
