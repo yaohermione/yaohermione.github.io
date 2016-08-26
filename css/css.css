@@ -162,13 +162,9 @@ transform: translate(-67vw,0);
 
 .col-girl{
 
-  /*padding-top: 4vw;
-  padding-bottom: 3vw;
-  padding-left: 5vw;
+ display: flex;
   
-  */
-  
-  border: 0px solid red;
+  border: 1px solid red;
 }
 .girl_img{
   width: 2em;
@@ -863,7 +859,10 @@ display: flex;
   font-size: 1px;
 }
 .girl_img{
+  display: block;
+  margin: auto;
   width: .9em;
+  border: 1px solid blue;
 }
 #menu_icon{
   display: none;
