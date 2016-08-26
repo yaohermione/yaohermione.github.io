@@ -146,7 +146,9 @@ function addEvent(eventTarget, eventType, eventHandler) {
 
 
 
-
+function gotome(){
+    window.location.href = "https://yaohermione.github.io/#me";
+}
 
 
 
