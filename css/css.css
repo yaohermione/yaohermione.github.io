@@ -533,13 +533,7 @@ margin-bottom: .5em;
   height: 58.6667vw;
   border: 0px solid red;
 }
-.gallery a {
-  background-color: rgba(0,0,0,1);
-  border: 1px solid yellow;
-}
-.gallery a:hover{
-  background-color: rgba(0,0,0,0.2);
-}
+
 .swipeboxEx{
   margin-top: 1em;
 }
