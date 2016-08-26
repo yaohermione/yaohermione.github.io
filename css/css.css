@@ -534,7 +534,7 @@ margin-bottom: .5em;
   border: 0px solid red;
 }
 .gallery a {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,1);
   border: 1px solid yellow;
 }
 .gallery a:hover{
