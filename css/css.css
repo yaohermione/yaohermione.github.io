@@ -79,9 +79,7 @@ a{
 a:hover{
   color: inherit;
 }
-a:visited{
-  color: inherit;
-}
+
 
 .col-6{
   width: 50%;
