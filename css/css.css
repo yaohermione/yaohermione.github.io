@@ -164,7 +164,7 @@ transform: translate(-67vw,0);
 
  display: flex;
   
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .girl_img{
   width: 2em;
@@ -862,7 +862,7 @@ display: flex;
   display: block;
   margin: auto;
   width: .9em;
-  border: 1px solid blue;
+  border: 0px solid blue;
 }
 #menu_icon{
   display: none;
