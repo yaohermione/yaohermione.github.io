@@ -76,7 +76,9 @@ a{
 a:hover{
   color: inherit;
 }
-
+#drawer a:active{
+  background-color: #fefefe;
+}
 
 .col-6{
   width: 50%;
