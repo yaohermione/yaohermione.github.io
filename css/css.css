@@ -69,6 +69,9 @@ text-align: left;
   cursor: pointer;
   background-color: #fefefe;
 }
+.selectedpage{
+  background-color: #fefefe;
+}
 a{
   text-decoration:none;
   color: inherit;
@@ -911,7 +914,10 @@ header{
   background-color: rgba(0,0,0,0);
   
 }
-
+.selectedpage{
+  color: #e0e0e0;
+  background-color: rgba(0,0,0,0);
+}
 .h-menu ul{
   list-style-type: none;
   padding: 0px;
