@@ -65,10 +65,7 @@ text-align: left;
   flex-wrap: wrap;
   align-items: center;
 }
-#drawer li:hover{
-  cursor: pointer;
-  background-color: #fefefe;
-}
+
 .selectedpage{
   background-color: #fefefe;
 }
