@@ -161,17 +161,14 @@ transform: translate(-67vw,0);
 
 
 .col-girl{
-
-  /*padding-top: 4vw;
-  padding-bottom: 3vw;
-  padding-left: 5vw;
-  
-  */
   
   border: 0px solid red;
+  display: flex;
 }
 .girl_img{
-  width: 2em;
+  display: block;
+  margin: auto;
+  width: 1.5em;
   height: auto;
   opacity: .6;
 }
