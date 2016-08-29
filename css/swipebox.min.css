@@ -95,15 +95,15 @@ html.swipebox-html.swipebox-touch {
     position: absolute;
     left: 0;
     z-index: 999;
-    height: 100vh;
+    height: 50vh;
     width: 100%
 }
 #swipebox-bottom-bar {
-    bottom: -100vh;
+    bottom: 0vh;
 }
 #swipebox-bottom-bar.visible-bars {
-    -webkit-transform: translate3d(0, -100vh, 0);
-    transform: translate3d(0, -100vh, 0)
+    -webkit-transform: translate3d(0, 0vh, 0);
+    transform: translate3d(0, 0vh, 0)
 }
 #swipebox-top-bar {
     top: -50px
