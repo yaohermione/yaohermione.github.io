@@ -95,7 +95,7 @@ html.swipebox-html.swipebox-touch {
     position: absolute;
     left: 0;
     z-index: 999;
-    height: 50vh;
+    height: 70vh;
     width: 100%
 }
 #swipebox-bottom-bar {
@@ -253,7 +253,7 @@ html.swipebox-html.swipebox-touch {
 #swipebox-top-bar {
     text-shadow: 1px 1px 1px #000;
     background: red;
-    opacity: .3;
+    opacity: 0;
 }
 #swipebox-top-bar {
     color: #fff!important;
