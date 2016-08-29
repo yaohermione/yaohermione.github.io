@@ -590,7 +590,7 @@
 					$( '#swipebox-bottom-bar' ).animate( { bottom : 0 }, 500 );
 					setTimeout( function() {
 						bars.addClass( 'visible-bars' );
-					}, 1000 );
+					}, 10000 );
 				}
 			},
 
@@ -606,7 +606,7 @@
 					$( '#swipebox-bottom-bar' ).animate( { bottom : '-50px' }, 500 );
 					setTimeout( function() {
 						bars.removeClass( 'visible-bars' );
-					}, 1000 );
+					}, 10000 );
 				}
 			},
 
