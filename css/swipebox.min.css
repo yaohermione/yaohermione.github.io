@@ -287,7 +287,9 @@ html.swipebox-html.swipebox-touch {
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
     #swipebox-close {
-        right: 10vw;
+        right: 5vw;
+        width: 11vw;
+        height: 11vw;
     }
     #swipebox-arrows {
         width: 100vw;
