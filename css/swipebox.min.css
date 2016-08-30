@@ -128,7 +128,7 @@ html.swipebox-html.swipebox-touch {
     height: 10vw;
     top: 0;
     display: flex;
-    background-color: rgba(0,0,255,.3);
+    background-color: rgba(0,0,255,0);
 }
 #swipebox-next{
     /*background-image: url(../img/next.png);*/
@@ -139,7 +139,7 @@ html.swipebox-html.swipebox-touch {
     width: 20%;
     height: 100%;
     top: 0;
-    background-color: rgba(0,255,0,.3);
+    background-color: rgba(0,255,0,0);
     display: flex;
 }
 #swipebox-prev {
@@ -151,7 +151,7 @@ html.swipebox-html.swipebox-touch {
     width: 20%;
     height: 100%;
     top: 0;
-    background-color: rgba(0,255,0,.3);
+    background-color: rgba(0,255,0,0);
     display: flex;
 }
 .arrows-icon{
@@ -164,7 +164,7 @@ html.swipebox-html.swipebox-touch {
     margin: 0 auto;
     width: 100%;
     height: 100vh;
-    border: 1px solid red;
+    border: 0px solid red;
 }
 #swipebox-prev {
     /*background-position: -32px 13px;*/
