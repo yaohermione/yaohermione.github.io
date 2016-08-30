@@ -52,8 +52,12 @@
 						</div>\
 						<div id="swipebox-bottom-bar">\
 							<div id="swipebox-arrows">\
-								<a id="swipebox-prev"></a>\
-								<a id="swipebox-next"></a>\
+								<a id="swipebox-prev">\
+								<img class="arrows-icon" src="img/back.svg">\
+								</a>\
+								<a id="swipebox-next">\
+								<img  class="swipebox-icon" src="img/next.svg">\
+								</a>\
 							</div>\
 						</div>\
 						<a id="swipebox-close"></a>\
@@ -176,21 +180,21 @@
 				$( 'body' ).append( html );
 
 				if ( supportSVG && plugin.settings.useSVG === true ) {
-					bg = $( '#swipebox-close' ).css( 'background-image' );
+					//bg = $( '#swipebox-close' ).css( 'background-image' );
 
 					bg = bg.replace( 'png', 'svg' );
 					var bgback = "url(../img/back.svg)";
 					var bgnext = "url(../img/next.svg)";
 					var bgclose = "url(../img/close.svg)";
-					$( '#swipebox-close' ).css( {
-						'background-image' : bgclose
-					} );
-					$( '#swipebox-prev' ).css( {
-						'background-image' : bgback
-					} );
-					$( '#swipebox-next' ).css( {
-						'background-image' : bgnext
-					} );
+					// $( '#swipebox-close' ).css( {
+					// 	'background-image' : bgclose
+					// } );
+					// $( '#swipebox-prev' ).css( {
+					// 	'background-image' : bgback
+					// } );
+					// $( '#swipebox-next' ).css( {
+					// 	'background-image' : bgnext
+					// } );
 
 
 

@@ -119,17 +119,18 @@ html.swipebox-html.swipebox-touch {
     text-align: center
 }
 #swipebox-close{
-    background-image: url(../img/close.png);
+    /*background-image: url(../img/close.png);*/
     background-repeat: no-repeat;
     border: none!important;
     text-decoration: none!important;
     cursor: pointer;
     width: 50px;
     height: 50px;
-    top: 0
+    top: 0;
+    display: flex;
 }
 #swipebox-next{
-    background-image: url(../img/next.png);
+    /*background-image: url(../img/next.png);*/
     background-repeat: no-repeat;
     border: none!important;
     text-decoration: none!important;
@@ -138,9 +139,10 @@ html.swipebox-html.swipebox-touch {
     height: 100%;
     top: 0;
     background-color: rgba(0,255,0,.3);
+    display: flex;
 }
 #swipebox-prev {
-    background-image: url(../img/back.png);
+    /*background-image: url(../img/back.png);*/
     background-repeat: no-repeat;
     border: none!important;
     text-decoration: none!important;
@@ -149,6 +151,12 @@ html.swipebox-html.swipebox-touch {
     height: 100%;
     top: 0;
     background-color: rgba(0,255,0,.3);
+    display: flex;
+}
+.arrows-icon{
+    display: block;
+    margin: auto;
+    width: 2em;
 }
 #swipebox-arrows {
     display: block;
@@ -158,13 +166,13 @@ html.swipebox-html.swipebox-touch {
     border: 1px solid red;
 }
 #swipebox-prev {
-    /*background-position: -32px 13px;*/
-    background-position: 0px 50%;
+    /*background-position: -32px 13px;
+    background-position: 0px 50%;*/
     float: left
 }
 #swipebox-next {
-    /*background-position: -78px 13px;*/
-    background-position: 0px 50%;
+    /*background-position: -78px 13px;
+    background-position: 0px 50%;*/
     float: right
 }
 #swipebox-close {
@@ -172,7 +180,7 @@ html.swipebox-html.swipebox-touch {
     right: 0;
     position: absolute;
     z-index: 9999;
-    background-position: 15px 12px
+    /*background-position: 15px 12px*/
 }
 .swipebox-no-close-button #swipebox-close {
     display: none
@@ -285,6 +293,14 @@ html.swipebox-html.swipebox-touch {
         /*max-width: 800px*/
         margin: auto;
     }
+
+    .arrows-icon{
+        width: .9em;
+
+    }
+
+
+
     }
 
 
