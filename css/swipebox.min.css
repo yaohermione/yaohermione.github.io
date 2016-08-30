@@ -127,7 +127,7 @@ html.swipebox-html.swipebox-touch {
     width: 50px;
     height: 50px;
     top: 0;
-    display: flex;
+    
     background-color: rgba(0,0,255,.3);
 }
 #swipebox-next{
@@ -140,7 +140,7 @@ html.swipebox-html.swipebox-touch {
     height: 100%;
     top: 0;
     background-color: rgba(0,255,0,.3);
-    display: flex;
+    
 }
 #swipebox-prev {
     background-image: url(../img/back.png);
@@ -152,7 +152,7 @@ html.swipebox-html.swipebox-touch {
     height: 100%;
     top: 0;
     background-color: rgba(0,255,0,.3);
-    display: flex;
+    
 }
 .arrows-icon{
     display: block;
