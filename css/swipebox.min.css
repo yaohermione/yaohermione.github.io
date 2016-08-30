@@ -124,8 +124,8 @@ html.swipebox-html.swipebox-touch {
     border: none!important;
     text-decoration: none!important;
     cursor: pointer;
-    width: 5vw;
-    height: 5vw;
+    width: 15vw;
+    height: 15vw;
     right: 5vw;
     top: 5vw;
     display: flex;
