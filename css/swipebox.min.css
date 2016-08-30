@@ -138,7 +138,7 @@ html.swipebox-html.swipebox-touch {
     width: 20%;
     height: 100%;
     top: 0;
-    border: 1px solid green;
+    background-color: rgba(0,255,0,.3);
 }
 #swipebox-arrows {
     display: block;
