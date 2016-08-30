@@ -56,7 +56,7 @@
 								<img class="arrows-icon" src="img/back.svg">\
 								</a>\
 								<a id="swipebox-next">\
-								<img  class="swipebox-icon" src="img/next.svg">\
+								<img  class="arrows-icon" src="img/next.svg">\
 								</a>\
 							</div>\
 						</div>\
