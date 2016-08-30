@@ -60,7 +60,9 @@
 								</a>\
 							</div>\
 						</div>\
-						<a id="swipebox-close"></a>\
+						<a id="swipebox-close">\
+						<img  class="arrows-icon" src="img/close.svg">\
+						</a>\
 					</div>\
 			</div>';
 
