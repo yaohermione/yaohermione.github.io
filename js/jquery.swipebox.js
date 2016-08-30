@@ -53,15 +53,15 @@
 						<div id="swipebox-bottom-bar">\
 							<div id="swipebox-arrows">\
 								<a id="swipebox-prev">\
-								<!--<img class="arrows-icon" src="img/back.svg">-->\
+								<img class="arrows-icon" src="img/back.svg">\
 								</a>\
 								<a id="swipebox-next">\
-								<!--<img  class="arrows-icon" src="img/next.svg">-->\
+								<img  class="arrows-icon" src="img/next.svg">\
 								</a>\
 							</div>\
 						</div>\
 						<a id="swipebox-close">\
-						<!--<img  class="arrows-icon" src="img/close.svg">-->\
+						<img  class="arrows-icon" src="img/close.svg">\
 						</a>\
 					</div>\
 			</div>';
