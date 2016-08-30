@@ -44,35 +44,18 @@
 			winHeight = window.innerHeight ? window.innerHeight : $( window ).height(),
 			currentX = 0,
 			/* jshint multistr: true */
-			// html = '<div id="swipebox-overlay">\
-			// 		<div id="swipebox-container">\
-			// 			<div id="swipebox-slider"></div>\
-			// 			<div id="swipebox-top-bar">\
-			// 				<div id="swipebox-title"></div>\
-			// 			</div>\
-			// 			<div id="swipebox-bottom-bar">\
-			// 				<div id="swipebox-arrows">\
-			// 					<a id="swipebox-prev"></a>\
-			// 					<a id="swipebox-next"></a>\
-			// 				</div>\
-			// 			</div>\
-			// 			<a id="swipebox-close"></a>\
-			// 		</div>\
-			// </div>';
-
-
 			html = '<div id="swipebox-overlay">\
 					<div id="swipebox-container">\
 						<div id="swipebox-slider"></div>\
 						<div id="swipebox-top-bar">\
 							<div id="swipebox-title"></div>\
 						</div>\
-								<a id="swipebox-prev">\   
-									<img id="prev-icon" src="img/pre-icon.svg">\								   
-								</a>\
-								<a id="swipebox-next">\
-									<div id="next-icon" src="img/pre-icon.svg">\
-								</a>\
+						<div id="swipebox-bottom-bar">\
+							<div id="swipebox-arrows">\
+								<a id="swipebox-prev"></a>\
+								<a id="swipebox-next"></a>\
+							</div>\
+						</div>\
 						<a id="swipebox-close"></a>\
 					</div>\
 			</div>';
