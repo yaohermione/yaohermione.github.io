@@ -178,9 +178,22 @@
 				if ( supportSVG && plugin.settings.useSVG === true ) {
 					bg = $( '#swipebox-close' ).css( 'background-image' );
 					bg = bg.replace( 'png', 'svg' );
-					$( '#swipebox-prev, #swipebox-next, #swipebox-close' ).css( {
-						'background-image' : bg
+					var bgback = "back.svg";
+					var bgnext = "next.svg";
+					var bgclose = "close.svg";
+					$( '#swipebox-close' ).css( {
+						'background-image' : bgclose
 					} );
+					$( '#swipebox-prev' ).css( {
+						'background-image' : bgback
+					} );
+					$( '#swipebox-next' ).css( {
+						'background-image' : bgnext
+					} );
+
+
+
+
 				}
 
 				if ( isMobile && plugin.settings.removeBarsOnMobile ) {
