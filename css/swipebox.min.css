@@ -127,7 +127,7 @@ html.swipebox-html.swipebox-touch {
     width: 5vw;
     height: 5vw;
     right: 5vw;
-    top: 0;
+    top: 5vw;
     display: flex;
     background-color: rgba(0,0,255,0);
 }
@@ -168,18 +168,18 @@ html.swipebox-html.swipebox-touch {
     border: 0px solid red;
 }
 #swipebox-prev {
-    /*background-position: -32px 13px;*/
-    background-position: 50% 50%;
+    /*background-position: -32px 13px;
+    background-position: 50% 50%;*/
     float: left
 }
 #swipebox-next {
-    /*background-position: -78px 13px;*/
-    background-position: 50% 50%;
+    /*background-position: -78px 13px;
+    background-position: 50% 50%;*/
     float: right
 }
 #swipebox-close {
-    top: 0;
-    right: 0;
+    
+    
     position: absolute;
     z-index: 9999;
     /*background-position: 15px 12px*/
