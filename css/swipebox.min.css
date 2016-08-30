@@ -269,7 +269,7 @@ html.swipebox-html.swipebox-touch {
         right: 10px
     }
     #swipebox-arrows {
-        width: 80vw;
+        width: 100vw;
         /*max-width: 800px*/
         margin: auto;
     }
