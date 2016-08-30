@@ -188,15 +188,15 @@
 					var bgback = "url(../img/back.svg)";
 					var bgnext = "url(../img/next.svg)";
 					var bgclose = "url(../img/close.svg)";
-					// $( '#swipebox-close' ).css( {
-					// 	'background-image' : bgclose
-					// } );
-					// $( '#swipebox-prev' ).css( {
-					// 	'background-image' : bgback
-					// } );
-					// $( '#swipebox-next' ).css( {
-					// 	'background-image' : bgnext
-					// } );
+					$( '#swipebox-close' ).css( {
+						'background-image' : bgclose
+					} );
+					$( '#swipebox-prev' ).css( {
+						'background-image' : bgback
+					} );
+					$( '#swipebox-next' ).css( {
+						'background-image' : bgnext
+					} );
 
 
 
