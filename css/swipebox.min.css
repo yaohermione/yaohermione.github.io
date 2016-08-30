@@ -129,7 +129,6 @@ html.swipebox-html.swipebox-touch {
     height: 50px;
     top: 0
 }
-
 #swipebox-arrows {
     display: block;
     margin: 0 auto;
@@ -253,8 +252,8 @@ html.swipebox-html.swipebox-touch {
 #swipebox-bottom-bar,
 #swipebox-top-bar {
     text-shadow: 1px 1px 1px #000;
-    background: rgba(0,0,0,0);
-    opacity: .8;
+    background: red;
+    opacity: 0;
 }
 #swipebox-top-bar {
     color: #fff!important;
