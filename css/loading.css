@@ -141,7 +141,9 @@
         
         transform:scale(0.1);
         display: block;
-        width: 10vw;
+        position: fixed;
+        top: 0px;
+        width: 20vw;
         margin: auto;
         border: 1px solid red;
 
