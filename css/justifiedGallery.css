@@ -168,6 +168,24 @@
   overflow: hidden;
   }
 
+
+  .justified-gallery > .spinner > span {
+  display: inline-block;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /* IE8 or Earlier */
+  width: 4px;
+  height: 4px;
+  margin: 0 2px 0 2px;
+  background-color: #000;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+
+
   }
 
 
