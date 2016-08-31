@@ -47,6 +47,7 @@ html.swipebox-html.swipebox-touch {
     content: "";
     display: inline-block;
     height: 50%;
+    height: 0;
     width: 1px;
     margin-right: -1px
 }
@@ -88,7 +89,7 @@ html.swipebox-html.swipebox-touch {
 #swipebox-slider .slide-loading {
     /*background: url(../img/loader.svg) center center no-repeat;
     background-size: 1.9em 1.9em;*/
-    
+
 }
 #swipebox-bottom-bar,
 #swipebox-top-bar {
