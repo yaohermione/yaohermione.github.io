@@ -137,8 +137,8 @@
         border: 1px solid red;
     }
     .uil-default-css div{
-    	top: 50%;
-    	left: 50%;
+    	/*top: 50%;
+    	left: 50%;*/
     }
 
 
@@ -151,7 +151,7 @@
     .uil-default-css {
         /*background-color: red;*/
         transform:scale(0.1);
-        margin: auto;
+        /*margin: auto;*/
     }
 
 
