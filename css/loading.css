@@ -136,6 +136,13 @@
         height: 200px;
         border: 1px solid red;
     }
+    .uil-default-css div{
+    	top: 50vw;
+    	left: 50vh;
+    }
+
+
+
     @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
