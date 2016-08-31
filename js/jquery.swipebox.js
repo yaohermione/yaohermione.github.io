@@ -821,7 +821,7 @@
 					// 	slide.html( this );
 					// } );
 					//slide.addClass( 'uil-default-anim' );
-					$( '#swipebox-slider .slide' ).html("<div class=\"uil-default-anim\"><div></div></div>");
+					$( '#swipebox-slider .slide' ).html("<div class=\"uil-default-css\"><div></div></div>");
 
 				} else {
 					slide.html( $this.getVideo( src ) );
