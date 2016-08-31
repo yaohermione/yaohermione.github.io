@@ -821,7 +821,7 @@
 					// 	slide.html( this );
 					// } );
 					//slide.addClass( 'uil-default-anim' );
-					$( '#swipebox-slider .slide' ).html("<div class=\"uil-default-css\">\
+					$( '#swipebox-slider .slide' ).html("<div class=\"uil-default-css\" style='transform:scale(0.16);'>\
 						<div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(0deg) translate(0,-60px);transform:rotate(0deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
     <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(36deg) translate(0,-60px);transform:rotate(36deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
     <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(72deg) translate(0,-60px);transform:rotate(72deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
