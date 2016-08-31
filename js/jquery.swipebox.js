@@ -816,9 +816,9 @@
 
 				if ( ! $this.isVideo( src ) ) {
 					slide.addClass( 'slide-loading' );
-					$this.loadMedia( src, function() {
-						slide.removeClass( 'slide-loading' );
-						slide.html( this );
+					// $this.loadMedia( src, function() {
+					// 	slide.removeClass( 'slide-loading' );
+					// 	slide.html( this );
 					} );
 					
 				// 	$( '#swipebox-slider .slide' ).html("<div class=\"uil-default-css\" >\
