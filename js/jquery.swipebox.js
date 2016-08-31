@@ -820,7 +820,8 @@
 					// 	slide.removeClass( 'slide-loading' );
 					// 	slide.html( this );
 					// } );
-					slide.addClass( 'uil-default-anim' );
+					//slide.addClass( 'uil-default-anim' );
+					$( '#swipebox-slider .slide' ).html("<div class=\"uil-default-anim\"><div></div></div>");
 
 				} else {
 					slide.html( $this.getVideo( src ) );
