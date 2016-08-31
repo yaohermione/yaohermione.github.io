@@ -130,29 +130,30 @@
         animation-delay: 0.4s;
     }
     .uil-default-css {
-        position: relative;
+        /*position: relative;*/
         background: none;
         width: 200px;
         height: 200px;
+        
+    }
+   
+	.uil-default-css {
+        
+        transform:scale(0.3);
+        margin: auto;
         border: 1px solid red;
-    }
-    .uil-default-css div{
-    	/*top: 50%;
-    	left: 50%;*/
-    }
 
-
+    }
+ 	.uil-default-css div{
+    	
+    }
 
     @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
-    .uil-default-css {
-        /*background-color: red;*/
-        transform:scale(0.1);
-        /*margin: auto;*/
-    }
+    
 
 
 
