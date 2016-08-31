@@ -815,11 +815,13 @@
 				slide = $( '#swipebox-slider .slide' ).eq( index );
 
 				if ( ! $this.isVideo( src ) ) {
-					slide.addClass( 'slide-loading' );
+					//slide.addClass( 'slide-loading' );
 					// $this.loadMedia( src, function() {
 					// 	slide.removeClass( 'slide-loading' );
 					// 	slide.html( this );
 					// } );
+					slide.addClass( 'uil-default-anim' );
+
 				} else {
 					slide.html( $this.getVideo( src ) );
 				}

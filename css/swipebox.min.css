@@ -86,8 +86,9 @@ html.swipebox-html.swipebox-touch {
     left: 0
 }
 #swipebox-slider .slide-loading {
-    background: url(../img/loader.svg) center center no-repeat;
-    background-size: 1.9em 1.9em;
+    /*background: url(../img/loader.svg) center center no-repeat;
+    background-size: 1.9em 1.9em;*/
+    
 }
 #swipebox-bottom-bar,
 #swipebox-top-bar {
