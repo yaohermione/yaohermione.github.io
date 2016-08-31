@@ -42,13 +42,13 @@ html.swipebox-html.swipebox-touch {
     line-height: 1px;
     text-align: center;
     display: inline-block;
-    border: 0px solid yellow;
+    
 }
 #swipebox-slider .slide:before {
     content: "";
     display: inline-block;
     height: 50%;
-    height: 0;
+    
     width: 1px;
     margin-right: -1px
 }
