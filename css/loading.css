@@ -139,7 +139,9 @@
    
 	.uil-default-css {
         
-        transform:scale(0.3);
+        transform:scale(0.1);
+        display: block;
+        width: 10vw;
         margin: auto;
         border: 1px solid red;
 
