@@ -86,7 +86,8 @@ html.swipebox-html.swipebox-touch {
     left: 0
 }
 #swipebox-slider .slide-loading {
-    background: url(../img/loader.svg) center center no-repeat
+    background: url(../img/loader.svg) center center no-repeat;
+    background-size: 1em 1em;
 }
 #swipebox-bottom-bar,
 #swipebox-top-bar {
@@ -286,7 +287,13 @@ html.swipebox-html.swipebox-touch {
     .arrows-icon{
   
     width: 2em;
-}
+    }
+    #swipebox-slider .slide-loading {
+    
+    background-size: 2em 2em;
+    }
+
+
 }
 
 @media screen 
@@ -310,7 +317,10 @@ html.swipebox-html.swipebox-touch {
         width: .6em;
 
     }
-
+    #swipebox-slider .slide-loading {
+    
+    background-size: .6em .6em;
+    }
 
 
     }
