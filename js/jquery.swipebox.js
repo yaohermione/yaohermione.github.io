@@ -816,10 +816,10 @@
 
 				if ( ! $this.isVideo( src ) ) {
 					slide.addClass( 'slide-loading' );
-					// $this.loadMedia( src, function() {
-					// 	slide.removeClass( 'slide-loading' );
-					// 	slide.html( this );
-					// } );
+					$this.loadMedia( src, function() {
+						slide.removeClass( 'slide-loading' );
+						slide.html( this );
+					} );
 					
 				// 	$( '#swipebox-slider .slide' ).html("<div class=\"uil-default-css\" >\
 				// 		<div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(0deg) translate(0,-60px);transform:rotate(0deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
