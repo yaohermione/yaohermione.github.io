@@ -42,7 +42,7 @@ html.swipebox-html.swipebox-touch {
     line-height: 1px;
     text-align: center;
     display: inline-block;
-    border: 2px solid yellow;
+    border: 0px solid yellow;
 }
 #swipebox-slider .slide:before {
     content: "";
