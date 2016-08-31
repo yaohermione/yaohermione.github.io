@@ -163,12 +163,21 @@
 .justified-gallery {
   width: 84vw;
   margin-left: 8vw;
-    margin-right: 8vw;
+  margin-right: 8vw;
   position: relative;
   overflow: hidden;
   }
 
-
+.justified-gallery > .spinner {
+  position: absolute;
+  bottom: 0;
+  margin-left: -30px;
+  padding: 10px 0 10px 0;
+  left: 50%;
+  opacity: initial;
+  filter: initial;
+  overflow: initial;
+}
   .justified-gallery > .spinner > span {
   display: inline-block;
   opacity: 0;
