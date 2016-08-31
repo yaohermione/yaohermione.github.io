@@ -137,8 +137,8 @@
         border: 1px solid red;
     }
     .uil-default-css div{
-    	top: 50vw;
-    	left: 50vh;
+    	top: 50%;
+    	left: 50%;
     }
 
 
@@ -149,10 +149,13 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
     .uil-default-css {
-        /*background-color: red;
+        /*background-color: red;*/
         transform:scale(0.1);
-        margin: auto;*/
+        margin: auto;
     }
+
+
+
 }
 /*<div class='uil-default-css' style='transform:scale(0.16);'>
     <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(0deg) translate(0,-60px);transform:rotate(0deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
