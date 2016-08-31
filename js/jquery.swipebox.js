@@ -815,24 +815,24 @@
 				slide = $( '#swipebox-slider .slide' ).eq( index );
 
 				if ( ! $this.isVideo( src ) ) {
-					//slide.addClass( 'slide-loading' );
+					slide.addClass( 'slide-loading' );
 					// $this.loadMedia( src, function() {
 					// 	slide.removeClass( 'slide-loading' );
 					// 	slide.html( this );
 					// } );
-					//slide.addClass( 'uil-default-anim' );
-					$( '#swipebox-slider .slide' ).html("<div class=\"uil-default-css\" >\
-						<div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(0deg) translate(0,-60px);transform:rotate(0deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-    <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(36deg) translate(0,-60px);transform:rotate(36deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-    <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(72deg) translate(0,-60px);transform:rotate(72deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-    <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(108deg) translate(0,-60px);transform:rotate(108deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-    <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(144deg) translate(0,-60px);transform:rotate(144deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-    <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(180deg) translate(0,-60px);transform:rotate(180deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-    <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(216deg) translate(0,-60px);transform:rotate(216deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-    <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(252deg) translate(0,-60px);transform:rotate(252deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-    <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(288deg) translate(0,-60px);transform:rotate(288deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-    <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(324deg) translate(0,-60px);transform:rotate(324deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
-						</div>");
+					
+				// 	$( '#swipebox-slider .slide' ).html("<div class=\"uil-default-css\" >\
+				// 		<div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(0deg) translate(0,-60px);transform:rotate(0deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+    // <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(36deg) translate(0,-60px);transform:rotate(36deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+    // <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(72deg) translate(0,-60px);transform:rotate(72deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+    // <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(108deg) translate(0,-60px);transform:rotate(108deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+    // <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(144deg) translate(0,-60px);transform:rotate(144deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+    // <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(180deg) translate(0,-60px);transform:rotate(180deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+    // <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(216deg) translate(0,-60px);transform:rotate(216deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+    // <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(252deg) translate(0,-60px);transform:rotate(252deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+    // <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(288deg) translate(0,-60px);transform:rotate(288deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+    // <div style='width:14px;height:40px;background:#ececec;-webkit-transform:rotate(324deg) translate(0,-60px);transform:rotate(324deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>\
+				// 		</div>");
 
 				} else {
 					slide.html( $this.getVideo( src ) );
