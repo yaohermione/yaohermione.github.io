@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Yao WEI Photography</title>
 
+<script>
+    document.createElement("picture");
+  </script>
+  <script src="js/polyfill.min.js"></script>
+
   
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,200,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/css.css">
@@ -84,14 +89,12 @@
 
     <div id="banner" class="col-12">
     
+    <picture>
+    <source media="(min-device-width: 1200px)"
+    srcset="img/travel-banner-flat.jpg" 
+    />
     <img src="img/travel-banner.jpg" id="banner_img">
-
-   <!--  
-    <div id="banner-textbox">
-      <div id="banner-text">
-      <h3 class="myname">Pre-wedding</h3>
-      </div>
-    </div> -->
+    </picture>
         
    
     </div>
