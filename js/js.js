@@ -6,7 +6,7 @@ var drawer = document.querySelector("nav");
 var body = document.querySelector("body");
 var gray = document.getElementById("main-gray-layer");
 
-
+/*
 $( document ).ready(function() {
 
     if ($("#menu_icon").css("display") == "none" ){
@@ -18,7 +18,7 @@ $( document ).ready(function() {
     }
     //$("#banner").height($("#banner_img").height());
 
-});
+});*/
 
 
 var position;
