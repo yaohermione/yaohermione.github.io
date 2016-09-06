@@ -317,7 +317,11 @@ html.swipebox-html.swipebox-touch {
     }
 
     .arrows-icon{
-        width: .5em;
+        width: .6em;
+
+    }
+    .arrows-icon-close{
+        width: .4em;
 
     }
     #swipebox-slider .slide-loading {
