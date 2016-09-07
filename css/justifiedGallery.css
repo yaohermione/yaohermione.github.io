@@ -8,8 +8,10 @@
   width: 88vw;
   margin-left: 6vw;
   margin-right: 6vw;
+  margin-bottom: 6vw;
   position: relative;
   overflow: hidden;
+
   }
 @-webkit-keyframes justified-gallery-show-caption-animation {
   from {
@@ -167,6 +169,7 @@
   width: 84vw;
   margin-left: 8vw;
   margin-right: 8vw;
+   margin-bottom: 8vw;
   position: relative;
   overflow: hidden;
   }
@@ -209,6 +212,7 @@
   width: 84vw;
   margin-left: 8vw;
   margin-right: 8vw;
+  margin-bottom: 8vw;
   position: relative;
   overflow: hidden;
   }
