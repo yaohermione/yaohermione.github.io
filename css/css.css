@@ -863,25 +863,25 @@ display: flex;
   .myname{
       color: #fefefe;
       margin: ;
-      font-size: 3em;
+      font-size: 2.8em;
       letter-spacing: .1em;
 }
 
     .h3{
       color: #fefefe;
       margin: ;
-      font-size: 3em;
+      font-size: 2.8em;
       letter-spacing: .1em;
     }
     h6{
       text-align: center;
       color: #ececec;
       
-      font-size: 2.25em;
+      font-size: 2em;
       letter-spacing: .1em;
     }
     #intro{
-  font-size: 5px;
+  font-size: 4.8px;
 }
 .girl_img{
   display: block;
@@ -919,7 +919,7 @@ header{
   display: inline;
   color:#fefefe;
   padding: 10px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   letter-spacing: .1em;
   margin-right: 10px;
   height: 0vh;
@@ -959,7 +959,7 @@ display: flex;
     background-color: #f6f6f6;
    position: relative;
   z-index: 10;
-  padding-top: .5em;
+  padding-top: 2em;
 }
 #latest{
  
@@ -991,12 +991,12 @@ width: 50%;
 height: 100%;
 }
 #camera{
-  width: 5em;
+  width: 4.8em;
   margin: auto;
 }
 h4{
   
-  font-size: 2.25em;
+  font-size: 2em;
   letter-spacing: .1em;
   font-weight: ;
 
@@ -1010,7 +1010,7 @@ padding-top: 10px;
 .latest-intro{
 letter-spacing: .1em;
   
-  font-size: 1.5em;
+  font-size: 1.2em;
   color:#9a9a9a;
   color:#ececec;
   margin-top: 1em;
@@ -1020,7 +1020,7 @@ letter-spacing: .1em;
 .gallary-title{
 
 text-align: center; 
-margin-bottom: 1em;
+margin-bottom: .8em;
 }
 
 
@@ -1029,7 +1029,7 @@ margin-bottom: 1em;
   text-align: center;
   letter-spacing: .08em;
   
-  font-size: 1.5em;
+  font-size: 1.2em;
   color:#9a9a9a;
   text-align: center;
 
@@ -1092,7 +1092,7 @@ margin-left: 4vw;
 }
 #me-intro-p{
  
-  font-size: 1.5em;
+  font-size: 1.2em;
   color:#ececec;
   
   text-align: left;
@@ -1142,7 +1142,7 @@ border: 0px solid yellow;
 }
 
 .contact-content{
-  font-size: 1.5em;
+  font-size: 1.2em;
   color:#9a9a9a;
   display: block;
   text-align: left;
@@ -1178,7 +1178,7 @@ border: 0px solid yellow;
 
 background:#fefefe;
 
-font-size:1.2em ;
+font-size:1em ;
 /*line-height:1em;
 padding-left: .5em;
 padding-top: .5em;*/
@@ -1199,7 +1199,7 @@ text-align: left;
 #message{
 height: 10vw;
 /*line-height:0;*/
-padding-left: 1.5em;
+padding-left: 1.2em;
 
 width: 100%;
 height: 46%;
@@ -1235,7 +1235,7 @@ height: 46%;
 
 #email-result{
   border: 0px solid red;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #66a558;
   font-family: inherit;
   margin-left: 0px;
@@ -1261,7 +1261,7 @@ height: 46%;
   padding-bottom: 4vw;
 }
 #copyright{
-  font-size: 1.5em;
+  font-size: 1.2em;
  
   
   
