@@ -1190,7 +1190,7 @@ border: .2px solid #cccccc;
   margin-bottom: 1vw;
   height: 3.5vw;
   color:#9a9a9a;
-padding-left: .5em;
+padding-left: 1.5em;
 text-align: left;
   display: flex;
   align-items: center;
@@ -1213,6 +1213,7 @@ height: 46%;
   text-align: center;
 }
 #send-btn div{
+  padding-left: .5em;
   border: 0px solid red;
   margin: auto;
   text-align: center;
