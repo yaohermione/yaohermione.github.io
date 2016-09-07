@@ -46,21 +46,21 @@ body {
 #release0{
   width: 100%;
   height: 100%;
-  background:url(../img/0.jpg);
+  background:url(../img/0-1000.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 #release1{
   width: 100%;
   height: 100%;
-  background:url(../img/1.jpg);
+  background:url(../img/1-1000.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 #release2{
   width: 100%;
   height: 100%;
-  background:url(../img/2.jpg);
+  background:url(../img/2-1000.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -69,21 +69,21 @@ body {
 #release3{
   width: 100%;
   height: 100%;
-  background:url(../img/3.jpg);
+  background:url(../img/3-1000.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 #release4{
   width: 100%;
   height: 100%;
-  background:url(../img/4.jpg);
+  background:url(../img/4-1000.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 #release5{
   width: 100%;
   height: 100%;
-  background:url(../img/5.jpg);
+  background:url(../img/5-1000.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -91,25 +91,31 @@ body {
 #release6{
   width: 100%;
   height: 100%;
-  background:url(../img/6.jpg);
+  background:url(../img/6-1000.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 #release7{
   width: 100%;
   height: 100%;
-  background:url(../img/7.jpg);
+  background:url(../img/7-1000.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 #release8{
   width: 100%;
   height: 100%;
-  background:url(../img/8.jpg);
+  background:url(../img/8-1000.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
-
+#release9{
+  width: 100%;
+  height: 100%;
+  background:url(../img/9-1000.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
 @media screen and (min-width: 800px) {
  .frame {
     height: 24vw;
