@@ -1125,15 +1125,18 @@
     */
     selector: '> a, > div:not(.spinner)' // The selector that is used to know what are the entries of the gallery
   };
-  var flagcolor = $("#device-flag").css("background-color");
-  console.log(flagcolor);
-  //if($("#device-flag").css("background-color")=="#000001"){
+
+
+    var flagcolor = $("#device-flag").css("background-color");
     if(flagcolor=="rgb(0, 0, 1)"){
-      console.log("this is mac");
+      $.fn.justifiedGallery.defaults = {
+        rowHeight: 60,
+        margins: 4
+      }
     }
 
     
-  //}
+
 
 
 
