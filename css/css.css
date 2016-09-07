@@ -738,6 +738,7 @@ padding-top: 1em;
 
 
 #send-btn {
+
   line-height:0;
   text-decoration: none;
   display: -webkit-flex;
@@ -1207,6 +1208,7 @@ height: 46%;
 #send-btn{
  /* position: absolute;
   bottom: 0px;*/
+  padding-left: 0px;
   width: 40%;
   margin: 0px;
   display: flex;
