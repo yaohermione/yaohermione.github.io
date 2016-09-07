@@ -1184,6 +1184,62 @@
     selector: '> a, > div:not(.spinner)' // The selector that is used to know what are the entries of the gallery
   };
     }
+    else if(flagcolor=="rgb(0, 0, 2)"){
+      $.fn.justifiedGallery.defaults = {
+    sizeRangeSuffixes: { }, /* e.g. Flickr configuration
+        {
+          100: '_t',  // used when longest is less than 100px
+          240: '_m',  // used when longest is between 101px and 240px
+          320: '_n',  // ...
+          500: '',
+          640: '_z',
+          1024: '_b'  // used as else case because it is the last
+        }
+    */
+    thumbnailPath: undefined, /* If defined, sizeRangeSuffixes is not used, and this function is used to determine the
+    path relative to a specific thumbnail size. The function should accept respectively three arguments: 
+    current path, width and height */
+    rowHeight: 300,
+    maxRowHeight: -1, // negative value = no limits, number to express the value in pixels,
+                          // '[0-9]+%' to express in percentage (e.g. 300% means that the row height
+                          // can't exceed 3 * rowHeight)
+    margins: 12,
+    border: -1, // negative value = same as margins, 0 = disabled, any other value to set the border
+
+    lastRow: 'nojustify', // … which is thse same as 'left', or can be 'justify', 'center', 'right' or 'hide'
+    
+    justifyThreshold: 0.75, /* if row width / available space > 0.75 it will be always justified
+                             * (i.e. lastRow setting is not considered) */
+    fixedHeight: false,
+    waitThumbnailsLoad: true,
+    captions: false,
+    cssAnimation: false,
+    imagesAnimationDuration: 500, // ignored with css animations
+    captionSettings: { // ignored with css animations
+      animationDuration: 500,
+      visibleOpacity: 0.7,
+      nonVisibleOpacity: 0.0
+    },
+    rel: null, // rewrite the rel of each analyzed links
+    target: null, // rewrite the target of all links
+    extension: /\.[^.\\/]+$/, // regexp to capture the extension of an image
+    refreshTime: 200, // time interval (in ms) to check if the page changes its width
+    refreshSensitivity: 0, // change in width allowed (in px) without re-building the gallery
+    randomize: false,
+    sort: false, /*
+      - false: to do not sort
+      - function: to sort them using the function as comparator (see Array.prototype.sort())
+    */
+    filter: false, /*
+      - false: for a disabled filter
+      - a string: an entry is kept if entry.is(filter string) returns true
+                  see jQuery's .is() function for further information
+      - a function: invoked with arguments (entry, index, array). Return true to keep the entry, false otherwise.
+                    see Array.prototype.filter for further information.
+    */
+    selector: '> a, > div:not(.spinner)' // The selector that is used to know what are the entries of the gallery
+  };
+    }
 
     
 
