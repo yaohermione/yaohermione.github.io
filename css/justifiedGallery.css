@@ -154,6 +154,44 @@
   border-bottom-left-radius: 6px;
 }
 
+
+@media screen and (min-width: 800px) {
+.justified-gallery {
+  width: 84vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  position: relative;
+  overflow: hidden;
+  }
+
+.justified-gallery > .spinner {
+  position: absolute;
+  bottom: 0;
+  margin-left: -30px;
+  padding: 10px 0 10px 0;
+  left: 55%;
+  opacity: initial;
+  filter: initial;
+  overflow: initial;
+}
+  .justified-gallery > .spinner > span {
+  display: inline-block;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /* IE8 or Earlier */
+  width: 4px;
+  height: 4px;
+  margin: 0 2px 0 2px;
+  background-color: #000;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+
+}
+
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
