@@ -863,42 +863,42 @@ display: flex;
   .myname{
       color: #fefefe;
       margin: ;
-      font-size: .6em;
-      letter-spacing: .1em;
+      font-size: 3em;
+      letter-spacing: .5em;
 }
 
     .h3{
       color: #fefefe;
       margin: ;
-      font-size: .6em;
-      letter-spacing: .1em;
+      font-size: 3em;
+      letter-spacing: .5em;
     }
     h6{
       text-align: center;
       color: #ececec;
       
-      font-size: .45em;
-      letter-spacing: .1em;
+      font-size: 2.25em;
+      letter-spacing: .5em;
     }
     #intro{
-  font-size: 1px;
+  font-size: 5px;
 }
 .girl_img{
   display: block;
   margin: auto;
-  width: .9em;
+  width: 4em;
   border: 0px solid blue;
 }
 #menu_icon{
   display: none;
 }
 #banner-text{
-  margin-right:30px;
+  margin-right:150px;
   float: right;
 }
 .h-menu{
   float: right;
-  margin-right: 5px;
+  margin-right: 25px;
   border: 0px solid blue;
 
   display: inline-block;
@@ -918,10 +918,10 @@ header{
 .horizontal{
   display: inline;
   color:#fefefe;
-  padding: 4px;
-  font-size: .3em;
-  letter-spacing: .1em;
-  margin-right: 5px;
+  padding: 10px;
+  font-size: 1.5em;
+  letter-spacing: .5em;
+  margin-right: 10px;
   height: 0vh;
   text-align: center;
   border: 0px solid red;
@@ -991,13 +991,13 @@ width: 50%;
 height: 100%;
 }
 #camera{
-  width: 1em;
+  width: 5em;
   margin: auto;
 }
 h4{
   
-  font-size: .45em;
-  letter-spacing: .1em;
+  font-size: 2.25em;
+  letter-spacing: .5em;
   font-weight: ;
 
 text-align: left;
@@ -1008,9 +1008,9 @@ color:#666666;
 padding-top: 10px;
 }
 .latest-intro{
-letter-spacing: .08em;
+letter-spacing: .4em;
   
-  font-size: .3em;
+  font-size: 1.5em;
   color:#9a9a9a;
   color:#ececec;
   margin-top: 1em;
@@ -1029,7 +1029,7 @@ margin-bottom: 1em;
   text-align: center;
   letter-spacing: .08em;
   
-  font-size: .3em;
+  font-size: 1.5em;
   color:#9a9a9a;
   text-align: center;
 
@@ -1092,7 +1092,7 @@ margin-left: 4vw;
 }
 #me-intro-p{
  
-  font-size: .3em;
+  font-size: 1.5em;
   color:#ececec;
   
   text-align: left;
@@ -1142,7 +1142,7 @@ border: 0px solid yellow;
 }
 
 .contact-content{
-  font-size: .3em;
+  font-size: 1.5em;
   color:#9a9a9a;
   display: block;
   text-align: left;
@@ -1178,7 +1178,7 @@ border: 0px solid yellow;
 
 background:#fefefe;
 
-font-size:.24em ;
+font-size:1.2em ;
 /*line-height:1em;
 padding-left: .5em;
 padding-top: .5em;*/
@@ -1235,7 +1235,7 @@ height: 46%;
 
 #email-result{
   border: 0px solid red;
-  font-size: .24em;
+  font-size: 1.2em;
   color: #66a558;
   font-family: inherit;
   margin-left: 0px;
@@ -1261,7 +1261,7 @@ height: 46%;
   padding-bottom: 4vw;
 }
 #copyright{
-  font-size: .3em;
+  font-size: 1.5em;
  
   
   
@@ -1271,13 +1271,13 @@ height: 46%;
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
   display: inline-block;
-  font-size: .3em;
+  font-size: 1.5em;
   
-  margin-right:.1em;
+  margin-right:1.5em;
   margin-top: 0px;
   border: 1px solid red;
   text-align: top;
-  height: .3em;
+  height: 1.5em;
 }
 
 .zocial-facebook{
