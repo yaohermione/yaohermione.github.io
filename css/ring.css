@@ -148,6 +148,39 @@
   -o-animation: uil-ring-anim 1s linear infinite;
   animation: uil-ring-anim 1s linear infinite;
 }
+
+@media screen and (min-width: 800px) {
+
+.uil-ring-css {
+  background: none;
+  position: relative;
+  width: 2vw;
+  height: 2vw;
+  border: 0px solid red;
+}
+.uil-ring-css > div {
+  position: absolute;
+  display: block;
+  width: 2vw;
+  height: 2vw;
+  top: 0px;
+  left: 0px;
+  border-radius: 80px;
+  box-shadow: 0 1px 0 0 #66a558;
+  -ms-animation: uil-ring-anim 1s linear infinite;
+  -moz-animation: uil-ring-anim 1s linear infinite;
+  -webkit-animation: uil-ring-anim 1s linear infinite;
+  -o-animation: uil-ring-anim 1s linear infinite;
+  animation: uil-ring-anim 1s linear infinite;
+}
+
+
+
+
+}
+
+
+
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
