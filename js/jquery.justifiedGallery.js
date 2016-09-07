@@ -1126,9 +1126,9 @@
     selector: '> a, > div:not(.spinner)' // The selector that is used to know what are the entries of the gallery
   };
 
-  if($("#device-flag").css("background-color")=="green"){
-    console.log("this is mac pro");
-  }
+  //if($("#device-flag").css("background-color")=="green"){
+    console.log($("#device-flag").css("background-color"));
+  //}
 
 
 
