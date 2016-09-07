@@ -1125,10 +1125,10 @@
     */
     selector: '> a, > div:not(.spinner)' // The selector that is used to know what are the entries of the gallery
   };
-  var flagheight = $("#device-flag").height();
-  console.log(flagheight);
+  var flagcolor = $("#device-flag").css("background-color");
+  console.log(flagcolor);
   //if($("#device-flag").css("background-color")=="#000001"){
-    if(flagheight=="1"){
+    if(flagcolor=="rgb(0,0,1)"){
       console.log("this is mac pro");
     }
 

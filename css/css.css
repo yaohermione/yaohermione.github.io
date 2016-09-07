@@ -5,7 +5,7 @@
 
 #device-flag{
   display: none;
-  height: 0;
+  background-color: rgb(0,0,0);
 }
 
 
@@ -862,7 +862,7 @@ display: flex;
   and (min-resolution: 192dpi) { 
 
 #device-flag{
-  height: 1;
+  background-color: rgb(0,0,1);
 }
 
 .myname{
