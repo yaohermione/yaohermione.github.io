@@ -864,21 +864,21 @@ display: flex;
       color: #fefefe;
       margin: ;
       font-size: 3em;
-      letter-spacing: .5em;
+      letter-spacing: .1em;
 }
 
     .h3{
       color: #fefefe;
       margin: ;
       font-size: 3em;
-      letter-spacing: .5em;
+      letter-spacing: .1em;
     }
     h6{
       text-align: center;
       color: #ececec;
       
       font-size: 2.25em;
-      letter-spacing: .5em;
+      letter-spacing: .1em;
     }
     #intro{
   font-size: 5px;
@@ -920,7 +920,7 @@ header{
   color:#fefefe;
   padding: 10px;
   font-size: 1.5em;
-  letter-spacing: .5em;
+  letter-spacing: .1em;
   margin-right: 10px;
   height: 0vh;
   text-align: center;
@@ -997,7 +997,7 @@ height: 100%;
 h4{
   
   font-size: 2.25em;
-  letter-spacing: .5em;
+  letter-spacing: .1em;
   font-weight: ;
 
 text-align: left;
@@ -1008,7 +1008,7 @@ color:#666666;
 padding-top: 10px;
 }
 .latest-intro{
-letter-spacing: .4em;
+letter-spacing: .1em;
   
   font-size: 1.5em;
   color:#9a9a9a;
