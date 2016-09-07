@@ -1127,7 +1127,7 @@
   };
   var flagcolor = $("#device-flag").css("background-color");
   //if($("#device-flag").css("background-color")=="#000001"){
-    if(flagcolor=="rgb(0,0,1)"){
+    if(flagcolor=="#000001"){
       console.log("this is mac pro");
     }
 
