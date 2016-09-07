@@ -4,6 +4,13 @@
  * Copyright (c) 2015 Miro Mannino
  * Licensed under the MIT license.
  */
+ .justified-gallery {
+  width: 88vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  position: relative;
+  overflow: hidden;
+  }
 @-webkit-keyframes justified-gallery-show-caption-animation {
   from {
     opacity: 0;
