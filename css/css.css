@@ -877,7 +877,9 @@ display: flex;
   #contact-img{
     height: 60vh;
   }
-
+  #latest-text{
+    padding-top: 0px;
+  }
 }
 
 
