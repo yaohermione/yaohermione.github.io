@@ -864,7 +864,9 @@ display: flex;
     header{
     height: 10vw;
     }
-
+.header-up{
+  transform: translate(0,-11vw);
+}
     #drawer li{
       height: 10vw;
     }
@@ -937,6 +939,7 @@ display: flex;
   
 }
 header{
+  height: 10vh;
   padding: 0px;
   border: 0px solid blue;
   align-items:;
@@ -1417,6 +1420,7 @@ border: 0px solid blue;
   
 }
 header{
+  height: 10vh;
   padding: 0px;
   border: 0px solid blue;
   align-items:;
