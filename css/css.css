@@ -879,6 +879,8 @@ display: flex;
 
   #latest{
     height: 60vh;
+    display: flex;
+    align-items: center;
   }
 
   #me-image{
@@ -889,6 +891,7 @@ display: flex;
   }
   #latest-text{
     padding-top: 0px;
+    margin: auto;
   }
 
   .gallery-text{
@@ -1061,6 +1064,7 @@ display: flex;
   background-attachment: fixed;
   margin-top: 4vw;
   margin-bottom: 5vw;
+  align-items: center;
 }
 #latest-textbox{
  
@@ -1068,6 +1072,7 @@ display: flex;
 #latest-text{
   color: #fefefe;
   text-align: center;
+  margin: auto;
 }
 #camera-box{
   display: flex;
