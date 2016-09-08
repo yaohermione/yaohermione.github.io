@@ -884,6 +884,38 @@ display: flex;
   #latest-text{
     padding-top: 0px;
   }
+
+  .gallery-text{
+  text-align: center;
+  letter-spacing: .08em;
+  
+  font-size: 1em;
+  color:#9a9a9a;
+  text-align: center;
+
+
+}
+
+.gallery-container{
+ padding-left: 8vw;
+ padding-right: 8vw;
+}
+
+.gallery{
+  width: 40vw;
+  border: 0px solid blue;
+  margin-top: 4vw;
+}
+.gallery-image{
+  height: 26.666vw;
+  border: 0px solid red;
+}
+.gallery-right{
+margin-left: 4vw;
+}
+
+
+
 }
 
 
