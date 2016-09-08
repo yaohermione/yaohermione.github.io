@@ -864,23 +864,19 @@ display: flex;
     }
 
     #drawer li{
-      
       height: 10vw;
-   
     }
 
-#latest{
- 
-  height: 50vh;
-  
-}
+  #latest{
+    height: 60vh;
+  }
 
-#me-image{
- 
-  height: 50vh;
-
-
-}
+  #me-image{
+   height: 60vh;
+  }
+  #contact-img{
+    height: 60vh;
+  }
 
 }
 
