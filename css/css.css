@@ -914,11 +914,20 @@ display: flex;
 margin-left: 4vw;
 }
 
-
+#me-intro-p{
+ 
+  font-size: .8em;
 
 }
+#contact-form{
+width: 50%;
+}
 
+#contact-info{
+width: 50%;
+}
 
+}
 @media screen and (min-width: 800px) {
 
 #device-flag{
