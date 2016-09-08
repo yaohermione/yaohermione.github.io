@@ -275,6 +275,21 @@ html.swipebox-html.swipebox-touch {
         left: 0
     }
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (orientation: landscape) { 
+#swipebox-close {
+        top: 0px;
+        right: 5vh;
+        width: 10vh;
+        height: 10vh;
+    }
+
+
+  }
+
+
 @media screen and (min-width: 800px) {
     #swipebox-close {
         top: 0px;
