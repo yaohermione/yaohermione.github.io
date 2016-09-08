@@ -863,6 +863,24 @@ display: flex;
     height: 10vw;
     }
 
+    #drawer li{
+      
+      height: 10vw;
+   
+    }
+
+#latest{
+ 
+  height: 50vh;
+  
+}
+
+#me-image{
+ 
+  height: 50vh;
+
+
+}
 
 }
 
