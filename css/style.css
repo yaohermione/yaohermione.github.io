@@ -124,6 +124,7 @@ body {
 
 .frame {
     height: 24vw;
+    height: 36vw;
     line-height: 250px;
     overflow: hidden;
     margin-left: 8vw;
@@ -144,6 +145,7 @@ body {
   .frame ul li {
     float: left;
     width: 36vw;
+    width: 54vw;
     height: 100%;
     margin: 0 10px 0 0;
     padding: 0;
@@ -155,7 +157,7 @@ body {
     
     
   }
-    
+
   }
 
 
