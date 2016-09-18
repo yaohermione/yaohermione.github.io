@@ -865,7 +865,7 @@ display: flex;
     header{
     height: 10vw;
     }
-.header-up{
+  .header-up{
   transform: translate(0,-11vw);
 }
     #drawer li{
