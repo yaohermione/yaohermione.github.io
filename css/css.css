@@ -599,6 +599,9 @@ margin-bottom: .5em;
   margin: auto;
   padding-top: .7em;
   padding-bottom: .7em;
+      border: 1px solid #ececec;
+    border-top: 0px;
+    background-color: #fefefe;
 
 }
 #me{
@@ -1127,7 +1130,7 @@ margin-bottom: .8em;
   font-size: 1.2em;
   color:#9a9a9a;
   text-align: center;
-
+  border: .2px solid #ececec;
 
 }
 
@@ -1612,7 +1615,7 @@ margin-bottom: 1em;
   font-size: .3em;
   color:#9a9a9a;
   text-align: center;
-
+border: .05em solid #ececec;
 
 }
 
