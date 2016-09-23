@@ -669,6 +669,7 @@ margin-bottom: 1em;
 #contact{
   display: flex;
   position: relative;
+  margin-top: 2em;
 }
 #contact-img{
     border: 0px solid red;
