@@ -1135,7 +1135,8 @@ letter-spacing: .1em;
 .gallary-title{
 
 text-align: center; 
-margin-bottom: .1em;
+margin-bottom: 0em;
+margin-top: 0;
 }
 
 
