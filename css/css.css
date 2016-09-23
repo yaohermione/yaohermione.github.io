@@ -1150,6 +1150,9 @@ margin-bottom: .1em;
   border: 0px solid red;
   border-radius: 4px 4px 0 0;
 }
+.darker:hover{
+  opacity: 0;
+}
 .gallery-right{
 margin-left: 4vw;
 }
