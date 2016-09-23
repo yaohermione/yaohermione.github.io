@@ -446,7 +446,7 @@ h6{
   flex-wrap: wrap;*/
   width: 100vw;
   margin-top:3em;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   border: 0px solid blue;
   background:url(../img/latest-release-banner.jpg);
   background-position: center;
@@ -476,6 +476,7 @@ align-items: center;
   color: #fefefe;
   text-align: center;
   margin: auto;
+  font-size: 1em;
 }
 #camera-box{
   display: flex;
