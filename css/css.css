@@ -989,7 +989,34 @@ padding-left: 3vw;
 .form-element{
 height: 12vh;
 }
+.aboutme{
+  margin-top: 2em;
+  margin-bottom: 2em;
 
+}
+.mypic-box{
+height: 30vw;
+display: flex;
+width: 50%;
+}
+.mypic{
+  margin: auto;
+  width: 30vw;
+  height: 30vw;
+}
+.myintro{
+  padding-right: 10vw;
+  padding-top: 8vw;
+  padding-left: 0vw;
+  padding-bottom: 0vw;
+  width: 50%;
+  
+}
+#me-intro-p{
+  color: #9a9a9a;
+  margin: 0;
+  padding: 0;
+}
 
 
 }
