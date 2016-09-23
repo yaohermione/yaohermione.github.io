@@ -1133,9 +1133,10 @@ margin-bottom: .1em;
   text-align: center;
   border: .2px solid #ececec;
   border-radius: 0 0 4px 4px;
+
 }
 .gallery-text:hover{
-  box-shadow: 0px 2px 6px #cccccc; 
+  box-shadow: 0px 1px 10px #cccccc; 
 }
 .gallery-container{
  padding-left: 8vw;
