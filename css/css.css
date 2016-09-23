@@ -1497,12 +1497,13 @@ width: 50%;
 }
 .mypic{
   margin: auto;
-  width: 55vw;
-  height: 55vw;
+  width: 30vw;
+  height: 30vw;
 }
 .myintro{
   padding: 8vw;
   width: 50%;
+  color: #9a9a9a;
 }
 
 
