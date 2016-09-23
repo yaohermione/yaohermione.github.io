@@ -1136,7 +1136,8 @@ margin-bottom: .1em;
 
 }
 .gallery:hover{
-  box-shadow: 0px 1px 10px #ececec; 
+  box-shadow: 0px 2px 15px #ececec; 
+  box-shadow: 0px 2px 15px red;
 }
 .gallery-container{
  padding-left: 8vw;
