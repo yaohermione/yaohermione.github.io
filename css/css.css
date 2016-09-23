@@ -674,7 +674,7 @@ margin-bottom: 1em;
 #contact-img{
     border: 0px solid red;
   background:url(../img/contact-circle.jpg);
-  background-size:contain;
+  background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
   height: 50vw;
