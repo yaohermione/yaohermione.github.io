@@ -486,7 +486,7 @@ padding-top: 10vh;
 padding-top: 0vh;
 align-items: center;
 }
-#touching-text{
+#latest-text, #touching-text{
   color: #fefefe;
   text-align: center;
   margin: 6vw;
