@@ -605,7 +605,14 @@ margin-bottom: .5em;
     background-color: #fefefe;
     border-radius: 0px 0px 3px 3px;
 }
-
+.sub-title{
+    text-align: center;
+    
+    margin: auto;
+    color: #666666;
+    padding: 0px;
+    margin: 0px;
+}
 
 #me{
   margin-bottom: 2em;
