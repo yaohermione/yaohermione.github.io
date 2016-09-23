@@ -1132,7 +1132,7 @@ margin-bottom: .8em;
   color:#9a9a9a;
   text-align: center;
   border: .2px solid #ececec;
-  border-radius: 0 0 .2px .2px;
+  border-radius: 0 0 4px 4px;
 }
 
 .gallery-container{
@@ -1148,7 +1148,7 @@ margin-bottom: .8em;
 .gallery-image{
   height: 26.666vw;
   border: 0px solid red;
-  border-radius: .2px .2px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 .gallery-right{
 margin-left: 4vw;
