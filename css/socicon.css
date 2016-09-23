@@ -31,7 +31,7 @@
 .soc li {
     display:inline-block;
     *display:inline;
-    zoom:1;
+    zoom:.8;
 }
 
 .soc li a {
@@ -102,6 +102,13 @@
     content:'a';
 }
 
+@media screen and (min-width: 800px) {
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:.7;
+}
 
+}
 
 
