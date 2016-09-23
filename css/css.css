@@ -1502,12 +1502,16 @@ width: 50%;
 }
 .myintro{
   padding-right: 6vw;
-  padding-right: 3vw;
+  padding-top: 3vw;
+  padding-left: 0vw;
+  padding-bottom: 0vw;
   width: 50%;
   
 }
 #me-intro-p{
   color: #9a9a9a;
+  margin: 0;
+  padding: 0;
 }
 
 
