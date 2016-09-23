@@ -890,8 +890,12 @@ display: flex;
   margin-right:8vw;
   float: right;
 }
-
-
+#below-banner{
+  padding-top: 1.5em;
+}
+.gallary-title{
+  margin-top: 1em;
+}
   #latest{
     height: 60vh;
     display: flex;
