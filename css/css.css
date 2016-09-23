@@ -1135,7 +1135,7 @@ margin-bottom: .1em;
   border-radius: 0 0 4px 4px;
 
 }
-.gallery-text:hover{
+.gallery:hover{
   box-shadow: 0px 1px 10px #ececec; 
 }
 .gallery-container{
