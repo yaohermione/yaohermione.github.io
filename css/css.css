@@ -1485,7 +1485,25 @@ border: 0px solid blue;
 
 }
 
+.aboutme{
+  margin-top: 2em;
+  margin-bottom: 3em;
 
+}
+.mypic-box{
+height: 55vw;
+display: flex;
+width: 50%;
+}
+.mypic{
+  margin: auto;
+  width: 55vw;
+  height: 55vw;
+}
+.myintro{
+  padding: 8vw;
+  width: 50%;
+}
 
 
 
