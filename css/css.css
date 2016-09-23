@@ -605,6 +605,8 @@ margin-bottom: .5em;
     background-color: #fefefe;
     border-radius: 0px 0px 3px 3px;
 }
+
+
 #me{
   margin-bottom: 2em;
 }
@@ -1169,7 +1171,9 @@ margin-left: 4vw;
     font-size: 2em;
     letter-spacing: .1em;
     margin: auto;
-        color: #666666;
+    color: #666666;
+    padding: 0px;
+    margin: 0px;
 }
 
 #me{
