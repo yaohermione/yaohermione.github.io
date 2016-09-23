@@ -884,8 +884,20 @@ display: flex;
   color: #fefefe;
   margin-right: .3em;
 }
+.aboutme{
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+.mypic-box{
+height: 40vw;
+display: flex;
 
-
+}
+.mypic{
+  margin: auto;
+  width: 40vw;
+  height: 40vw;
+}
 @media only screen 
   and (min-device-width: 375px) 
   and (orientation: landscape) { 
