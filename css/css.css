@@ -1067,7 +1067,7 @@ display: flex;
   border: 0px solid blue;
   height: 45vh;
   background-attachment: fixed;
-  margin-top: 4vw;
+  margin-top: 5vw;
   margin-bottom: 5vw;
   align-items: center;
 }
@@ -1162,6 +1162,14 @@ margin-left: 4vw;
 }
 .swipeboxEx{
   margin-top: 4vw;
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: .1em;
+    margin: auto;
+        color: #666666;
 }
 
 #me{
