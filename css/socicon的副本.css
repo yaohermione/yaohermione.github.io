@@ -104,4 +104,44 @@
 
 
 
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+
+.soc li a {
+    width: 2em;
+    height: 2em;
+    font-size: .3em;
+    line-height: 2em;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0.5px solid #fefefe;
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; 
+    padding:0;
+    list-style:none;
+    background-color: #9a9a9a;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+.soc a:hover {
+    z-index: 2;
+    color: #ececec !important;
+    border: 0.5px solid #ececec;
+}
+
+
+}
+
+
 
