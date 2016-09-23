@@ -456,10 +456,24 @@ h6{
   height: 30vh;
  
     background-position: center;
-  
-
 }
-#latest-textbox{
+#touching{
+  /*display: flex;
+  flex-wrap: wrap;*/
+  width: 100vw;
+  margin-top:3em;
+  margin-bottom: 2em;
+  border: 0px solid blue;
+  background:url(../img/touching-banner.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding-bottom: 0em;
+  height: 30vh;
+ 
+    background-position: center;
+}
+#latest-textbox, #touching-textbox{
   display: flex;
   flex-wrap: wrap;
 text-align: center;
@@ -472,7 +486,7 @@ padding-top: 10vh;
 padding-top: 0vh;
 align-items: center;
 }
-#latest-text{
+#touching-text{
   color: #fefefe;
   text-align: center;
   margin: 6vw;
@@ -896,7 +910,7 @@ display: flex;
 .gallary-title{
   margin-top: 1em;
 }
-  #latest{
+  #latest, #touching{
     height: 60vh;
     display: flex;
     align-items: center;
@@ -908,7 +922,7 @@ display: flex;
   #contact-img{
     height: 60vh;
   }
-  #latest-text{
+  #latest-text, #touching-text{
     padding-top: 0px;
     margin: auto;
     font-size: 1.2em;
@@ -1073,7 +1087,7 @@ display: flex;
   z-index: 10;
   padding-top: 2em;
 }
-#latest{
+#latest, #touching{
  
   display: flex;
   flex-wrap: wrap;
@@ -1089,7 +1103,7 @@ display: flex;
 #latest-textbox{
  
 }
-#latest-text{
+#latest-text, #touching-text{
   color: #fefefe;
   text-align: center;
   margin: auto;
