@@ -293,7 +293,7 @@ html.swipebox-html.swipebox-touch {
 @media screen and (min-width: 800px) {
     #swipebox-close {
         top: 0px;
-        right: 5vw;
+        right: 3vw;
         width: 10vw;
         height: 10vw;
     }
