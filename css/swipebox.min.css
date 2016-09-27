@@ -314,3 +314,26 @@ html.swipebox-html.swipebox-touch {
 
 }
 
+
+
+
+
+
+
+
+
+#swipebox-overlay {
+    background: #0d0d0d
+}
+#swipebox-bottom-bar,
+#swipebox-top-bar {
+    text-shadow: 1px 1px 1px #000;
+    background: rgba(0,0,0,0);
+    opacity: 1;
+}
+#swipebox-top-bar {
+    color: #fff!important;
+    font-size: 15px;
+    line-height: 43px;
+    font-family: Helvetica, Arial, sans-serif
+}
