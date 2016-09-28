@@ -1152,6 +1152,7 @@ display: flex;
   text-align: center;
   margin: auto;
   font-size: 1.8em;
+  font-weight: 600;
 }
 #camera-box{
   display: flex;
