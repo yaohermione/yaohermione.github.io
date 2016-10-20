@@ -1559,7 +1559,7 @@ width: 50%;
 .mainpagenav:hover{
   cursor: pointer;
   color: #e0e0e0;
-  color: red;
+  
   background-color: rgba(0,0,0,0);
   
 }
