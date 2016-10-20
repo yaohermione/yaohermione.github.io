@@ -1108,12 +1108,7 @@ header{
   background-color: rgba(0,0,0,0);
   
 }
-.mainpagenav:hover{
-  cursor: pointer;
-  color: #e0e0e0;
-  background-color: rgba(0,0,0,0);
-  
-}
+
 
 .notselectedpage{
   color: #e0e0e0;
@@ -1134,7 +1129,9 @@ display: flex;
 .dark-banner-text{
   color:#9a9a9a;
 }
-
+.dark-banner-text:hover{
+  color:#9a9a9a;
+}
 #below-banner{
     background-color: #f6f6f6;
    position: relative;
@@ -1556,7 +1553,12 @@ width: 50%;
   padding: 0;
 }
 
-
+.mainpagenav:hover{
+  cursor: pointer;
+  color: #e0e0e0;
+  background-color: rgba(0,0,0,0);
+  
+}
 
 
 }
