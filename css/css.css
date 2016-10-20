@@ -1134,6 +1134,9 @@ display: flex;
 .dark-banner-text{
   color:#9a9a9a;
 }
+.dark-banner-text:hover{
+  color:#9a9a9a;
+}
 #below-banner{
     background-color: #f6f6f6;
    position: relative;
