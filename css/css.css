@@ -1558,7 +1558,9 @@ width: 50%;
   padding: 0;
 }
 
-
+.dark-banner-text:hover{
+  color:#9a9a9a;
+}
 
 
 }
