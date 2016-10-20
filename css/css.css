@@ -1566,7 +1566,7 @@ width: 50%;
 }
 .newcolor:hover{
   cursor: pointer;
-  color: #fefefe;
+  color: #fefefe !important;
   background-color: rgba(0,0,0,0);
 }
 
