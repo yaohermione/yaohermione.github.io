@@ -1107,12 +1107,7 @@ header{
   align-items: center;
 }
 
-.notselectedpage:hover{
-  cursor: pointer;
-  color: #9a9a9a;
-  background-color: rgba(0,0,0,0);
-  
-}
+
 
 
 .notselectedpage{
@@ -1559,11 +1554,16 @@ width: 50%;
 .mainpagenav:hover{
   cursor: pointer;
   color: #e0e0e0;
-  
+
   background-color: rgba(0,0,0,0);
   
 }
-
+.notselectedpage:hover{
+  cursor: pointer;
+  color: #fefefe;
+  background-color: rgba(0,0,0,0);
+  
+}
 
 }
 
