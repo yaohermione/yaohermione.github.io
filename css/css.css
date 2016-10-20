@@ -1564,7 +1564,11 @@ width: 50%;
   background-color: rgba(0,0,0,0);
   
 }
-
+.newcolor:hover{
+  cursor: pointer;
+  color: #9a9a9a;
+  background-color: rgba(0,0,0,0);
+}
 }
 
 
