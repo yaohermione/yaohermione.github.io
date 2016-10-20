@@ -1560,20 +1560,11 @@ width: 50%;
 }
 .notselectedpage:hover{
   cursor: pointer;
-  color: #9a9a9a;
-  
+  color: #fefefe;
+
   background-color: rgba(0,0,0,0);
   
 }
-/*.newcolor{
-
-}
-.newcolor:hover{
-  cursor: pointer;
-  color: #fefefe !important;
-  background-color: rgba(0,0,0,0);
-}*/
-
 
 }
 

@@ -97,8 +97,11 @@ function hasScrolled() {
 
     } else if(st < lastScrollTop && st > banner_height) {
             $("header").addClass('fixed').removeClass('header-up');
-          $(".horizontal").addClass("dark-banner-text");
-          $(".horizontal").removeClass("newcolor");
+            $(".horizontal").addClass("dark-banner-text");
+            $(".notselectedpage").hover(function() {
+            $(this).css("color","#9a9a9a")
+            });
+
         
     }else if(st < banner_height) {
         //console.log("this is st: "+st);
