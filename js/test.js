@@ -106,7 +106,9 @@ function hasScrolled() {
     }else if(st < banner_height) {
         //console.log("this is st: "+st);
         //console.log("this is banner_height: "+banner_height);
-           
+           $(".notselectedpage").hover(function() {
+            $(this).css("color","#fefefe")
+            });
 $("header").removeClass('fixed').removeClass('header-up');
 $(".horizontal").removeClass("dark-banner-text");
          //$("header").css({ position: 'static', top: '0px' });
