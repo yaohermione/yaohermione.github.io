@@ -101,13 +101,18 @@ function hasScrolled() {
             $(".notselectedpage").hover(function() {
             $(this).css("color","#9a9a9a")
             });
-
+            $(".notselectedpage").mouseleave(function() {
+            $(this).css("color","#e0e0e0")
+            });
         
     }else if(st < banner_height) {
         //console.log("this is st: "+st);
         //console.log("this is banner_height: "+banner_height);
            $(".notselectedpage").hover(function() {
             $(this).css("color","#fefefe")
+            });
+           $(".notselectedpage").mouseleave(function() {
+            $(this).css("color","#e0e0e0")
             });
 $("header").removeClass('fixed').removeClass('header-up');
 $(".horizontal").removeClass("dark-banner-text");
