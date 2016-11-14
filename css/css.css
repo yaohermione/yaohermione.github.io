@@ -616,7 +616,10 @@ margin-bottom: 1em;
   background-size:cover;
   background-repeat:no-repeat;
 }
-
+#temporary{
+  width: 100%;
+  height: 8vw;
+}
 
 .gallery-text{
   
@@ -1575,6 +1578,11 @@ width: 50%;
 
   background-color: rgba(0,0,0,0);
   
+}
+
+#temporary{
+  width: 100%;
+  height: 4vw;
 }
 
 }
