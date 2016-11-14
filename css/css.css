@@ -605,6 +605,17 @@ margin-bottom: 1em;
   background-repeat:no-repeat;
 }
 
+#hkust-img{
+  background:url(../img/hkust.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+#hokkaido-img{
+  background:url(../img/hokkaido.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
 
 
 .gallery-text{
