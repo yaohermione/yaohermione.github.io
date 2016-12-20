@@ -616,6 +616,14 @@ margin-bottom: 1em;
   background-size:cover;
   background-repeat:no-repeat;
 }
+#inspirationlake-img{
+  background:url(../img/inspirationlake.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+
 #temporary{
   width: 100%;
   height: 8vw;
