@@ -621,6 +621,11 @@ margin-bottom: 1em;
   background-size:cover;
   background-repeat:no-repeat;
 }
+#taidong-img{
+  background:url(../img/taidong.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
 
 
 
