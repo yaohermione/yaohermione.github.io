@@ -959,6 +959,8 @@ iframe{
 #banner-text{
   margin-right:8vw;
   float: right;
+  margin-right:auto;
+
 }
 #below-banner{
   padding-top: 1.5em;
@@ -1117,6 +1119,8 @@ iframe{
 #banner-text{
   margin-right:150px;
   float: right;
+  margin-right:auto;
+
 }
 .h-menu{
   float: right;
