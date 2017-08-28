@@ -384,6 +384,7 @@ height: 100%;
 }
 #banner_img{
 max-width: 100%;
+width: 100%;
 height: auto;
 top: 0%;
 border: 0px solid red;
